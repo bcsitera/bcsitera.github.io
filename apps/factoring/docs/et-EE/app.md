@@ -1,10 +1,10 @@
 # Faktooring
 
-Faktooringu lahendus lisab Business Central-i müügiarvete faktoorile loovutatamise ja nendega seotud toimingute, sh laekumiste halduse funktsionaalsust.
+Faktooringu lahendus lisab Business Central-i faktooringusse müügiarvete loovutatamise ja faktooringust laekuvate summade töötlemise funktsionaalsust.
 
 [Kasutusjuhend](help.md)
 
-### Kontakt
+### Kontakt 
 
 Lisainformatsiooni saamiseks palun võtke ühendust:  
 [https://www.itera.ee](https://www.itera.ee)
