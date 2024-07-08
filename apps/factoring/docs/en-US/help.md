@@ -1,32 +1,43 @@
 #   Factoring Solution | User Manual
-Factoring functionality enables to automate sales invoice transmissions to a factor and subsequently process factor payments incl. commissions and interests. Only factor Swedbank AS is supported.
-### Main features :
+Factoring solution adds functionality that facilitates the submission of accounts receivables to a factor and funding payoff processing including the processing of funding payoffs, commissions and interests. 
+
+The following Estonian bank are supported
+Submission of accounts receivables
+*   Swedbank
+*   SEB
+*   Luminor
+
+Funding payoff processing
+*   Swedbank
+
+### Main features:
 *   Highly configurable setup of factoring agreements.
-*   Generating a list of sales invoices according to Swebank file format.
-*   Overview of transmitted/untransmitted receivables and payment status.
-*   Recourse and non-recourse factoring agreements are supported. 
+*   Generating a list of sales invoices according to each bank's file format.
+*   Overview of transmitted/untransmitted receivables and payments' status.
+*   Recourse and non-recourse factoring agreements. 
 *   Assignment note on sales invoice in customers' language. 
 *   Factor XML-fail import and automated generation of journal lines according to contract type, incl. 
     *   application of advance and payments under reserve.
     *   application of commission fees, VAT and interests.    
-*   Customer or contract-based factoring limits. 
+*   Customer or contract-based factoring limits.
+
 ## Setup
 To use the functionality, factoring agreement(s) must be created and editable fields be filled. Open **Factoring Agreements** and press button **+New**.  
 
-|Field | Description|Editable / Informative| 
+|Field| Description|Editable / Informative| 
 |---|---|---|
-|No. **| Number of factoring agreements| Editable|
+|No. **| Amount of factoring agreements| Editable|
 |Description|Description of the factoring agreement|Editable|
 |Factoring Text on Invoice **|Assignment note|Editable|
 |Add Factoring Text on posting |Function, that enables to add assignment note after sale invoice rows |Editable|
 |Limit:|Limit of the factoring agreement|Editable|
-|No. of customers|Number of customers linked with the factoring agreement|Informative|
-|Customers Limits|Field displays total sum of the fields **Factoring Limit** from customer cards|Informative|
-|No. of Untrasmitted Invoices|Numeral total of posted invoiced, that were not transmitted to factor|Informative|
-|Untrasmitted Invoices Amount|Total sum of posted invoiced, that were not transmitted to factor|Informative|
-|No. of Open Entries|Numeral total of posted sales invoices associated with factoring agreement|Informative|
-|Factoring Type|Type of factoring agreement. Recourse and non-recourse factoring contracts are supported|Editable|
-|Factoring Vendor No. *** |Assistive vendor. Short-term liability through Vendor entry is being created after receiving payments from factor|Editable|
+|No. of customers|Amount of customers linked with the factoring agreement|Informative|
+|Customers Limits|Field displays total amount of the fields **Factoring Limit** from customer cards|Informative|
+|No. of Untrasmitted Invoices|Total amount of posted sales invoiced not transmitted to factor|Informative|
+|Untrasmitted Invoices Amount|Total amount of posted sales invoiced not transmitted to factor|Informative|
+|No. of Open Entries|Total amouns of posted sales invoices associated with factoring agreement|Informative|
+|Factoring Type|Factoring agreement type. Recourse and non-recourse contracts are supported|Editable|
+|Factoring Vendor No. *** |Assistive vendor. Short-term liability through Vendor Ledger entry is posted after receiving factoring funding|Editable|
 |Factoring Customer No. ***|Assistive customer. Transmitted to factor sales invoices are transferred to this customer|Editable|
 |Commission G/L Account No.|Account from the chart of accounts commission fees and VAT are being posted to|Editable| 
 |Interest G/L Account No.|Account from the chart of accounts interests are posted to|Editable|
@@ -45,15 +56,15 @@ Page contains two buttons **Create Transmission** and **Transmissions** in menu 
 | --- | --- |
 |No.|Factoring agreement's number|
 |Description|Description of the factoring agreement |
-|No. of Customers| Numeral total of customers associated  with this factoring agreement|
-|No. of Untrasmitted Invoices| Numeral total of posted invoices, that were not transmitted to factor|
-|Untrasmitted invoices amount|Total sum of posted invoices that were not transmitted to the factor|
-|No.of open entries|Number of transferred and unpaid invoices|
+|No. of Customers| Total amount of customers associated  with this factoring agreement|
+|No. of Untrasmitted Invoices| Total amount of posted invoices, that were not transmitted to factor|
+|Untrasmitted invoices amount|Total amount of posted invoices that were not transmitted to the factor|
+|No.of open entries|Amount of transferred and unpaid invoices|
 |Limit|Displays the **Limit** fields value from factoring agreement card page|
 
 ## Factoring Transmissions page
 Page displays transmissions to factor, it contains two action buttons **Transfer to Journal** and **Export to File** and table fields.  
-* **Transfer to Journal**- a transmission row must be chosen before clicking **Transfer to Journal**. Journal and journal worksheet names are asked after pressing **Transfer to Journal** button. As a result of this action General Journal lines are created and ready for posting. After posting  customer's invoice is marked as paid and Factoring Customer ledger entry is created. Transferred receivable consists of copied information about the invoice number, sum, payments terms ets. 
+* **Transfer to Journal**- a transmission row must be chosen before clicking **Transfer to Journal**. Journal and journal worksheet names are asked after pressing **Transfer to Journal** button. As a result of this action General Journal lines are created and ready for posting. After posting  customer's invoice is marked as paid and Factoring Customer ledger entry is created. Transferred receivable consists of copied information about the invoice number, amount, payments terms ets. 
 * **Export to File** - action generates file in Excel according to Swedbank AS format terms. Excel file must be submitted to factor manually in accordance with contracted conditions.  
 
 Factoring Transmissions page fields  
@@ -62,16 +73,16 @@ Factoring Transmissions page fields
 | --- | --- |
 |No.|Number of transmission from number series|
 |Transmission Date|Data when transmission was created|
-|No. of Invoice|Number of transmitted invoices|
-|Invoices Amount|Sum of transmitted invoices|
-|No.of open entries|Number of unpaid invoices|
+|No. of Invoice|Amount of transmitted invoices|
+|Invoices Amount|Amount of transmitted invoices|
+|No.of open entries|Amount of unpaid invoices|
 |No.of factoring agreement|Factoring agreement number the invoices are associated with|
 
-## Use
+## Usege
 *   **Setup factoring agreement**  
 To use the factoring functionality user must create new factoring agreement. Open **Factoring Agreements** and press button **+New** and fill all editable fields. 
 *   **Adding factoring agreement to a customer card**\
-    Connection between factoring agreement and customers generates by filling Factoring Agreement No. field  on customers card. In the same place customer limit can be settled. Total amount of limits from all customer cards are displayed summarily at factoring agreement page.  
+    Connection between factoring agreement and a customer is generated by filling Factoring Agreement No. field  on customers card. In the same place customer limit can be settled. Total amount of limits from all customer cards are displayed summarily at factoring agreement page.  
     NB! While creating sales invoice or sales order use can pick up any factoring agreement from the factoring agreements list. 
     
 *   **Creating an export file to factor**\
