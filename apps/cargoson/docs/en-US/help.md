@@ -6,18 +6,18 @@ Cargoson Interface enables the following:
 - See Data Exchange Log between Business Central and Cargoson.
 
 ## Contents
-- [Cargoson App Installation](#cargoson-app-installation)
-- [Menu](#menu) 
-- [How to setup](#how-to-setup) 
-  - [Setup API ](#setup-api)
-  - [Setup Package Types](#setup-package-types) 
-  - [Setup BC User for Cargoson](#setup-bc-user-for-cargoson)
-  - [Setup Shipping Agents and Shipping Agent Services for Cargoson](#setup-shipping-agents-and-shipping-agent-services-for-cargoson) 
-- [How to make transportation price requests from Cargoson](#how-to-make-transportation-price-requests-from-cargoson)
-- [How to send transportation orders to Cargoson](#how-to-send-transportation-orders-to-cargoson)  
-- [How to check Cargoson Log entries](#how-to-check-cargoson-log-entries)
-
-  <br/>  
+- [Cargoson Interface for Business Central User Guide](#cargoson-interface-for-business-central-user-guide)
+  - [Contents](#contents)
+  - [Cargoson App Installation](#cargoson-app-installation)
+  - [Menu](#menu)
+  - [How to setup](#how-to-setup)
+    - [Setup API](#setup-api)
+    - [Setup Package Types](#setup-package-types)
+    - [Setup BC User for Cargoson](#setup-bc-user-for-cargoson)
+    - [Setup Shipping Agents and Shipping Agent Services for Cargoson](#setup-shipping-agents-and-shipping-agent-services-for-cargoson)
+  - [How to make transportation price requests from Cargoson](#how-to-make-transportation-price-requests-from-cargoson)
+  - [How to send Transportation Orders to Cargoson](#how-to-send-transportation-orders-to-cargoson)
+  - [How to check Cargoson Log entries](#how-to-check-cargoson-log-entries)
 
 ## Cargoson App Installation
 Open **Extension Management** and check if extension named ‘Cargoson’ is installed. If not, please find and install it from AppSource or contact BCS Itera AS.
@@ -91,7 +91,7 @@ Price request from Cargoson can be initiated on the following Business Central d
 
 Process:
 - Create Business Central document, e.g. Sales Order (process is the same with all prementioned source documents) 
-- Initiate Cargoson price request query from the document header **Process -> Send to Cargoson**  
+- Initiate Cargoson price request query from the document header action  **Create Transport Order**  
 - Cargoson Order Lines window will open:
 ![Cargoson Order Lines](3_cargoson_order_lines.png)
 - Check transportation order data (mandatory fields marked with *):
@@ -136,7 +136,7 @@ Transportation Order can be sent to Cargoson from the following Business Central
 
 Process:
 - Create Business Central document, e.g. Sales Order (process is the same with all prementioned source documents)
-- On the document header press **Process -> Send to Cargoson** to start Transportation Order sending process  
+- On the document header click **Create Transport Order** to start Transportation Order sending process  
 - Cargoson Order Lines window will open:
 ![Cargoson Order Lines](3_cargoson_order_lines.png)
 - Check Transportation Order data (mandatory fields are marked with *):
@@ -166,9 +166,8 @@ Process:
 |LDM|Transportation Order line LDM.|
 |Description|Transportation Order line description.|
 
-- Press button **Send to Cargoson** to send the Transportation Order to Cargoson. System checks if all mandatory fields have been filled with data (if not, corresponding message is displayed to the user). If Transportation Order has already been sent to Cargoson from related source document, then user will be notified with message **Current document is already sent to Cargoson. Do you want to continue?**.
-- Press button **SEND DIRECTLY TO SHIPPING AGENT** to send the Transportation Order to Cargoson with Direct Booking option (it means that Carogoson will forward the order directly to Shipping Agent without user intervention on Cargoson's website). System checks if all mandatory fields have been filled with data (if not, the corresponding message is displayed to the user). User will be notified with attention message: **Current order will be forwarded from Cargoson to carrier automatically. Do you want to continue?**. If Transportation Order has already been sent to Cargoson from related source document, then user will be notified with message **Current document is already sent to Cargoson. Do you want to continue?**.
-- If sending process was successful, user will be notified with message **Transportation order is successfully sent to Cargoson.**
+- Press button **Send to Cargoson** to send the Transportation Order to Cargoson. System checks if all mandatory fields have been filled with data (if not, corresponding message is displayed to the user).
+- Press button **Send Directly to Shipping Agent** to send the Transportation Order to Cargoson with Direct Booking option (it means that Carogoson will forward the order directly to Shipping Agent without user intervention on Cargoson's website). System checks if all mandatory fields have been filled with data (if not, the corresponding message is displayed to the user). 
 - Cargoson Order No. will be saved to source document field **Cargoson Order No.** indicating that Transportation Order related to this document has been sent to Cargoson. Clicking on the Cargoson Order No. opens related Cargoson log entry where you can open Cargoson website with related Transportation Order, open related package label or open related package tracking website (for details see next chapter **How to check Cargoson Log entries**).
 - Transportation Order is listed on Cargoson website (depending on the sending option used **New** or **Booked**):
 ![Cargoson Website](6_cargoson_website.png)
