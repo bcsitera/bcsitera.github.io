@@ -95,6 +95,7 @@ Example TENANT used for Customer and SERVICE PROVIDER used for Vendor.
 ### Setup Dimensions in Moderan and BC
 It is possible to use either the contract-based dimensions or the building dimension.
 On the Moderan Interface page, you can specify which dimension is used.
+
 ![Dimensions](Dimensions.PNG)
 
 To use Building dimensions, add the Accounting Code in the Moderan building card, in format: "Dimension:Dimension Value". 
