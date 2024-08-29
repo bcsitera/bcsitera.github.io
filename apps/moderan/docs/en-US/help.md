@@ -105,6 +105,7 @@ To use Contract dimensions, add the Accounting Code in the Moderan contract card
 "Dimension:Dimension Value;Dimension2:Dimension Value2".
 
 For example: OBJEKT:008; DEPARTMENT:PROD
+
 The same dimension and dimension value must be set up in BC.
 
 
