@@ -99,6 +99,7 @@ On the Moderan Interface page, you can specify which dimension is used.
 ![Dimensions](Dimensions.PNG)
 
 To use Building dimensions, add the Accounting Code in the Moderan building card, in format: "Dimension:Dimension Value". 
+
 To use Contract dimensions, add the Accounting Code in the Moderan contract card, in format: "Dimension:Dimension Value;Dimension2:Dimension Value2".
 
 For example: OBJEKT:008; DEPARTMENT:PROD
