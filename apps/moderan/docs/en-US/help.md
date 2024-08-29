@@ -157,7 +157,7 @@ To get customers or vendors from Moderan, run action **Moderan – Get Customers
 The customers or vendors who do not have a Registration No. will be skipped.
 In general, the setting for getting Customer information should be such that the button **Import only Customers ID** is off, in this case all Customers with all data are imported.
 
-![GetCustomers](GetCustomers.PNG)
+![GetCustomers2](GetCustomers2.PNG)
 
 If the customer has English as the invoicing language in Moderan, the Language code is also displayed on the BC customer card.
 
@@ -320,6 +320,9 @@ Cost types must be decribed in Moderan.
 On the page **Cost type mapping**, Moderan cost types and G/L accounts are mapped.
 Open the page **Cost type mapping**, button **Get Cost Types**.
 The cost types described in Moderan are imported and here is possible to link them to G/L accounts and to the dimensions.
+It is possible to set up 1 or more G/L accounts or dimensions per cost type using the filtering settings.
+
+Example: for G7L account: 8122|8130
 
 ### Send cost invoices
 Open the page **Send Cost Bills** and fill the fields: choose Distribution Sets, choose Period ID, Period start and Period end.
