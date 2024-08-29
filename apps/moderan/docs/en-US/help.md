@@ -21,6 +21,7 @@ Moderan Interface enables the following:
 - [How to Get Customers or Vendors from Moderan](#how-to-get-customers-or-vendors-from-moderan) 
 - [How to Get Invoices from Moderan](#how-to-get-invoices-from-moderan)
   - [Dimensions in the sales invoice header](#dimensions-in-the-sales-invoice-header)
+  - [Dimensions 0n the sales invoice lines](#dimensions-on-the-sales-invoice-lines)
   - [Job Queue](#job_queue)
   - [Periodization of Invoices](#periodization-of-invoices) 
 - [How to Get Contacts from Moderan](#how-to-get-contacts-from-moderan)
