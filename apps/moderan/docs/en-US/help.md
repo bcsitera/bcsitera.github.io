@@ -215,6 +215,14 @@ In the Invoice header displays the Dimension value, which is the Dimension value
 
 <br/>
 
+### Dimensions on the sales invoice lines
+It is possible to use the contract-based dimensions or/and the building dimension.
+On the Moderan Interface page, you can specify which dimension is used.
+The dimensions of the Building are read first and then Contract dimensions. If the same dimension is added in both, the lines will have the dimension that is in the Moderan contract.
+
+If the dimension or dimension value is missing in BC, the user is notified at the end that %1 dimension was missing, the dimension value is not added to the sales invoice line and no error is given.
+
+<br/>
 
 ### Job Queue
 
