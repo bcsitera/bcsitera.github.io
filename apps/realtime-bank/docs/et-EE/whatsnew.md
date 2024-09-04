@@ -2,7 +2,7 @@
 ---
 
 ##### Versioon 21.0.24242.0
-- Maksete edastamisel maksefaili töötlemistulemuste kohene tagaside (Swedbank, LHV, Coop).
+- Maksete edastamisel panka maksefaili töötlemistulemuste kohene tagaside kasutajale (Swedbank, LHV, Coop).
 
 ##### Versioon 21.0.24105.0
 - Coop Pank Gateway on nüüd kasutatav ka BC pilveklientidel.
