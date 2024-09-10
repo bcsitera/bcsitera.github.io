@@ -1,5 +1,10 @@
 ---
 ---
+##### Version 20.0.24252.0
+- Added payment method automation
+  - _On Expense Reports Setup thru action "Payment Method Mapping" it's possible to get Payment Methods from CostPocket (inc. Credit cards) and map them to BC Payment method, so that when card statement is imported from CostPocket, then the payment method is automatically assigned to the expense document._
+- Added possibility to choose different number series to expense report _(when relationship with main number series exists)_.  
+
 ##### Version 20.0.24144.0
 - Fixed issue that prevented importing Expense Reports with daily allowance from CostPocket.  
 
