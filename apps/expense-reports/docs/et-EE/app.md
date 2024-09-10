@@ -4,6 +4,7 @@ Kuluaruannete käsitlemise lahendus Microsoft Dynamics 365 Business Central tarb
 ## Lahendus hõlmab:
 #### Täisdigitaalne kuluaruannete käsitlemine:
 * Lihtne seadistus ning ühendus digiteerimise partneriga  <a href="https://costpocket.com/et" target="_blank">CostPocket.com</a>
+* Kuluaruanded, Lähetusaruanded, Pangakaardi aruanded
 * Päevarahad
 * Kuluaruannete kinnitusringid  
 
@@ -15,7 +16,8 @@ Kuluaruannete käsitlemise lahendus Microsoft Dynamics 365 Business Central tarb
 - Lisa/muuda dimensioone ja dokumentide ridu, KM konteeringurühmasid, täpsusta summasid jne  
 
 #### Täisdigitaalne arhiiv:
-- Konteeritud kuludokumendid koos pildiga  
+- Konteeritud kuludokumendid koos pildiga
+- Täiendavate manuste _(nt digiallkirjastatud dokumendid)_ lisamise võimalus  
 
 #### Lahendus on täies ulatuses kasutatav ka ilma digiteerimise partnerita.  
 
