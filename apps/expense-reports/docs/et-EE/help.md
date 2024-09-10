@@ -23,7 +23,9 @@ Kasutamaks digiteerimise partneri **CostPocket** pakutavat funktsionaalsust, tul
 
 **Automaatseks kuluaruannete/dokumentide importimiseks** kasutatakse tööjärjekorra kannet, mida saab vaadata/luua Toimingud sektsioonis asuva **nupuga "Tööjärjekorra kanded"**. Kui tööjärjekorra kanne ei ole loodud, siis nimetatud nupule vajutades see luuakse. *Tööjärjekorra kannet kuludokumentide importimiseks on vaja ainult juhul, kui aruandeta dokumendid on lubatud.*    
 
-Ettemääratud kulu liikidele saab kasutaja vastendada vaike kulukontod. Seda saab seadistada lehel **Kulu liigid**. Dokumentide importimisel CostPocketist, kui hankija tuvastatakse (Reg.nr või VAT nr. alusel), määrab süsteem kuludokumentidele vaike kulukontod vastavalt kuludokumendi kulu liigile.
+Ettemääratud kulu liikidele saab kasutaja vastendada **vaike kulukontod**. Seda saab seadistada lehel **Kulu liigid**. Dokumentide importimisel CostPocketist, kui hankija tuvastatakse (Reg.nr või VAT nr. alusel), määrab süsteem kuludokumentidele vaike kulukontod vastavalt kuludokumendi kulu liigile.  
+
+Kohandatud makseviiside kasutamisel CostPocketi äpis _(nt krediitkaardid)_ on võimalik need importida BC-sse läbi kuluaruannete seadistuse toimingu **Makseviisi vastendamine**. See võimaldab pangakaardi aruande puhul automaatselt määrata kuludokumentidele vastava makseviisi.  
 
 **Kuluaruande kinnitamine** ning selle seadistamine on analoogne Ostuarve kinnitusringile (vt <a href="https://docs.microsoft.com/en-us/dynamics365/business-central/walkthrough-setting-up-and-using-a-purchase-approval-workflow/" target="_blank">Setting Up and Using a Purchase Approval Workflow</a>.)
 Lehel Töövood tuleb vajutada nupule "Uus töövoog mallist" ning valida **Expense Report Approval Workflow**. 
