@@ -4,6 +4,7 @@ This extension provides Expence Reports functionality for Microsoft Dynamics 365
 ## Solution offers:
 #### Hassle free digitized management of expense reports
 * Easy setup and connection to digitization partner <a href="https://costpocket.com/en" target="_blank">CostPocket.com</a> 
+* Expense Reports, Travel reports, Payment Card Report
 * Daily allowances
 * Expense report approvals  
   
