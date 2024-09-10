@@ -1,5 +1,11 @@
 ---
 ---
+
+##### Versioon 20.0.24252.0
+- Lisatud makseviiside automaatika
+  - _Kuluaruannete seadistuses toiming "Makseviisi vastendamine", saab tuua CostPocketist makseviisid (sh krediitkaart) ning vastendada need BC makseviisidega, selleks et pangakaardi aruande puhul süsteem määraks kuludokumendile kohe automaatselt vastava makseviisi._
+- Lisatud kuluaruandele numbriseeria valiku võimalus _(eeldusel et numbriseeriates on loodud seotud numbriseeria)_.  
+
 ##### Versioon 20.0.24144.0
 - Parandatud olukord, kus lähetuse päevarahadega kuluaruandeid ei õnnestunud CostPocketist BC-sse tuua.  
 
