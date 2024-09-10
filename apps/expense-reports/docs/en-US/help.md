@@ -25,6 +25,8 @@ To use digitization partner **CostPocket** functionality, action **Registration*
 
 **For predetermined cost types** User can setup default cost accounts. That can be done in **Cost Types** page. Now when expense documents are imported from CostPocket, system assigns a default G/L cost account determined by document's cost type. **Note!** Default cost account is assigned to cost document **only** when existing Vendor is detected via Registration No. or VAT Registration No.  
 
+For payment method automation User can setup **Payment Method Mapping** so that custom Payment Methods are received from CostPocket and then mapped to BC Payment Method Code. Now when expense documents are imported from CostPocket _(for example using Payment Card Report)_, system assigns **automatically** that **Payment Method**  to cost document.  
+
 **Approval** of an expense report and setting it up is similar to <a href="https://docs.microsoft.com/en-us/dynamics365/business-central/walkthrough-setting-up-and-using-a-purchase-approval-workflow/" target="_blank">Setting Up and Using a Purchase Approval Workflow</a>. On page Workflows use button "New Workflow from Template" and just select **Expense Report Approval Workflow**. After enabling the workflow, User can post an expense report only when it's been approved (status becomes Released).<br>
 To notify for example a bookkeeper about a new imported expense report, use workflow template **Expense Report New Entry Notification Workflow**.  
 
