@@ -308,11 +308,11 @@ To do so, open **Job Queue Entries** and create new entry as:
 ## Export Cost Invoices to Moderan
 
 ### Setup
-Open the **Moderan** menu, page **Interface**. Here are general settings of cost invoices: the ranges of accounts to be exported, 2 possible dimensions and whether the prices and amounts are exported with or without VAT or both cases are possible.
+Open the **Moderan** menu, page **Interface**. Here are general settings of cost invoices: the ranges of accounts to be exported, 3 possible dimensions and whether the prices and amounts are exported with or without VAT or both cases are possible.
 
 It is possible to send expense invoices PDF files to Moderan. Only 1 PDF file is sent to Moderan. If several files are attached to the invoice, the earliest file will be sent.
 
-![ExpensesSetup](ExpensesSetup.PNG)
+![ExpensesSetup2](ExpensesSetup2.PNG)
 <br/>
 
 ### Cost periods
