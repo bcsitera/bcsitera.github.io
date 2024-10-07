@@ -16,17 +16,19 @@ Võimalik on seadistada pangaühendused järgmiste pankadega:
 2. SEB Baltic Gateway
 3. LHV Connect
 4. Coop Pank Gateway
+5. Luminor Web Service
 
 Liitumisjuhiseid leiab [siit](join.md).
 
-Pangaühenduste seadistamiseks on Business Centralis igal panga kohta oma kaart, kus tuleb täita järgmised väljad:
+Iga pangaühenduse kohta on seadistuse leht (n. "Swedbank Gateway seadistus"), kus tuleb täita järgmised väljad:
 
 Väli |  Selgitus | 
 -- | --
-Teenuse URL | Sisestage panga teenuse aadress: <br> Swedbank - https://swedbankgateway.net/ <br> SEB - https://api.bgw.baltics.sebgroup.com/ <br> LHV - https://connect.lhv.eu/ <br> Coop Pank - https://cpgw.cooppank.ee/  
+Teenuse URL | Sisestage panga teenuse aadress: <br> Swedbank - https://swedbankgateway.net/ <br> SEB - https://api.bgw.baltics.sebgroup.com/ <br> LHV - https://connect.lhv.eu/ <br> Coop Pank - https://cpgw.cooppank.ee/ <br> Luminor - https://ftc.luminoropenbanking.com/v1/ft-services/CorporateFileService  
 Seadme- või autentimissertifikaadi failinimi | Importige sertifikaadi fail (pfx/p12 formaat). Sertifikaadi saate pangast.
 Seadme- või autentimissertifikaadi parool | Sisestage sertifikaadi parool.
 Krüpteermissertifikaat (Swedbank-i puhul) | Sertifikaadi saab laadida siit: http://dev.swedbankgateway.net/info#certificates
+Lepingu ja/või kliendi id-d | Andmed panga lepingust
 
 ### Pangakonto seadistused
 _Pangakonto_ kaardi väljal "Pangaühendus" määrake millist pangaühendust kasutate. Juhul, kui kontol jätta pangaühendus määramata, siis selle konto tehinguinfot Business Centralisse ei laeta.

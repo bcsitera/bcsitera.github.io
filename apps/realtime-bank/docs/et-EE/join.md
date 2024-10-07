@@ -36,6 +36,15 @@ Toetatud teenused:
 - Regulaarne konto väljavõte – panga poolt automaatselt saadetav eelmise päeva väljavõte.
 - Kiirteavitused – panga poolt automaatselt saadetav teavitus iga tehingu kohta.
 
+### Luminor
+[https://luminor.ee/ari/web-services](https://luminor.ee/ari/web-services)  
+
+Toetatud teenused:
+- Maksete edastamine panka (ootel e. allkirjastamata maksed).  
+- Regulaarne konto väljavõte (camt.053) – panga poolt automaatselt saadetav eelmise päeva väljavõte.
+- Jooksva päeva konto väljavõte (camt.052)   
+- Kiirteavitused (camt.054) – panga poolt automaatselt saadetav teavitus iga tehingu kohta.
+
 ## Turvasertifikaat
 Kõigi pankade puhul tuleb lahenduses seadistada turvasertifikaat. Liitumisel annab pank teile sellekohased juhised. Kuna tegemist on üsna tehniliste sammudega, siis soovitav on pöörduda oma BC partneri poole, kes aitab need teha.
 
