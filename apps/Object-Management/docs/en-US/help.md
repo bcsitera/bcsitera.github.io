@@ -4,7 +4,39 @@ The Object Management Solution in Business Central enables the following:
 - Manage services and items used on object
 - Handle billing
 
-  
+## Settings
+To use the solution, **Object Management Setup** must be opened and following fields filled:
+
+|Field|Explanation|
+|---|---| 
+| Object Nos. | To specify number series for Objects. Value can be chosen from **No. Series List**.|
+| Object Contract Nos. | To specify number series for Object Contracts. Value can be chosen from **No. Series List**.|
+| Object Finance Report | Specifies the finance report that is used to view object''s Budjet vs Actual information from action on object card.|
+| Object Budget Finance Report | Specifies which financial report is used to generate the Print Budget report on object budget page.|
+| Employee Source | Specifies the source table of employees.|
+| Price Calculation Method | Specifies the price calculation method for objects and sales invoices. It''s rec commended to use Object price in order to show correct prices on object.|
+
+In Dimension section:
+|Field|Explanation|
+|---|---| 
+| Object Dimension Code | Specifies the dimension code used for objects. System also uses this to automatically create default dimension to object.|
+| Budget Second Dimension Code | Specifies the value of the Second dimension filter opening Budget from Object Card. (Global dimension 1 is supposed to be Object dimension).|
+| Dimension Update Filter | Specify dimensions that are updated on entries (G/L, FA, Budget, Analysis View entries), if they change on object. To add many dimensions use vertical bar (e.g. OBJECT|MANAGER).|
+| Item Default Dimension | Specify dimension used for items, so that system can automatically create a corresponding new dimension value, when a new item is created.|
+| Item Category Default Dimension | Specify dimension used for item categories, so that system can automatically create a corresponding new dimension value, when a new item category is created. When item category is selected to an item, then a corresponding default dimension value will be added to Item.|
+ 
+It's also possible to specify 8 Object Attributes, that are displayed on **Objects and attributes** page as columns.
+
+Action **Person Role Default Dimensions** is used to...
+
+## Use
+### Objects
+
+
+### Object Contracts
+
+
+### Billing
   
 ---
 
