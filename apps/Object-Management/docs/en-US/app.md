@@ -4,8 +4,11 @@ This extension provides Object management and billing solution for Microsoft Dyn
 ## Solution offers:
 #### Manage objects:
 - Object information
+- Connected persons  
 #### Manage services and items used on object:
 - Items and services meant to be used on object
+#### Manage Object Contracts:
+- Object Contract and billing terms information
 #### Handle billing:
 - Generate monthly invoices
   
