@@ -23,7 +23,7 @@ In Dimension section:
 |---|---| 
 | Object Dimension Code | Specifies the dimension code used for objects. System also uses this to automatically create default dimension to object.|
 | Budget Second Dimension Code | Specifies the value of the Second dimension filter opening Budget from Object Card. (Global dimension 1 is supposed to be Object dimension).|
-| Dimension Update Filter | Specify dimensions that are updated on entries (G/L, FA, Budget, Analysis View entries), if they change on object. To add many dimensions use vertical bar (e.g. OBJECT|MANAGER).|
+| Dimension Update Filter | Specify dimensions that are updated on entries (G/L, FA, Budget, Analysis View entries), if they change on object. To add many dimensions use vertical bar (e.g. OBJECT&#124;MANAGER).|
 | Item Default Dimension | Specify dimension used for items, so that system can automatically create a corresponding new dimension value, when a new item is created.|
 | Item Category Default Dimension | Specify dimension used for item categories, so that system can automatically create a corresponding new dimension value, when a new item category is created. When item category is selected to an item, then a corresponding default dimension value will be added to Item.|  
 
