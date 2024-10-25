@@ -1,18 +1,31 @@
-# Object Management Solution
-This extension provides Object management and billing solution for Microsoft Dynamics 365 Business Central. 
+# Object Management and Billing Solution
+This extension provides Object management and billing solution for Microsoft Dynamics 365 Business Central.  
 
-## Solution offers:
-#### Manage objects:
-- Object information
-- Connected persons  
-#### Manage services and items used on object:
-- Items and services meant to be used on object
-#### Manage Object Contracts:
-- Object Contract and billing terms information
-#### Handle billing:
-- Generate monthly invoices
-  
-  
+Solution is for companies that offer different services (cleaning, maintenance, security, waste etc) on multiple physical addresses (objects).  
+
+## Solution's key features:
+#### Create and manage objects:
+- Information about object (address, type, attributes, notes etc)
+- Object budget
+- Profitability per object
+#### Connect employees, customer contacts, third party contacts to object 
+#### Manage recurring services on the object:
+- Including seasonal services
+- Services that start or stop in the middle of month
+#### Manage object based pricing:
+- Same service can have different price for every object/contract/customer etc
+#### Create quotes for services and items/implements on object
+#### Manage assets serviced on object:
+- Device maintenance log and schedule
+#### Manage contracts for objects:
+- Financial conditions needed for billing (invoice terms per contract)
+- Different contract print layouts for different type of contracts
+#### Handle recurring billing:
+- Batch creation of sales invoices
+- Aggregate service lines to invoice (if necessary)
+- Manage and bill items/implements used on the object (including approvals)  
+    
+    
 [User Guide](help.md)
 
 ### Contact information
