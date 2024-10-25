@@ -33,20 +33,32 @@ Action **Person Role Default Dimensions** is used to specify dimensions to perso
 
 ## Use
 ### Objects
-The Object table is central part of the solution. There user can enter various data and information in the following sections:
+Object table is the central part of the solution.  
+There user can enter various data and information in the following sections:
 * Object information (name, type, connected assets etc)
+  * Specify Purchase line approval template, if needed to approve purchase lines connected to objects
 * Object notes (text, table or graphics that describe the object)
-* Aaddress info
-* Connected persons (customer contacts, company employees etc)
+* Aaddress info (for most accurate position a geolocation position can be entered)
+* Connected persons (own employees, customer contacts, third party contacts etc)
 * Billing related info (object global dimensions etc)
-* Object sales lines (monthly billable services on that object)
-* Items/Implements (items agreed to be used on object along with the billable service)  
+* Object sales lines (recurring monthly billable services on that object)
+  * Price can be entered through field Current price
+  * Diferent lines can have different contracts
+  * Services can be seasonal
+* Items/Implements (items agreed to be used on object along with the billable services)
+  * Specify there whether items are included in service price or should be sold separately as resale item.
 
 ### Object Contracts
+Object contract is needed for financial specification when creating invoices.  
+_It's not mandatory to have a contract related to object line, but it's highly recommended._  
+User can select to have all objects for one contract to be on single invoice or to create one invoice for every object.  
+
 
 
 ### Billing
-  
+To create montly recurring billing user can use action "Create Object Invoices".
+Solution creates invoices for all objects that have valid object sales lines.  
+
 ---
 
 For more information please contact BCS Itera AS:  
