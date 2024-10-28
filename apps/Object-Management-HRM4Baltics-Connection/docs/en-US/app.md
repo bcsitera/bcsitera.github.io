@@ -7,7 +7,7 @@ Solution is for companies that want to use HRM4Baltics employees instead of stan
 #### Use HRM4Baltics employees:
 - in object connected persons table
   - as object manager
-  - as work manager
+  - as service manager
 
 #### Use objects on HRM4Baltics tables:
 - Employee (HRM4Baltics)
