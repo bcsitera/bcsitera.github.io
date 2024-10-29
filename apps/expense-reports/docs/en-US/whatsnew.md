@@ -1,5 +1,9 @@
 ---
 ---
+##### Version 20.0.24303.0
+- When importing individual expense documents from CostPocket, the control has been switched from date-based to status-based.
+  - _If the expense document is successfully imported into BC, a status change request is sent to CostPocket, marking the document's status as 'Submitted'._  
+
 ##### Version 20.0.24252.0
 - Added payment method automation
   - _On Expense Reports Setup thru action "Payment Method Mapping" it's possible to get Payment Methods from CostPocket (inc. Credit cards) and map them to BC Payment method, so that when card statement is imported from CostPocket, then the payment method is automatically assigned to the expense document._
