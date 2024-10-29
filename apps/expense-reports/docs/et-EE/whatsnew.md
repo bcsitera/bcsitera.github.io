@@ -1,5 +1,8 @@
 ---
 ---
+##### Versioon 20.0.24303.0
+- Üksikute kuludokumentide toomisel CostPocketist mindud kuupäevalise kontrolli asemel üle staatusepõhise kontrolli peale.
+  - _Kui kuludokument on edukalt BC-sse toodud, siis saadetakse CostPocketisse staatyse muutmise päring, mis märgib dokumendi staatuseks Edastatud._  
 
 ##### Versioon 20.0.24252.0
 - Lisatud makseviiside automaatika
