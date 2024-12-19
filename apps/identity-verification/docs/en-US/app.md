@@ -1,6 +1,6 @@
 ---
 ---
-# Identity Verification Services
+# Identity Verification and Signing
 This extension provides functionality to identify users or sign documents in Microsoft Dynamics 365 Business Central using Smart-ID.
   
 For more information please see: https://www.smart-id.com/
@@ -21,7 +21,7 @@ The app is available in: Estonian (Estonia) and English (United States)
 
 ---
 
-[User Guide](../et-EE/help.md)
+[User Guide](../en-US/help.md)
 
 ### Contact Information
 For more information and pricing please contact:  
