@@ -33,13 +33,11 @@
 [Water Management](apps/water-management/docs/en-US/app.md)  
 
 ### Other
-
-[Realtime Economy Pack](apps/rte/docs/et-EE/app.md)  
-[Apps from Estonian Dynamics Partners](https://dynamicspartnersee.github.io/
-)  
+[Identity Verification and Signing](apps/identity-verification/docs/en-US/app.md)  
+[Realtime Economy](apps/rte/docs/et-EE/app.md)  
+[Apps from Estonian Dynamics Partners](https://dynamicspartnersee.github.io/)  
 
 ---
 
 [Support Contacts](docs/en-us/support.md)  
 [Privacy Policy](docs/en-us/privacy.md)
-

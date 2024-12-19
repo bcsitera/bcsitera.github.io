@@ -33,10 +33,9 @@
 [Veemajanduse lahendus](apps/water-management/docs/et-EE/app.md)  
 
 ### Muu
-
-[Reaalajamajanduse pakett](apps/rte/docs/et-EE/app.md)  
-[Estonian Dynamics Partners lokalisatsioon ja EDI](https://dynamicspartnersee.github.io/
-)  
+[Isikutuvastus ja allkirjastamine](apps/identity-verification/docs/en-US/app.md)  
+[Reaalajamajandus](apps/rte/docs/et-EE/app.md)  
+[Estonian Dynamics Partners lokalisatsioon ja EDI](https://dynamicspartnersee.github.io/)  
 
 ---
 

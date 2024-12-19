@@ -1,5 +1,8 @@
 ---
 ---
+##### Versioon 21.0.24352.0
+- Lisandus Swedbank Gateway uue API tugi.
+- Lisandus makselingi funktsionaalsus [LinkPay](https://support.every-pay.com/et/merchant-support/linkpay-makselink/)
 
 ##### Versioon 21.0.24242.0
 - Maksete edastamisel panka maksefaili töötlemistulemuste kohene tagaside kasutajale (Swedbank, LHV, Coop).

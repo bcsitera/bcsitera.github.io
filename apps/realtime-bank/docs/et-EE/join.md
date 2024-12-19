@@ -55,6 +55,8 @@ Kokkuvõtvalt on vajalik:
 
 Swedbank juhend:  
 [http://dev.swedbankgateway.net/content/general-info/doc/How-to-generate-CSR-and-convert-private-key-to-p12.pdf](http://dev.swedbankgateway.net/content/general-info/doc/How-to-generate-CSR-and-convert-private-key-to-p12.pdf)
+[https://www.swedbank.com/openbanking/swedbank-gateway-go-live.html](https://www.swedbank.com/openbanking/swedbank-gateway-go-live.html)  
+
 
 LHV juhend:  
 [https://partners.lhv.ee/en/connect/#certificates](https://partners.lhv.ee/en/connect/#certificates)
@@ -64,6 +66,3 @@ SEB juhend:
 
 Coop Pank juhend:  
 [https://www.cooppank.ee/s3fs-public/juhendid/Gateway_votmete_genereerimise_juhend.pdf](https://www.cooppank.ee/s3fs-public/juhendid/Gateway_votmete_genereerimise_juhend.pdf)
-
-Swedbank uue API liitumisjuhend:  
-[https://www.swedbank.com/openbanking/swedbank-gateway-go-live.html](https://www.swedbank.com/openbanking/swedbank-gateway-go-live.html)
