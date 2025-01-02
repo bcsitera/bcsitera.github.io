@@ -33,7 +33,7 @@
 [Veemajanduse lahendus](apps/water-management/docs/et-EE/app.md)  
 
 ### Muu
-[Isikutuvastus ja allkirjastamine](apps/identity-verification/docs/en-US/app.md)  
+[Smart-ID](apps/smart-id/docs/en-US/app.md)  
 [Reaalajamajandus](apps/rte/docs/et-EE/app.md)  
 [Estonian Dynamics Partners lokalisatsioon ja EDI](https://dynamicspartnersee.github.io/)  
 

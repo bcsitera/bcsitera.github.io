@@ -33,7 +33,7 @@
 [Water Management](apps/water-management/docs/en-US/app.md)  
 
 ### Other
-[Identity Verification and Signing](apps/identity-verification/docs/en-US/app.md)  
+[Smart-ID](apps/smart-id/docs/en-US/app.md)  
 [Realtime Economy](apps/rte/docs/et-EE/app.md)  
 [Apps from Estonian Dynamics Partners](https://dynamicspartnersee.github.io/)  
 
