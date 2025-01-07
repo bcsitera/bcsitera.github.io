@@ -1,4 +1,8 @@
 ---
+##### Versioon 21.0.24324.0 Avaldatud 19.11.2024
+- Lepingu nimetus müügi ja ostu dokumentidel.
+- Kanna lepingu kontakt müügi ja ostudokumendile.
+
 ##### Versioon 21.0.23147.2 Avaldatud 27.05.2023
 - Uus funktsionaalsus: Mitu partnerit.
 

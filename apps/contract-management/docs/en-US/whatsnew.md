@@ -1,4 +1,8 @@
 ---
+##### Version 21.0.24324.0 Published 19.11.2024
+- Contract name on sales and purcahse documents.
+- Contract Contact transfer to sales and purchase documents.
+
 ##### Version 21.0.23147.2 Published 27.05.2023
 - New feature: Multiple partners.
 
