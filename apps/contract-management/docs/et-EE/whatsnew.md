@@ -3,6 +3,16 @@
 - Lepingu nimetus müügi ja ostu dokumentidel.
 - Kanna lepingu kontakt müügi ja ostudokumendile.
 
+##### Versioon 21.0.24093.0 Avaldatud 02.04.2024
+- Uus funktsionaalsus: Lepingupõhised ostuhinnad.
+
+##### Versioon 21.0.24085.1 Avaldatud 26.03.2024
+- Uus funktsionaalsus: Lepingu muutmine konteeritud kannetel.
+
+##### Versioon 21.0.23313.1 Avaldatud 10.11.2023
+- Uus funktsionaalsus: Lepingupõhised müügihinnad.
+- Uus funktsionaalsus: Raamlepingud.
+
 ##### Versioon 21.0.23147.2 Avaldatud 27.05.2023
 - Uus funktsionaalsus: Mitu partnerit.
 

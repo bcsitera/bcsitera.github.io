@@ -3,6 +3,16 @@
 - Contract name on sales and purcahse documents.
 - Contract Contact transfer to sales and purchase documents.
 
+##### Version 21.0.24093.0 Published 02.04.2024
+- New feature: Contract based purchase prices.
+
+##### Version 21.0.24085.1 Published 26.03.2024
+- New feature: Change Contract on posted entries.
+
+##### Version 21.0.23313.1 Published 10.11.2023
+- New feature: Contract based sales prices.
+- New feature: Framework contracts.
+
 ##### Version 21.0.23147.2 Published 27.05.2023
 - New feature: Multiple partners.
 
