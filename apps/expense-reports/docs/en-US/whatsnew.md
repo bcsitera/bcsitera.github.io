@@ -1,5 +1,10 @@
 ---
 ---
+##### Version 20.0.25010.0
+- Added the ability to specify the VAT Bus. Posting Group value on the expense document.
+  - If left unspecified, then value will be taken from the vendor during posting (as before).
+- Minor technical improvements to the solution.  
+
 ##### Version 20.0.24303.0
 - When importing individual expense documents from CostPocket, the control has been switched from date-based to status-based.
   - _If the expense document is successfully imported into BC, a status change request is sent to CostPocket, marking the document's status as 'Submitted'._  
