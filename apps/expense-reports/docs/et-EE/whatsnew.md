@@ -1,5 +1,10 @@
 ---
 ---
+##### Versioon 20.0.25010.0
+- Lisatud kuludokumendile võimalus määrata KM äri konteeringurüm väärtust.
+  _- Kui jääb määramata, siis võetakse väärtus konteerimisel hankija pealt (nagu seni)._
+- Väiksemad lahenduse tehnilised täiendused.  
+
 ##### Versioon 20.0.24303.0
 - Üksikute kuludokumentide toomisel CostPocketist mindud kuupäevalise kontrolli asemel üle staatusepõhise kontrolli peale.
   - _Kui kuludokument on edukalt BC-sse toodud, siis saadetakse CostPocketisse staatyse muutmise päring, mis märgib dokumendi staatuseks Edastatud._  
