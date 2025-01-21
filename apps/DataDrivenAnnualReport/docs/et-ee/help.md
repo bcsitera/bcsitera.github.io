@@ -34,5 +34,8 @@ Täiendavalt tuleb seadistada ja üle vaadata järgnevad asukohad, millele ligip
 ### Klassifikaatorid
 Klassifikaatroite lehel tuleb esmalt kasutada nuppu **Uuenda klassifikaatorid** mille tulemusena täidetaksee/uuendatakse automaatselt erienvad klassifikaatroid ning nende väärtused.
 
+### Majandusliku sisu seadistus
+Majandusliku sisu seadistus võimaldab majandusliku sisu klassifikaatroitele lisada vaikeseadistusd.
+
 ## Kasutamine
 
