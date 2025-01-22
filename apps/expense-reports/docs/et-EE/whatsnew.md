@@ -1,10 +1,11 @@
 ---
 ---
-##### Versioon 20.0.25020.0 _(kättesaadav AppSource-is al. 21.01.2025)_
+##### Versioon 20.0.25022.0 _(saadaval al. 22.01.2025)_
 - Lisatud kuludokumendile numbriseeria valiku võimalus _(eeldusel et numbriseeriates on loodud seotud numbriseeria)_.
-- Parandatud manuaalsel kuludokumendi loomisel veaolukord "Väli Nr. peab olema täidetud".  
+- Parandatud manuaalsel kuludokumendi loomisel veaolukord "Väli Nr. peab olema täidetud".
+- Parandatud olukord, kus kuluaruande/kuludokumendi numbri muutmisel "kadusid ära" seotud manused _(muudatus ei jõudnud manuste tabelisse)_.  
 
-##### Versioon 20.0.25010.0 _(kättesaadav AppSource-is al. 10.01.2025)_
+##### Versioon 20.0.25010.0 _(saadaval al. 10.01.2025)_
 - Lisatud kuludokumendile võimalus määrata KM äri konteeringurüm väärtust.
   - _Kui jääb määramata, siis võetakse väärtus konteerimisel hankija pealt (nagu seni)._
 - Väiksemad lahenduse tehnilised täiendused.  
