@@ -1,10 +1,12 @@
 ---
 ---
-##### Version 20.0.25020.0 _(available in AppSource from 21st january 2025)_
+##### Version 20.0.25022.0 _(available from January 22, 2025)_
 - Added possibility to choose different number series to expense document _(when relationship with main number series exists)_.
-- Fixed issue when manually creating new expense document "Field No. cannot be empty".  
+- Fixed issue when manually creating new expense document "Field No. cannot be empty".
+- Parandatud olukord, kus kuluaruande/kuludokumendi numbri muutmisel "kadusid ära" seotud manused (muudatus ei jõudnud manuste tabelisse).
+- Fixed an issue where changing the Expense report/document number caused related attachments to "disappear" _(the change did not reach the attachments table)_.  
 
-##### Version 20.0.25010.0 _(available in AppSource from 10th january 2025)_
+##### Version 20.0.25010.0 _(available from January 10, 2025)_
 - Added the ability to specify the VAT Bus. Posting Group value on the expense document.
   - If left unspecified, then value will be taken from the vendor during posting (as before).
 - Minor technical improvements to the solution.  
