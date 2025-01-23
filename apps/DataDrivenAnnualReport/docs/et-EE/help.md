@@ -36,8 +36,11 @@ Täiendavalt tuleb seadistada ja üle vaadata järgnevad asukohad, millele ligip
 ### Klassifikaatorid
 Klassifikaatroite lehel tuleb esmalt kasutada nuppu **Uuenda klassifikaatorid** mille tulemusena uuendatakse automaatselt erienvad klassifikaatroid ning nende väärtused.
 Kui klassifikaatorid on uuendatud siis tuleb ära määrata klassifikaatori seosed dimensioonidega.
+
 **Mikro aruande** puhul tuleks luua **Tegevusala (EMTAK)** dimensioon ja **Seotud osapoole** dimensioon ning siduda vastavate klassifikaatroitega.
+
 **Standard aruande** puhul tuleks lisaks eelnevale ära seadistada ka ülejäänud klassifikaatorid ja dimensioonid.
+
 **_NB! Majandusliku sisu klassifikaatroile_**_ei ole tarvis dimensiooni seost lisada._
 
 ### Majandusliku sisu seadistus
