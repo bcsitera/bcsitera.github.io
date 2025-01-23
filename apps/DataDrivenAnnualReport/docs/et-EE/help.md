@@ -29,13 +29,22 @@ Funktsionaalsuse kasutamiseks tuleb esmalt avada **Majandusaasta aruande (XBRL) 
 |**_Kliendi ID_**| Võimaldab määrata kliendi kasutaja ID, väljastatakse registreerumisel RIK portaalis.
 |**_Teenuse URL_**| Võimaldab määrata teenuse URL aadressi, vaikimisi täidetud. 
 
-Täiendavalt tuleb seadistada ja üle vaadata järgnevad asukohad, millele ligipääsemiseks on lisatud nupud: Klassifikaatroid, Majandusliku sisu seadistus, PR-Majandusliku sisu vastendus.
+**NB!** Enne klassifikaatori väljade täitmist tuleks avada klassifikaatroite loend, seda saab teha kui klikata nupule **Klassifikaatroid**.
+
+Täiendavalt tuleb seadistada ja üle vaadata järgnevad asukohad, millele ligipääsemiseks on lisatud nupud: **Majandusliku sisu seadistus** ja **PR-Majandusliku sisu vastendus**.
 
 ### Klassifikaatorid
-Klassifikaatroite lehel tuleb esmalt kasutada nuppu **Uuenda klassifikaatorid** mille tulemusena täidetaksee/uuendatakse automaatselt erienvad klassifikaatroid ning nende väärtused.
+Klassifikaatroite lehel tuleb esmalt kasutada nuppu **Uuenda klassifikaatorid** mille tulemusena uuendatakse automaatselt erienvad klassifikaatroid ning nende väärtused.
+Kui klassifikaatorid on uuendatud siis tuleb ära määrata klassifikaatori seosed dimensioonidega.
+**Mikro aruande** puhul tuleks luua **Tegevusala (EMTAK)** dimensioon ja **Seotud osapoole** dimensioon ning siduda vastavate klassifikaatroitega.
+**Standard aruande** puhul tuleks lisaks eelnevale ära seadistada ka ülejäänud klassifikaatorid ja dimensioonid.
+**_NB! Majandusliku sisu klassifikaatroile_**_ei ole tarvis dimensiooni seost lisada._
 
 ### Majandusliku sisu seadistus
-Majandusliku sisu seadistus võimaldab majandusliku sisu klassifikaatroitele lisada vaikeseadistusd.
+Majandusliku sisu seadistus võimaldab majandusliku sisu klassifikaatroitele lisada vaikeväärtused.
+
+### PR-Majandusliku sisu vastendus
+PR-majandusliku sisu vastendus võimaldab siduda majandusliku sisu klassifikaatorid pearaamatu kontodega ning lisada kombinatsioonidele vaikeväärtused.
 
 ## Kasutamine
 
