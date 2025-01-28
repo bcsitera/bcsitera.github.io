@@ -12,6 +12,8 @@ Andmepõhise majandusaasta aruande funktsionaalsus võimaldab BC-s järgmist:
     - [Majandusliku sisu seadistus](#majandusliku-sisu-seadistus)
     - [PR-Majandusliku sisu vastendus](#pr-majandusliku-sisu-vastendus)
   - [Kasutamine](#kasutamine)
+    - [Esmane kasutuselevõtt](#esmane-kasutuselevõtt)
+    - [Majandusaasta aruanded (XBRL)](#majandusaasta-aruanded-xbrl)
 
 ## Seadistamine
 Funktsionaalsuse kasutamiseks tuleb esmalt avada **Majandusaasta aruande (XBRL) seadistus** ning seadistada järgmised väljad:
@@ -31,6 +33,7 @@ Funktsionaalsuse kasutamiseks tuleb esmalt avada **Majandusaasta aruande (XBRL) 
 |**_Kliendi ID_**| Võimaldab määrata kliendi kasutaja ID, väljastatakse registreerumisel RIK portaalis.
 |**_Teenuse URL_**| Võimaldab määrata teenuse URL aadressi, vaikimisi täidetud. 
 
+[!IMPORTANT]
 **NB!** Enne klassifikaatori väljade täitmist tuleks avada klassifikaatroite loend, seda saab teha kui klikata nupule **Klassifikaatroid**.
 
 Täiendavalt tuleb seadistada ja üle vaadata järgnevad asukohad, millele ligipääsemiseks on lisatud nupud: **Majandusliku sisu seadistus** ja **PR-Majandusliku sisu vastendus**.
@@ -43,6 +46,7 @@ Kui klassifikaatorid on uuendatud siis tuleb ära määrata klassifikaatori seos
 
 **Standard aruande** puhul tuleks lisaks eelnevale ära seadistada ka ülejäänud klassifikaatorid ja dimensioonid.
 
+[!IMPORTANT]
 **_NB! Majandusliku sisu klassifikaatroile_** _ei ole tarvis dimensiooni seost lisada._
 
 ### Majandusliku sisu seadistus
@@ -53,6 +57,9 @@ Teiste klassifikaatroite sidumisel on iga klassifikatroi juures võimalik määr
 * **Jah** - on kohustuslik. Kohustuslikkus lisatakse PR kontoga vastendamisel PR kontole dimensiooni kohustuslikkusena: **_Tähis kohustuslik_**.
 * **Vaikimisi** - araunde koostamisel võetakse väärtus vastava klassifikaatori **_Vaikimisi ..._** veerust. PR kontoga sidumisel PR kontole vaikedimensiooni kohustuslikkust ei lisata.
 
+**Mikro aruande** puhul tuleks üle vaadata **Tegevusala (EMTAK)** ja **Seotud osapoole** kohustuslikkus.
+
+**Standard aruande** puhul tuleks lisaks eelnevale üle vaadata ka ülejäänud kohustuslikkused.
 
 ### PR-Majandusliku sisu vastendus
 PR-majandusliku sisu vastendus võimaldab siduda majandusliku sisu klassifikaatorid pearaamatu kontodega ning lisada kombinatsioonidele vaikeväärtused.\
@@ -64,5 +71,23 @@ Kui vastendus on tehtud, siis saab vajadusel vaikeväärtuseid muuta ehk tekitad
 **_Näiteks_**_: Kui on kasutusel 2 erinevat PR kontot nõuete jälgimiseks (Grupivalised ja Grupisisesed), mõlemad kontod seotakse sama klassifikaatroiga **103010 Nõuded - Ostjate vastu (Lühiajaline)**._
 _Grupisisese nõuete konto kombinatsiooni reale saama lisada **Seotud osapoole** kohustuslikkuse._
 
+**Mikro aruande** puhul tuleks üle vaadata **Tegevusala (EMTAK)** ja **Seotud osapoole** kohustuslikkus.
+
+**Standard aruande** puhul tuleks lisaks eelnevale üle vaadata ka ülejäänud kohustuslikkused.
+
 ## Kasutamine
 
+### Esmane kasutuselevõtt
+Esmasel kasutamisel tuleks tgantjärgi PR kannetel ära täita Majandusliku sisu klassifikaatroid. Selel jaoks on **Majandusaasta aruande (XBRL) seadistusse** 
+lisatud tööriist **Täida PR kande Majandusliku sisu klassifikaator**.
+Tööriista käivitamisel on võimalik määrata nii perioodi kui ka PR kontode vahemikku mille kannetele listakse Majandusliku sisu klassifikaator 
+vastavalt [PR-Majandusliku sisu vastendus](#pr-majandusliku-sisu-vastendus).
+
+### Majandusaasta aruanded (XBRL)
+Uue majandusaasta aruande loomiseks tuleks loendis klõpsata nuppu **Uus** ning avaneval kaardil ära täita perioodi algus ja lõppkuupäev mille kohta 
+soovitakse aruannet esitada.
+Seejärel võib klõpsata tegevust **Soovita ridu** mille tulemusena arvutatakse majandusaasta aruande automaatseks esitamiseks vajalikud read 
+erienvate klassifikaatroite ja nende kombinatsioondie lõikes.\
+Kui read on loodud, siis tuleb klõpsata nuppu **Vabasta** ning peale seda nuppu **Esita**. Viimase nupu klõpsamisel kuvatakse kasutajale 
+aken kuhu tuleb sisestada esitaja isikukood ning on võimalus ka valida kas juba esitatud arunne oleks tarvis üle kirjutada. Peale **OK** klõpsamist saadetakse 
+aruande alusandmed automaatselt RIK-i poolt hallatavasse andembaasi. Aruande eduka esitamise korral muutub aruande Olek -> **Kinnitatud**.
