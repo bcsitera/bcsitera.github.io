@@ -12,7 +12,7 @@
 [Projektid 365](apps/Jobs365-General/docs/en-US/app.md)  
 [Automaatne arvete saatmine meilile](apps/Automatic-Emailing-of-Invoices/docs/et-EE/app.md)  
 [Manuste eelvaade](apps/Attachment-Preview/docs/et-EE/app.md)  
-[Andmepõhine majandusaasta aruannee](apps/DataDrivenAnnualReport/docs/et-EE/app.md)  
+[Andmepõhine majandusaasta aruanne](apps/DataDrivenAnnualReport/docs/et-EE/app.md)  
 
 ### Kaubanduse lahendused
 [Laiendatud krediidikontroll](apps/credit-check/docs/et-EE/app.md)  
