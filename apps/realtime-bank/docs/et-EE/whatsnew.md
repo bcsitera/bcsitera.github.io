@@ -1,5 +1,9 @@
 ---
 ---
+##### Versioon 21.0.25024.0
+- Lisandus ebaõnnestunud maksete ülevaade rollikeskuses ning konkreetne tagaside tekkinud tõrgete kohta.
+- Lisandus reaalajapangale ümberlülitamisel algsaldo määramise funktsionaalsus.
+
 ##### Versioon 21.0.24352.0
 - Lisandus Swedbank Gateway uue API tugi.
 - Lisandus makselingi funktsionaalsus [LinkPay](https://support.every-pay.com/et/merchant-support/linkpay-makselink/)
