@@ -3,7 +3,7 @@ Faktooringu lahendus lisab Business Central-i faktooringusse müügiarvete loovu
 
 Lahenduses toetatud järgmised Eesti pangad:
 
-Müügiarve eksport
+Müügiarvete edastamine
 * Swedbank 
 * SEB
 * Luminor
