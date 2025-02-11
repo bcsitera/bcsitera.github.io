@@ -6,6 +6,7 @@ Submission of accounts receivables
 *   Swedbank
 *   SEB
 *   Luminor
+*   LHV
 
 Funding payoff processing
 *   Swedbank

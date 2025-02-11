@@ -10,7 +10,8 @@ Pakett pakub digitaliseeritud suhtlust riigiga, raamatupidamisele, pankadega ja 
 
 **E-riik**
 - X-tee serverteenus
-- Digiallkirjastamine ja krüpteerimine
+- <a href="https://apps.itera.ee/apps/smart-id/docs/en-US/app.html" target="_blank">Smart-ID (allkirjastamine ja isikutuvastus)</a>
+- ID-kaart (krüpteerimine)
 
 **Registrid**
 - <a href="https://dynamicspartnersee.github.io/apps/estonian-business-register/docs/et-EE/help.html" target="_blank">Äriregister</a>
@@ -27,3 +28,7 @@ Pakett pakub digitaliseeritud suhtlust riigiga, raamatupidamisele, pankadega ja 
 **Tarneahel**
 - <a href="https://dynamicspartnersee.github.io/apps/telema-edi/docs/et-EE/help.html" target="_blank">Telema EDI</a>
 - <a href="https://dynamicspartnersee.github.io/apps/telema-edi/docs/et-EE/help.html" target="_blank">Edisoft EDI</a>
+- <a href="https://dynamicspartnersee.github.io/apps/telema-edi/docs/et-EE/help.html" target="_blank">Docura EDI</a>
+
+**Transport**
+- <a href="https://apps.itera.ee/apps/cargoson/docs/en-US/app.html" target="_blank">Cargoson</a>

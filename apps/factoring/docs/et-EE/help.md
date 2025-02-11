@@ -7,6 +7,7 @@ Müügiarve eksport
 * Swedbank 
 * SEB
 * Luminor
+* LHV
 
 Laekumiste töötlemine
 * Swedbank 
