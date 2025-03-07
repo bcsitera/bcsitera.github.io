@@ -1,5 +1,8 @@
 ---
 ---
+##### Versioon 20.0.25062.0 _(saadaval al. 04.03.2025)_
+- Lisatud eventid, mis võimaldavad kliendipõhist dimensioonide loogikat lisada kuluaruannetele ja kuludokumentidele.  
+
 ##### Versioon 20.0.25022.0 _(saadaval al. 22.01.2025)_
 - Lisatud kuludokumendile numbriseeria valiku võimalus _(eeldusel et numbriseeriates on loodud seotud numbriseeria)_.
 - Parandatud manuaalsel kuludokumendi loomisel veaolukord "Väli Nr. peab olema täidetud".
