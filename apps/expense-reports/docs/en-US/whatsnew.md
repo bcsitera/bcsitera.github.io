@@ -1,5 +1,8 @@
 ---
 ---
+##### Version 20.0.25062.0 _(available from March 04, 2025)_
+- Added events to make possible customer based dimensions logic on expense reports and documents.  
+
 ##### Version 20.0.25022.0 _(available from January 22, 2025)_
 - Added possibility to choose different number series to expense document _(when relationship with main number series exists)_.
 - Fixed issue when manually creating new expense document "Field No. cannot be empty".
