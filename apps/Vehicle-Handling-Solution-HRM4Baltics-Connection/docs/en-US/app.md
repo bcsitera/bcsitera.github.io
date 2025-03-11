@@ -7,7 +7,7 @@ Solution is for companies that want to use HRM4Baltics employees instead of stan
 #### Use HRM4Baltics employees:
 - in vehicle employee connection:
   - as responsible employee
-  - as fleat manager
+  - as fleet manager
 - when sending technical inspection reminders:
   - email address from HRM4Baltics  
 
