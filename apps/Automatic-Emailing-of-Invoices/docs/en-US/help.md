@@ -3,7 +3,7 @@ Automatic Emailing of Invoices solution in Business Central enables the followin
 - Specify through Document sending profile to send invoices automatically by email
 - Overview of sending status and time sent on posted invoices list
 - Manage the number of invoices sent with a single job que run (to avoid email server blacklisting)
-- Send invoice to Bill-to Customer email address
+- Send invoice to Bill-to Customer or Sell-to Customer (or to Both) email address
 
 
 ### Prerequisites and setup:
@@ -25,30 +25,30 @@ Automatic Emailing of Invoices solution in Business Central enables the followin
   
 ### Usage scenarios:
 - **Send invoice automatically to customer by email after posting**
-  - Create document sending profile and select "Send invoice by Email automatically"
-  - Add document sending profile created to customer card
-  - Specify Email on customer card or "Send To Email" on customer Document Layouts page
-    - It's also recommended to create suitable "Email Body Layout Description" and select "Use for Email Body"
-  - After posting the invoice it's marked as "Waits for Sending"
-  - Job queue "Send Posted Sales Invoices by E-mail" runs and sends the invoice marking invoice "Email Sent Status" to Sent and filling "Email Sent Time"
+  - Create document sending profile and select "Send invoice by Email automatically". Also if needed specify there "Email Address Source" (default and recommended value is "Bill-To E-Mail").
+  - Add document sending profile created to customer card.
+  - Specify Email on customer card or "Send To Email" on customer Document Layouts page.
+    - It's also recommended to create suitable "Email Body Layout Description" and select "Use for Email Body".
+  - After posting the invoice it's marked as "Waits for Sending".
+  - Job queue "Send Posted Sales Invoices by E-mail" runs and sends the invoice marking invoice "Email Sent Status" to Sent and filling "Email Sent Time".
 - **Send invoice manually by email**
-  - Sending invoices manually with action "Send by Email" also marks "Email Sent Status" to Sent and fills "Email Sent Time"
-  - Recipient email address is taken from Bill-to Customer (if possible)
+  - Sending invoices manually with action "Send by Email" also marks "Email Sent Status" to Sent and fills "Email Sent Time".
+  - Recipient email address is taken according to "Document sending profile" field "Email Address Source".
 - **Change "Email Sent Status" manually**
-  -  Select posted Sales Invoice/Credit Memo and select Process -> Update Document
-  -  In section "Email Sending" select new value for "Email Sent Status"
-    - Note that changing of status clears field "Email Sent Time"
+  -  Select posted Sales Invoice/Credit Memo and select Process -> Update Document.
+  -  In section "Email Sending" select new value for "Email Sent Status".
+    - Note that changing of status clears field "Email Sent Time".
 - **View sent email recipient address or cause of error**
-  - Select posted Sales Invoice/Credit Memo and select Actions -> Activity log
+  - Select posted Sales Invoice/Credit Memo and select Actions -> Activity log.
 <br>
   
 #### Notes:
-- When emails are successfully handed to email server (_specified through email account used_) then they are marked as successfully sent
-  - Meaning if email server fails to deliver email to recipient then this information does not make it back to Business Central
-    - Solution is to check emails for the account used for sending email on email server
-- When Business Central is unable to hand emails over to email server then status is set to error and these emails can be found in "Failed Emails in Outbox"
-  - In case recipient address is missing then status is set to error and email is not attempted to hand over to email server
-    - To check cause of error User should select Actions -> Activity log
+- When emails are successfully handed to email server (_specified through email account used_) then they are marked as successfully sent.
+  - Meaning if email server fails to deliver email to recipient then this information does not make it back to Business Central.
+    - Solution is to check emails for the account used for sending email on email server.
+- When Business Central is unable to hand emails over to email server then status is set to error and these emails can be found in "Failed Emails in Outbox".
+  - In case recipient address is missing then status is set to error and email is not attempted to hand over to email server.
+    - To check cause of error User should select Actions -> Activity log.
 
 
   
