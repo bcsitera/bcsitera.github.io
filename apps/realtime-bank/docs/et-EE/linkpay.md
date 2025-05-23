@@ -24,6 +24,7 @@ Pöörake tähelepanu punktile nr 2, kus on viidatud veelgi detailsemale [maksel
 ### LinkPay seadistus BC-s
 #### Üldine
 
+
 Väli|  Selgitus | 
 -- | --
 LinkPay prefiks | Avage _EveryPay kaupemeheportaal_, jaotis _Lingid_ - igal lingil on URL ja _Lingi token_. **_Prefiks_ on URL ilma _Lingi token'ta_**.
@@ -32,11 +33,16 @@ API salasõna | _EveryPay kaupmeheportaali_ jaotisest _Üldised seaded_.
 Lingi token | Avage _EveryPay kaupemeheportaal_, jaotis _Lingid_ - igal lingil on URL ja **_Lingi token_**.
 LinkPay tekst | Makselingina kuvatav tekst.
 LinkPay pilt | Makselingina kuvatav pilt.
+
+
 #### Lingi parameetrid
+
+
 Väli|  Selgitus|
 --|--
 Lingi välja nimetus| Väljad, mis valitakse makselingi loomisel _EveryPay kaupmeheportaalis_.
 BC välja nimetus  | Vastavad väljad Business Centralis.
+
 
 
 ## Kasutusjuhend

@@ -37,7 +37,7 @@ Jooksva päeva kontoväljavõtte päring | ✅ | |✅ | | ✅ |
 LinkPay* | ✅ |✅ |✅ | | |
 
 
-*Lisainformatsiooni leiate [meie LinkPay juhendist]().
+*Lisainformatsiooni leiate [meie LinkPay juhendist](linkpay.md).
 
 ### Hinnakiri pankade lõikes
 Coop Pank on omalt poolt loonud hea võrdlustabeli hinnakirja erinevuste kajastamiseks pnakade lõikes. See asub jaotise all [Hinnakiri > Hinnakirja võrdlus teiste pankadega (otsekanal)](https://www.cooppank.ee/ariklient/igapaevapangandus/liidestused).

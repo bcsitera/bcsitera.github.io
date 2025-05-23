@@ -34,30 +34,18 @@ Võimalik on seadistada pangaühendused järgmiste pankadega:
 **Included in our Real-Time Economy package, but from the banks' point of view, it is a completely separate solution. A separate contract is required on the banks' side. Refer to [our LinkPay guide](linkpay.md).
 
 ### Supported services by bank
-| | Swedbank | LHV | SEB | Coop Pank | Luminor |
+
+
+Teenused | Swedbank | LHV | SEB | Coop Pank | Luminor | 
 --|--|--|--|--|--
-Transmitting payments to the bank| ✅ | ✅ | ✅ |✅ |✅ |
-Regular account statement | ✅ |✅ |✅ |✅ |✅ |
+Transmitting payments to the bank | ✅ | ✅ | ✅ | ✅ | ✅ |
+Regular account statement | ✅ | ✅ | ✅ | ✅ | ✅ |
 Urgent notifications | ✅ |✅ | | ✅ |✅ |
 Current day account statement | ✅ | |✅ | | ✅ |
 LinkPay* | ✅ |✅ |✅ | | |
 
 
-
-
- Teenused | Swedbank | LHV | SEB | Coop Pank | Luminor | 
---|--|--|--|--|--
-Maksete edastamine panka| ✅ | ✅ | ✅ | ✅ | ✅ |
-Regulaarne konto väljavõte | ✅ | ✅ | ✅ | ✅ | ✅ |
-Kiirteavitused | ✅ |✅ | | ✅ |✅ |
-Jooksva päeva kontoväljavõtte päring | ✅ | |✅ | | ✅ |
-LinkPay* | ✅ |✅ |✅ | | |
-
-
-
-
-
-*Refer to [our LinkPay guide]().
+*Refer to [our LinkPay guide](linkpay.md).
 
 ### Price list by bank
 Coop Pank has created a comparative table of each banks' price lists. It can be found under the section [Price list > Comparison of price list with other banks (direct channel)](https://www.cooppank.ee/en/business/daily-banking/interfaces).

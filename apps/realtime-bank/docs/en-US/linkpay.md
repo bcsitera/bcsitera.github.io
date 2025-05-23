@@ -24,6 +24,7 @@ Pay attention to step no. 2, which includes a reference to an even more detailed
 ### LinkPay Setup
 #### General
 
+
 Field |  Description | 
 -- | --
 LinkPay Prefix | Open _EveryPay Merchant Portal_, section _Links_ - each link has a URL and a _Link Token_. **_Prefix_ is the URL without the _Link Token_**.
@@ -32,11 +33,17 @@ API Secret | From _EveryPay Merchant Portal_, section _General Settings_.
 Link Token | Open _EveryPay Merchant Portal_, section _Links_ - each link has a URL and a **_Link Token_**.
 LinkPay Text | Text displayed as the payment link.
 LinkPay Picture | Image displayed as the payment link.
+
+
 #### Link Parameters
+
+
 Field |  Description |
 --|--
 Link Field Name | The fields chosen when creating a payment link in _EveryPay Merchant Portal_.
 BC Field Name  | The corresponding fields in Business Central based on Sales Header.
+
+
 
 ## User Guide
 In order to use LinkPay, you will also need to create a report layout for email and invoice designs. 
