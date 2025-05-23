@@ -30,11 +30,11 @@ Võimalik on seadistada pangaühendused järgmiste pankadega:
 
  Teenused | Swedbank | LHV | SEB | Coop Pank | Luminor | 
 --|--|--|--|--|--
-Maksete edastamine panka| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-Regulaarne konto väljavõte | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-Kiirteavitused | :heavy_check_mark: |:heavy_check_mark: | | :heavy_check_mark: |:heavy_check_mark: |
-Jooksva päeva kontoväljavõtte päring | :heavy_check_mark: | |:heavy_check_mark: | | :heavy_check_mark: |
-LinkPay* | :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | | |
+Maksete edastamine panka| ✅ | ✅ | ✅ | ✅ | ✅ |
+Regulaarne konto väljavõte | ✅ | ✅ | ✅ | ✅ | ✅ |
+Kiirteavitused | ✅ |✅ | | ✅ |✅ |
+Jooksva päeva kontoväljavõtte päring | ✅ | |✅ | | ✅ |
+LinkPay* | ✅ |✅ |✅ | | |
 
 
 *Lisainformatsiooni leiate [meie LinkPay juhendist]().

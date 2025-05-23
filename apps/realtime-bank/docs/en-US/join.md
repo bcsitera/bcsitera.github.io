@@ -36,22 +36,22 @@ Võimalik on seadistada pangaühendused järgmiste pankadega:
 ### Supported services by bank
 | | Swedbank | LHV | SEB | Coop Pank | Luminor |
 --|--|--|--|--|--
-Transmitting payments to the bank| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-Regular account statement | :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-Urgent notifications | :heavy_check_mark: |:heavy_check_mark: | | :heavy_check_mark: |:heavy_check_mark: |
-Current day account statement | :heavy_check_mark: | |:heavy_check_mark: | | :heavy_check_mark: |
-LinkPay* | :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | | |
+Transmitting payments to the bank| ✅ | ✅ | ✅ |✅ |✅ |
+Regular account statement | ✅ |✅ |✅ |✅ |✅ |
+Urgent notifications | ✅ |✅ | | ✅ |✅ |
+Current day account statement | ✅ | |✅ | | ✅ |
+LinkPay* | ✅ |✅ |✅ | | |
 
 
 
 
  Teenused | Swedbank | LHV | SEB | Coop Pank | Luminor | 
 --|--|--|--|--|--
-Maksete edastamine panka| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-Regulaarne konto väljavõte | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-Kiirteavitused | :heavy_check_mark: |:heavy_check_mark: | | :heavy_check_mark: |:heavy_check_mark: |
-Jooksva päeva kontoväljavõtte päring | :heavy_check_mark: | |:heavy_check_mark: | | :heavy_check_mark: |
-LinkPay* | :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | | |
+Maksete edastamine panka| ✅ | ✅ | ✅ | ✅ | ✅ |
+Regulaarne konto väljavõte | ✅ | ✅ | ✅ | ✅ | ✅ |
+Kiirteavitused | ✅ |✅ | | ✅ |✅ |
+Jooksva päeva kontoväljavõtte päring | ✅ | |✅ | | ✅ |
+LinkPay* | ✅ |✅ |✅ | | |
 
 
 
