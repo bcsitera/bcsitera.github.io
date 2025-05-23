@@ -27,12 +27,13 @@ Võimalik on seadistada pangaühendused järgmiste pankadega:
 
 ### Toetatud teenuste loetelu pankade lõikes
 |  | Swedbank | LHV | SEB | Coop Pank | Luminor |
---|--|--|--|--|--
-Maksete edastamine panka| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-Regulaarne konto väljavõte | :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-Kiirteavitused | :heavy_check_mark: |:heavy_check_mark: | | :heavy_check_mark: |:heavy_check_mark: |
-Jooksva päeva kontoväljavõtte päring | :heavy_check_mark: | |:heavy_check_mark: | | :heavy_check_mark: |
-LinkPay* | :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | | |
+|--|--|--|--|--|--|
+|Maksete edastamine panka| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+|Regulaarne konto väljavõte | :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+|Kiirteavitused | :heavy_check_mark: |:heavy_check_mark: | | :heavy_check_mark: |:heavy_check_mark: |
+|Jooksva päeva kontoväljavõtte päring | :heavy_check_mark: | |:heavy_check_mark: | | :heavy_check_mark: |
+|LinkPay* | :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | | |  
+
 
 *Lisainformatsiooni leiate [meie LinkPay juhendist]().
 
