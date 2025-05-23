@@ -26,13 +26,22 @@ Võimalik on seadistada pangaühendused järgmiste pankadega:
 **Meie reaalajamajanduse paketis sees, kuid pankade vaates on tegu täiesti eraldi seiseva lahendusega. Kasutamiseks vaja sõlmida pangaga eraldi leping. Lisainformatsiooni leiab [meie LinkPay juhendist](linkpay.md).
 
 ### Toetatud teenuste loetelu pankade lõikes
-| Teenused | Swedbank | LHV | SEB | Coop Pank | Luminor |
-|--|--|--|--|--|--|
-|Maksete edastamine panka| test | test | test |test |test |
-|Regulaarne konto väljavõte | test |test |test |test |test |
-|Kiirteavitused | test |test | | test |test |
-|Jooksva päeva kontoväljavõtte päring | test | |test | | test |
-|LinkPay* | test |test |test | | |
+Teenused | Swedbank | LHV | SEB | Coop Pank |  Luminor | 
+-- | -- | -- | -- | -- | --
+Maksete edastamine panka | ✅ | ✅ | ✅ | ✅ | ✅  
+Regulaarne konto väljavõte | ✅ | ✅ | ✅ | ✅ | ✅  
+Kiirteavitused | ✅ | ✅ |   | ✅ | ✅  
+Jooksva päeva kontoväljavõtte päring | ✅ |   | ✅ |   | ✅  
+LinkPay | ✅ | ✅ | ✅ |   |    
+
+
+ Teenused | Swedbank | LHV | SEB | Coop Pank | Luminor | 
+--|--|--|--|--|--
+Maksete edastamine panka| ✅ | ✅ | ✅ | ✅ | ✅ |
+Regulaarne konto väljavõte | ✅ | ✅ | ✅ | ✅ | ✅ |
+Kiirteavitused | ✅ |✅ | | ✅ |✅ |
+Jooksva päeva kontoväljavõtte päring | ✅ | |✅ | | ✅ |
+LinkPay* | ✅ |✅ |✅ | | |
 
 
 *Lisainformatsiooni leiate [meie LinkPay juhendist]().
