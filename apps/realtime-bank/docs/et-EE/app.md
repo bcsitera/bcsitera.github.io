@@ -18,6 +18,7 @@ Kasutaja ei pea pangakonto saldo nägemiseks Business Central'ist lahkuma.
 * Töödelda ja siduda pangatehinguid klientide ning hankijate avatud arvetega ning eeldefineeritud kulukontodega.
 * Konteerida kõrge sidumistäpsusega pangatehingud automaatselt.
 * Kasutaja saab tegeleda ainult nende pangatehingutega, mis vajavad üle vaatamist ning käsitsi sekkumist.
+* [LinkPay lahendus](linkpay.md) võimaldab lisada arvetele ja arve e-kirjadele makselingi.
 
 ### Toetatud versioonid:
 Laiendus toetab nii Essential kui Premium lahendust Microsoft Dynamics 365 Business Centralile.

@@ -18,6 +18,7 @@ See and process bank account transactions in real-time in Microsoft Dynamics 365
 * Post automatically transactions with high confidence application status.
 * User is guided to focus on the rest of the transactions only (application not found or application with low confidence).
 * Have receivables updated in Dynamics 365 Business Central as soon as transactions occur in the bank.
+* [LinkPay solution](linkpay.md) adds a payment link to invoices and invoice emails.
 
 ### Supported Editions
 This extension supports both the Essential and Premium editions of Microsoft Dynamics 365 Business Central.

@@ -1,5 +1,9 @@
 ---
 ---
+##### Versioon 21.0.25143.0
+- Tööjärjekorra automaatika seob ainult uued sissetulnud tehingud ega muuda olemasolevaid ridu maksete sobitamise žurnaalis.
+- Lisandus võimalus maksete sobitamise žurnaalis siduda automaatselt vaid valitud read.
+
 ##### Versioon 21.0.25024.0
 - Lisandus ebaõnnestunud maksete ülevaade rollikeskuses ning konkreetne tagaside tekkinud tõrgete kohta.
 - Lisandus reaalajapangale ümberlülitamisel algsaldo määramise funktsionaalsus.

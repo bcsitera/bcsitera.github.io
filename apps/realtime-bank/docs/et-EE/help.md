@@ -4,8 +4,10 @@
 ## Sisukord
 
 - [Seadistused](#seadistused)
+- [Maksete edastamine panka](#maksete-edastamine-panka)  
 - [Sissetulevad pangasõnumid](#sissetulevad-pangasõnumid)
 - [Pangatehingute ülevaade, sidumine ja konteerimine](#pangatehingute-ülevaade-sidumine-ja-konteerimine)
+- [LinkPay kasutusjuhend](linkpay.md)
 
 ## Seadistused
 
@@ -40,6 +42,16 @@ Lehel _Reaalajas panga seadistus_ täitke väli "Konteeritud tehingu nr." määr
 
 Väljal _Sidumise loogika_ valige "Maksete sobitamise žurnaal". Teised sidumisviisid ei ole tulevikus toetatud ning eemaldatakse.
 
+## Maksete edastamine panka
+
+Lehel _Maksežurnaal_ saab luua panka saadetavad maksed. Vajutades vahelehel _Pank_ nupule "Edasta panka..." avaneb aruande päringuaken. Siin on võimalus sisse lülitada funktsioon _Wait for processing result_. Sellisel juhul jääb süsteem ootama, pangast esimest maksestaatust. Kõik maksed, mis on žurnaalis, kombineeritakse üheks maksekorralduse registriks ning edastatakse panka.
+
+**Microsofti soovitus**: Pärast maksežurnaali panka edastamist, tuleks kõik read _Maksežurnaalist_ kustutada. Konteerima peaks alles _Maksete sobitamise žurnaalis_, kui pangast on juba saabunud kinnitus väljaminekute korrektsuse osas.
+
+Eksporditud maksefailid leiad samalt lehelt nupu alt, või otsides vaadet, _Maksekorralduste registrid_. Välja alla _Ülekannete arv_ on salvestatud kõik žurnaali tehingud eraldi ning iga tehingu kohta ka maksestaatus.
+
+Kui kasutaja roll on _Raamatupidaja_, tekib talle avalehele _Reaalajas pank_ kuhi. Sinna tuleb sisse informatsioon tagasilükatud ning ootel maksete kohta. Avades leht _Tagasilükatud maksed_ on võimalik iga makse eraldi märkida peidetuks, kasutades nuppu "Peida/kuva" - see eemaldab probleemse makse rollikeskuse ülevaatest.
+
 ## Sissetulevad pangasõnumid
 
 ### Pangasõnumite laadimine pangast
@@ -68,16 +80,14 @@ Peale sõnumi edukat töötlemist saate vajutada nupule "Näita kõiki sõnumeid
 
 ### Pangatehingud
 
-Pangakonto kaardil on uus väli "Saldo pangas". Selles summas kajastuvad kõik pangast imporditud tehingud, ka need, mis on veel sidumata ning konteerimata. Seetõttu võib väljal "Saldo pangas" olev summa erineda väljal "Saldo" kuvatavast summast. 
+Pangakonto kaardil on uus väli "Saldo pangas". Selles summas kajastuvad kõik pangast imporditud tehingud, ka need, mis on veel sidumata ja/või konteerimata. Seetõttu võib väljal "Saldo pangas" olev summa erineda väljal "Saldo" kuvatavast summast. 
 
-Väljal "Saldo pangas" summale vajutades avatakse leht _Pangakonto tehingud_, milles on näha kõik tehingud nii nagu need on pangakontol pangas.
-
-Tagasilükatud maksete arv kuvatakse rollikeskuses kuhjas _Reaalajas pank_. Leht avades on võimalik iga makse eraldi märkida peidetuks, kasutades nuppu "Peida/kuva", mis eemaldab makse rollikeskuse ülevaatest.
+Väljal "Saldo pangas" summale vajutades avatakse leht _Pangakonto tehingud_, millel on näha kõik tehingud nii nagu need on pangakontol pangas.
 
 ### Pangatehingute sidumine ja konteerimine
 Sidumiseks ja konteerimiseks kasutatakse püsivat "RTB" nimelist _Maksete sobitamise žurnaali_.  
   
-Juhul, kui panagsõnumite töötlemise tööjärjekorra automaattööl on aktiveeritud ka "Sidumine" ja "Konteerimine" - siis jäävad "RTB" žurnaali alles ainult need read, mis vajavad kästisi töötlemist ehk read, mida automaatselt siduda ei õnnestunud.
+Juhul, kui pangasõnumite töötlemise tööjärjekorra automaattööl on aktiveeritud ka "Sidumine" ja "Konteerimine" - siis jäävad "RTB" žurnaali alles ainult need read, mis vajavad kästisi töötlemist ehk read, mida automaatselt siduda ei õnnestunud.
 
 ---
 
