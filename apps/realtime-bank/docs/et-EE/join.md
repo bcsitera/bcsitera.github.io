@@ -26,14 +26,7 @@ Võimalik on seadistada pangaühendused järgmiste pankadega:
 **Meie reaalajamajanduse paketis sees, kuid pankade vaates on tegu täiesti eraldi seiseva lahendusega. Kasutamiseks vaja sõlmida pangaga eraldi leping. Lisainformatsiooni leiab [meie LinkPay juhendist](linkpay.md).
 
 ### Toetatud teenuste loetelu pankade lõikes
-Teenused | Swedbank | LHV | SEB | Coop Pank |  Luminor | 
--- | -- | -- | -- | -- | --
-Maksete edastamine panka | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:  
-Regulaarne konto väljavõte | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:  
-Kiirteavitused | :heavy_check_mark: | :heavy_check_mark: |   | :heavy_check_mark: | :heavy_check_mark:  
-Jooksva päeva kontoväljavõtte päring | :heavy_check_mark: |   | :heavy_check_mark: |   | :heavy_check_mark:  
-LinkPay | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |   |    
-
+    
 
  Teenused | Swedbank | LHV | SEB | Coop Pank | Luminor | 
 --|--|--|--|--|--
