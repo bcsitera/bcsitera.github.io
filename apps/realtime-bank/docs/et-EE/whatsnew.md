@@ -6,7 +6,7 @@
 
 ##### Versioon 21.0.25024.0
 - Lisandus ebaõnnestunud maksete ülevaade rollikeskuses ning konkreetne tagaside tekkinud tõrgete kohta.
-- Lisandus reaalajapangale ümberlülitamisel algsaldo määramise funktsionaalsus.
+- Pangakonto kaardile lisandus tegevus "Sea pangaühenduse alguskuupäev". Läbi selle tuleb määrata, mis kuupäeval hakatakse lahendust kasutama ning mis on konto algsaldo selleks kuupäevaks.
 
 ##### Versioon 21.0.24352.0
 - Lisandus Swedbank Gateway uue API tugi.
