@@ -7,6 +7,7 @@ Sellest tulenevalt oleme liitnud ühte paketti hulga täiendavaid võimalusi, mi
 
 Pakett pakub digitaliseeritud suhtlust riigiga, raamatupidamisele, pankadega ja ka tarneahela teenustega. Teisisõnu saab lahenduse kasutaja enda kasutusse kõik ühes paketi, väga mitmekülgse funktsionaalsusega.  
 
+![RTE-in-BC](RTE-in-BC.png)
 
 **E-riik**
 - X-tee serverteenus
