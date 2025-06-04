@@ -5,7 +5,7 @@
 
 Our Business Central product uses a direct channel for interfacing. To join, contact your customer manager or submit an application on the bank's website.
 
-Võimalik on seadistada pangaühendused järgmiste pankadega:
+Bank connectors are supported by the following bank providers:
 
 1. [Swedbank Gateway](https://www.swedbank.ee/business/d2d/ebanking/gateway)
 
@@ -36,7 +36,7 @@ Võimalik on seadistada pangaühendused järgmiste pankadega:
 ### Supported services by bank
 
 
-Teenused | Swedbank | LHV | SEB | Coop Pank | Luminor | 
+Services | Swedbank | LHV | SEB | Coop Pank | Luminor | 
 --|--|--|--|--|--
 Transmitting payments to the bank | ✅ | ✅ | ✅ | ✅ | ✅ |
 Regular account statement | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -73,7 +73,7 @@ In summary, it is necessary to:
 [https://developer.baltics.sebgroup.com/bgw/documentation/authentication](https://developer.baltics.sebgroup.com/bgw/documentation/authentication)
 
 **Coop Pank:**
-[https://www.cooppank.ee/s3fs-public/juhendid/Gateway_votmete_genereerimise_juhend.pdf](https://www.cooppank.ee/s3fs-public/juhendid/Gateway_votmete_genereerimise_juhend.pdf)
+[Guide in Estonian: https://www.cooppank.ee/s3fs-public/juhendid/Gateway_votmete_genereerimise_juhend.pdf](https://www.cooppank.ee/s3fs-public/juhendid/Gateway_votmete_genereerimise_juhend.pdf)
 
 ---
 
