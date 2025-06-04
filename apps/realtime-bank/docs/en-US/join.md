@@ -30,7 +30,7 @@ Võimalik on seadistada pangaühendused järgmiste pankadega:
 -  **Current day account statement** or camt.053* – replaces the urgent notification feature in certain cases.
 -  **LinkPay**** – adds a payment link to invoices and invoice emails.
 
-*Name of service in Luminor, required when signing the contract.
+*Name of service in Luminor, required when signing the contract.  
 **Included in our Real-Time Economy package, but from the banks' point of view, it is a completely separate solution. A separate contract is required on the banks' side. Refer to [our LinkPay guide](linkpay.md).
 
 ### Supported services by bank
@@ -48,7 +48,7 @@ LinkPay* | ✅ |✅ |✅ | | |
 *Refer to [our LinkPay guide](linkpay.md).
 
 ### Price list by bank
-Coop Pank has created a comparative table of each banks' price lists. It can be found under the section [Price list > Comparison of price list with other banks (direct channel)](https://www.cooppank.ee/en/business/daily-banking/interfaces).
+Coop Pank has created a comparative table of each banks' price lists. It can be found [here](https://www.cooppank.ee/en/business/daily-banking/interfaces#?tab=tab-3&accordionItem=Direct+channel).
 
 ## Certificates
 

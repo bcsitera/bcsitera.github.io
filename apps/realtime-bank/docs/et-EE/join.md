@@ -22,7 +22,7 @@ Võimalik on seadistada pangaühendused järgmiste pankadega:
  - **Jooksva päeva kontoväljavõtte päring** ehk camt.053* – asendab kiirteavitusi teatud juhtudel.
  - **LinkPay**** – lisab arvetele ja arve e-kirjadele makselingi.
 
-*Teenuse nimetus Luminoris, vajalik lepingu sõlmimisel.
+*Teenuse nimetus Luminoris, vajalik lepingu sõlmimisel.  
 **Meie reaalajamajanduse paketis sees, kuid pankade vaates on tegu täiesti eraldi seiseva lahendusega. Kasutamiseks vaja sõlmida pangaga eraldi leping. Lisainformatsiooni leiab [meie LinkPay juhendist](linkpay.md).
 
 ### Toetatud teenuste loetelu pankade lõikes
@@ -40,7 +40,7 @@ LinkPay* | ✅ |✅ |✅ | | |
 *Lisainformatsiooni leiate [meie LinkPay juhendist](linkpay.md).
 
 ### Hinnakiri pankade lõikes
-Coop Pank on omalt poolt loonud hea võrdlustabeli hinnakirja erinevuste kajastamiseks pnakade lõikes. See asub jaotise all [Hinnakiri > Hinnakirja võrdlus teiste pankadega (otsekanal)](https://www.cooppank.ee/ariklient/igapaevapangandus/liidestused).
+Coop Pank on omalt poolt loonud hea võrdlustabeli hinnakirja erinevuste kajastamiseks pankade lõikes. See asub [Coop Panga Gateway liidese lehel](https://www.cooppank.ee/ariklient/igapaevapangandus/liidestused#?tab=tab-3&accordionItem=otsekanal).
 
 ## Turvasertifikaat
 Kõigi pankade puhul tuleb lahenduses seadistada turvasertifikaat. Liitumisel annab pank teile sellekohased juhised. Kuna tegemist on üsna tehniliste sammudega, siis soovitav on pöörduda oma BC partneri poole, kes aitab need teha.
