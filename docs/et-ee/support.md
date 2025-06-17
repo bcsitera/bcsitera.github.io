@@ -1,7 +1,7 @@
 # Kasutajatugi
 
 BCS Itera AS  
-Mäealuse 2/1, 12618 Tallinn, Estonia  
+Mäealuse 2/4, 12618 Tallinn, Estonia  
 Telefon: +372 650 33 80  
 E-post: itera@itera.ee  
 [http://www.itera.ee](http://www.itera.ee)
