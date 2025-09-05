@@ -24,7 +24,7 @@ Nii autentimisel kui allkirjastamisel on võimalik teha täiendavaid seadistusi.
 
 <div style="text-align:center;">
 
-<img src="https://raw.githubusercontent.com/wiki/SK-EID/smart-id-documentation/images/confirmationMessage_1.png" width="45%" />  
+<img src="https://raw.githubusercontent.com/wiki/SK-EID/smart-id-documentation/images/confirmationMessage_1.png" width="45%" /><br>  
 
 <em>Autentimise/Allkirjastamise kinnitus vajalik</em>
 
@@ -34,7 +34,7 @@ Teise puhul, ei kuvata mitte ainult kontrollkoodi Smart-ID äpis, vaid toimingu 
 
 <div style="text-align:center;">
 
-<img src="https://raw.githubusercontent.com/wiki/SK-EID/smart-id-documentation/images/confirmationMessageAndVerificationCodeChoice_1.png" width="45%" />  
+<img src="https://raw.githubusercontent.com/wiki/SK-EID/smart-id-documentation/images/confirmationMessageAndVerificationCodeChoice_1.png" width="45%" /><br>  
 
 <em>Autentimise/Allkirjastamise koodivalik vajalik</em>
 
