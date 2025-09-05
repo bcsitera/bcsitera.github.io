@@ -46,7 +46,7 @@ Väljal _Sidumise loogika_ valige "Maksete sobitamise žurnaal". Teised sidumisv
 
 Allkirjastatud maksete edastamiseks tuleb BC-s seadistada igale pangakontole, millelt makseid sooritatakse, nõutud kinnitajad. Pangakontole saab määrata nõutud allkirjastajad nii _Pangakontode_ loendis kui ka iaglt _Pangakonto_ kaardilt eraldi. Kõik määratud kinnitajad on makse edastamiseks ka kohustuslikud - makset ei edastata panka juhul, kui kellegi allkiri on puudu.
 
-Kõik kasutajad, kes määratakse kinnitajaks, peavad olema ka Smart-ID seadistuses kasutajateks määratud - abiks on **[Smart-ID ksutusjuhend](../../../smart-id/docs/et-EE/help.md)**. Meiliteavitused edastab süsteem sellele emaili aadressile, mis on BC-s _Kasutaja_ kaardil määratud “Kontaktmeiliks”.
+Kõik kasutajad, kes määratakse kinnitajaks, peavad olema ka Smart-ID seadistuses kasutajateks määratud - abiks on **[Smart-ID kasutusjuhend](../../../smart-id/docs/et-EE/help.md)**. Meiliteavitused edastab süsteem sellele emaili aadressile, mis on BC-s _Kasutaja_ kaardil määratud “Kontaktmeiliks”.
 
 Kui allkirjastatud maksete edastamine on algatatud, on võimalik maksekorralduste registrite alt jälgida makse allkirja staatust. Selleks tuleb valida õige makse ning välja “Allkirjastajad“ kaudu saab vaadata nõutud allkirjastajaid antud maksel. Samuti on võimalik näha, kes nõutud kinnitajatest on oma allkirja andnud ja millal ning ka informatsiooni saadetud meiliteavituste kohta. Samal lehel on võimalik uuesti meiliteavitused välja saata kasutajatele, kelle allkiri on endiselt puudu.
 
