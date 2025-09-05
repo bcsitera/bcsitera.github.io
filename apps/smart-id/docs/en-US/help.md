@@ -24,7 +24,7 @@ Both authentication and signing can be configured with additional settings. In b
 
 <img src="https://raw.githubusercontent.com/wiki/SK-EID/smart-id-documentation/images/confirmationMessage_1.png" width="45%" />  
 
-_Authentication/Signing Confirmation Needed_
+<em>Authentication/Signing Confirmation Needed</em>
 
 </div>
 
@@ -34,7 +34,7 @@ In the latter case, not only is the verification code displayed in the Smart-ID 
 
 <img src="https://raw.githubusercontent.com/wiki/SK-EID/smart-id-documentation/images/confirmationMessageAndVerificationCodeChoice_1.png" width="45%" />  
 
-_Authentication/Signing Code Choice Needed_
+<em>Authentication/Signing Code Choice Needed</em>
 
 </div>
 
