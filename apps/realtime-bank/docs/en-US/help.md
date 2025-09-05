@@ -40,9 +40,19 @@ Open Realtime Bank Setup and assign the number series for the Posted Transaction
 
 In the Application Logic field, select Payment Reconciliation Journal. Other application methods will not be supported and will be removed in the future.
 
+### Setup Signed Payments
+
+In order to send signed payments, the required approvers must be set up in Business Central. The required approvers can be assigned to a bank account both in the _Bank Accounts_ list and separately on each _Bank Account_ card. All assigned users are mandatory for the transmission of the payment - if even one approver signature is missing, the payment will not be transmitted to the bank. 
+
+All users who are assigned as approvers must also be set up as _Smart-ID users_ - refer to our **[Smart-ID User Guide](../../../smart-id/docs/en-US/help.md)**. Email notifications with approval request will be sent to the persons' email address listed under “Contact Email“ on the _User_ card.
+
+Once the transmission of signed payments has been initiated, it is possible to monitor the status of signatures under _Credit Transfer Registers_. To do this, the correct payment file must be selected and the “Signers“ field allows viewing of the required signers on a given payment. It is also possible to see which of the required approvers have already signed and when, as well as information on the email notifications sent. On the same page, it is possible to resend email notifications to users whose signatures are still missing.
+
 ## Transmitting Payments
 
-On the _Payment Journal_ page you can create payments to be sent to the bank. By clicking on the "Transmit to bank..." button under the _Bank_ tab, the report request page opens. Here, it is possible to activate the function _Wait for processing result_. In this case, the system will wait for the first payment status response from the bank. All the payments in the journal will be combined into one Credit Transfer Register and transmitted to the bank.
+On the _Payment Journal_ page you can create payments to be sent to the bank. By clicking on the "Transmit to bank..." button under the _Bank_ tab, the report request page opens. Here, it is possible to activate the function _Wait for processing result_. In this case, the system will wait for the first payment status response from the bank. All the payments in the journal will be combined into one Credit Transfer Register and transmitted to the bank unsigned, i.e. they are saved as pending payments.
+
+It is also possible to sign the transaction in Business Central before transmission, therefore these payments do not need to be approved in the bank. Certain setups mentioned **[here](#setup-signed-payments)** are necessary before this function can be used. In order to send payments in signed form, the _Sign payments_ function must be toggled on in the pop up window. If the user transmitting the payments is also the required approver for said bank account, the signing process is activated immediately. Other required signees will receive an approval request via email.
 
 **Recommendation from Microsoft**: After the transmitting payments to the bank, all lines in the _Payment Journal_ should be deleted. The payments should only be posted in the _Payment Reconciliation Journal_ once the payments have been declared correct by the bank.
 

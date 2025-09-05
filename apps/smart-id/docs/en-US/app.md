@@ -8,6 +8,8 @@ For more information please see: [www.smart-id.com](https://www.smart-id.com/)
 ### Key Features
 * Identification of users upon logging in.
 * Signing documents.
+
+You can find out more about how to set up and use these features in the **[user guide](help.md)**.
   
 
 ### Supported Editions
@@ -20,8 +22,6 @@ All countries where Business Central is available.
 The app is available in: Estonian (Estonia) and English (United States)
 
 ---
-
-[User Guide](../en-US/help.md)
 
 ### Contact Information
 For more information and pricing please contact:  
