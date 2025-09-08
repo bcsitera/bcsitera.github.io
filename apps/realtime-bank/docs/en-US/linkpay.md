@@ -16,7 +16,7 @@ LinkPay functionality is currently offered by three banks:
 2. **[SEB](https://www.seb.ee/en/business/payment-collection/e-commerce)**
 3. **[Swedbank](https://www.swedbank.ee/business/d2d/start)**
 
-To start accepting online payments, you must contact the appropriate bank. The pricing is agreed upon the bank agreement.
+To start accepting online payments, you must contact the appropriate bank. Choose the bank in which your accounts are located. The pricing is agreed upon the bank agreement.
 
 The provider's guide to using the EveryPay Merchant Portal can be found [here](https://support.every-pay.com/merchant-support/linkpay-payment-link/).
 Pay attention to step no. 2, which includes a reference to an even more detailed guide to [creating and managing payments links](https://support.every-pay.com/merchant-support/how-to-use-linkpay/).

@@ -16,7 +16,7 @@ LinkPay funktsionaalsust toetavad hetkel kolm panka:
 2. **[SEB](https://www.seb.ee/ariklient/igapaevapangandus/maksete-kogumine/e-ari-makselahendus)**
 3. **[Swedbank](https://www.swedbank.ee/business/cash/ecommerce/ecommerce)**
 
-Online maksete vastuvõtmiseks tuleb sõlmida leping vastava pangaga. Lahenduse hinnastus on igas pangas kokkuleppeline.
+Online maksete vastuvõtmiseks tuleb sõlmida leping vastava pangaga, kus asuvad arvelduskontod, millele raha laekuma hakkab. Lahenduse hinnastus on igas pangas kokkuleppeline.
 
 Teenusepakkuja EveryPay juhendi kaupmeheportaali kasutamiseks leiate [siit](https://support.every-pay.com/et/merchant-support/linkpay-makselink/).
 Pöörake tähelepanu punktile nr 2, kus on viidatud veelgi detailsemale [makselinkide loomis- ja haldamisjuhendile](https://support.every-pay.com/et/merchant-support/kuidas-kasutada-linkpayd/).
