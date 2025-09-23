@@ -29,7 +29,6 @@ Väli |  Selgitus |
 Teenuse URL | Sisestage panga teenuse aadress: <br> Swedbank - https://psd2.api.swedbank.com/partner/v1/sgw/ <br> SEB - https://api.bgw.baltics.sebgroup.com/ <br> LHV - https://connect.lhv.eu/ <br> Coop Pank - https://cpgw.cooppank.ee/ <br> Luminor - https://ftc.luminoropenbanking.com/v1/ft-services/CorporateFileService  
 Seadme- või autentimissertifikaadi failinimi | Importige sertifikaadi fail (pfx/p12 formaat). Sertifikaadi saate pangast.
 Seadme- või autentimissertifikaadi parool | Sisestage sertifikaadi parool.
-Krüpteermissertifikaat (Swedbank-i puhul) | Sertifikaadi saab laadida siit: http://dev.swedbankgateway.net/info#certificates
 Lepingu ja/või kliendi id-d | Andmed panga lepingust.
 
 ### Pangakonto seadistused

@@ -48,7 +48,7 @@ LinkPay* | ✅ |✅ |✅ | | |
 *Refer to [our LinkPay guide](linkpay.md).
 
 ### Price list by bank
-Coop Pank has created a comparative table of each banks' price lists. It can be found [here](https://www.cooppank.ee/en/business/daily-banking/interfaces#?tab=tab-3&accordionItem=Direct+channel).
+Coop Pank has created a comparative table of each banks' price lists. It can be found [here](https://www.cooppank.ee/en/business/daily-banking/interfaces#?tab=tab-4&accordionItem=Direct+channel).
 
 ## Certificates
 

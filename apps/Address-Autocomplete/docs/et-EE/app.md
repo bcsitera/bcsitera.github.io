@@ -7,7 +7,7 @@ Lahendus võimaldab aadresside otsingut aadressi kirjutamisel Microsoft Dynamics
   
 #### Otsingu teenusepakkuja valik:
 - Maa-amet otsimaks aadresse Eestis.
-- Google mps API otsimaks aadresse üleilmselt.
+- Google Maps API otsimaks aadresse üleilmselt.
   
   
 [Kasutusjuhend](help.md)

@@ -6,7 +6,7 @@ See laiendus võimaldab Smart-ID abil kasutajatel sisse logides autentida ning d
   
 Lisateavet leiate aadressil: [https://www.smart-id.com/et/](https://www.smart-id.com/et/ "https://www.smart-id.com/et/")
 
-### Peamised funktsionaalsuses
+### Peamised funktsionaalsuseD
 
 -   Kasutajate autentimine sisselogimisel
     

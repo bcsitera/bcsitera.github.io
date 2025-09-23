@@ -40,7 +40,7 @@ LinkPay* | ✅ |✅ |✅ | | |
 *Lisainformatsiooni leiate [meie LinkPay juhendist](linkpay.md).
 
 ### Hinnakiri pankade lõikes
-Coop Pank on omalt poolt loonud hea võrdlustabeli hinnakirja erinevuste kajastamiseks pankade lõikes. See asub [Coop Panga Gateway liidese lehel](https://www.cooppank.ee/ariklient/igapaevapangandus/liidestused#?tab=tab-3&accordionItem=otsekanal).
+Coop Pank on omalt poolt loonud hea võrdlustabeli hinnakirja erinevuste kajastamiseks pankade lõikes. See asub [Coop Panga Gateway liidese lehel](https://www.cooppank.ee/ariklient/igapaevapangandus/liidestused#?tab=tab-4&accordionItem=otsekanal).
 
 ## Turvasertifikaat
 Kõigi pankade puhul tuleb lahenduses seadistada turvasertifikaat. Liitumisel annab pank teile sellekohased juhised. Kuna tegemist on üsna tehniliste sammudega, siis soovitav on pöörduda oma BC partneri poole, kes aitab need teha.

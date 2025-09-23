@@ -11,7 +11,7 @@ Pakett pakub digitaliseeritud suhtlust riigiga, raamatupidamisele, pankadega ja 
 
 **E-riik**
 - X-tee serverteenus
-- <a href="https://apps.itera.ee/apps/smart-id/docs/en-US/app.html" target="_blank">Smart-ID (allkirjastamine ja isikutuvastus)</a>
+- <a href="https://apps.itera.ee/apps/smart-id/docs/et-EE/app.html" target="_blank">Smart-ID (allkirjastamine ja autentimine)</a>
 - ID-kaart (krüpteerimine)
 
 **Registrid**
@@ -23,7 +23,7 @@ Pakett pakub digitaliseeritud suhtlust riigiga, raamatupidamisele, pankadega ja 
 - <a href="https://apps.itera.ee/apps/expense-reports/docs/et-EE/app.html" target="_blank">E-kuluaruanded - CostPocket</a>
 
 **Pangateenused**
-- <a href="https://apps.itera.ee/apps/realtime-bank/docs/et-EE/app.html" target="_blank">Reaalajas pank - Swedbank Gateway, SEB Baltic Gateway, LHV Connect, COOP Pank Gateway, Luminor Web Service</a>
+- <a href="https://apps.itera.ee/apps/realtime-bank/docs/et-EE/app.html" target="_blank">Reaalajas pank - Swedbank, SEB, LHV, COOP Pank, Luminor</a>
 - <a href="https://apps.itera.ee/apps/factoring/docs/et-EE/app.html" target="_blank">Faktooring - Swedbank, SEB, LHV, Luminor</a>
 
 **Tarneahel**

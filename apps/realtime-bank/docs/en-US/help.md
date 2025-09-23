@@ -26,11 +26,12 @@ Each has its own setup card. Please open the setup of your bank connector and en
 
 Field |  Description | 
 -- | --
-Service URL | Enter the address of bank service. <br> Swedbank - https://psd2.api.swedbank.com/partner/v1/sgw/ <br> SEB - https://api.bgw.baltics.sebgroup.com/ <br> LHV - https://connect.lhv.eu/ <br> Coop Pank - https://cpgw.cooppank.ee/  
+Service URL | Enter the address of bank service. <br> Swedbank - https://psd2.api.swedbank.com/partner/v1/sgw/ <br> SEB - https://api.bgw.baltics.sebgroup.com/ <br> LHV - https://connect.lhv.eu/ <br> Coop Pank - https://cpgw.cooppank.ee/ <br> Luminor - https://ftc.luminoropenbanking.com/v1/ft-services/CorporateFileService  
 Authorization/Device Certificate Filename | Import certificate file (pfx/p12 format). Certifcate will be given by bank.
 Authorization/Device Certificate Password | Enter certificate password.
-Encryption Certificate (for Swedbank) | Certificate can be downloaded here: http://dev.swedbankgateway.net/info#certificates
 Agreement Id/Customer Id | Details from the bank agreement.
+
+
 ### Setup Bank Account
 Open Bank Account card and choose the connector in the Bank Connector field. If no connector is specified, the transaction information for this bank account will not be pulled into Business Central.
 

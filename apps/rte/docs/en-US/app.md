@@ -22,7 +22,7 @@ The package offers digitized communication with the state, accounting, banks and
 - <a href="https://apps.itera.ee/apps/expense-reports/docs/en-US/app.html" target="_blank">E-Expense Reports - CostPocket</a>
 
 **Bank Services**
-- <a href="https://apps.itera.ee/apps/realtime-bank/docs/en-US/app.html" target="_blank">Realtime Bank - Swedbank Gateway, SEB Baltic Gateway, LHV Connect, COOP Pank Gateway, Luminor Web Service</a>
+- <a href="https://apps.itera.ee/apps/realtime-bank/docs/en-US/app.html" target="_blank">Realtime Bank - Swedbank, SEB, LHV, COOP Pank, Luminor</a>
 - <a href="https://apps.itera.ee/apps/factoring/docs/en-US/app.html" target="_blank">Factoring - Swedbank, SEB, LHV, Luminor</a>
 
 **Supply Chain**
