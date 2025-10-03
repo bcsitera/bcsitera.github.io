@@ -36,7 +36,7 @@
 ### Muu
 [Smart-ID](apps/smart-id/docs/et-EE/app.md)  
 [Reaalajamajandus](apps/rte/docs/et-EE/app.md)  
-[Estonian Dynamics Partners lokalisatsioon ja EDI](https://dynamicspartnersee.github.io/)
+[Estonian Dynamics Partners lokalisatsioon ja EDI](https://dynamicspartnersee.github.io/)  
 [AllDevice](apps/AllDevice/docs/et-EE/app.md)  
 
 ---
