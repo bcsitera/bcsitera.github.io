@@ -34,9 +34,10 @@
 [Veemajanduse lahendus](apps/water-management/docs/et-EE/app.md)  
 
 ### Muu
-[Smart-ID](apps/smart-id/docs/en-US/app.md)  
+[Smart-ID](apps/smart-id/docs/et-EE/app.md)  
 [Reaalajamajandus](apps/rte/docs/et-EE/app.md)  
-[Estonian Dynamics Partners lokalisatsioon ja EDI](https://dynamicspartnersee.github.io/)  
+[Estonian Dynamics Partners lokalisatsioon ja EDI](https://dynamicspartnersee.github.io/)
+[AllDevice](apps/AllDevice/docs/et-EE/app.md)  
 
 ---
 
