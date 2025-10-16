@@ -1,5 +1,11 @@
 ---
 ---
+##### Versioon 24.0.25289.0 _(saadaval al. 17.10.2025)_
+- Lisatud tõlked Läti, Leedu ja Norra keelele.
+- Parandatud olukord, kus CostPocketist tulnud lähetusaruandel jäi Riigi tähis täitmata.
+- Mõned mittefunktsionaalsed tehnilised täiendused.
+- BC27 ühilduv versioon.  
+
 ##### Versioon 20.0.25062.0 _(saadaval al. 04.03.2025)_
 - Lisatud eventid, mis võimaldavad kliendipõhist dimensioonide loogikat lisada kuluaruannetele ja kuludokumentidele.  
 
