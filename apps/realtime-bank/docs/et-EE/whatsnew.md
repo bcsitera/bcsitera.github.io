@@ -1,7 +1,18 @@
 ---
 ---
 
-##### Versioon 23.4.25248.0
+##### Versioon 24.0.25316.0
+- Koondmakse (palgamakse) puhul, kui see laetakse pangast alla, siis töötlemisel kustutakse töötaja isikule viitavad andmed
+- Juhul kui pangast saadud väljavõttel olev lõppsaldo ei klapi sellega, mis on BC-s arvutatud, teavitab BC sellest kasutajat _Maksete sobitamise žurnaalis_ - olukord võib tekkida, kui panga poolelt on teenus maas ning kõik tehingud ei ole sisse laetud
+- Kui _Maksete sobitamise žurnaalis_ ei seota tehingut ühegi avatud kandega ning _Vastenduse täpsus_ jääb "Puudub", käivitub järeltegevus, mis määrab tehingu osapoolele märgitud registrikoodi alusel tehingule _Kliendi/Hankija_
+- Kui tehing seotakse _Maksete sobitamise žurnaalis_ dokumendiga, millele varasemalt määrati _Dimensioonid_, siis lähevad ka tehingule külge samad _Dimensioonid_
+- Swedbank väljavõtet pärides on võimalik pärida nüüd lisaks tänasele ning varasemale perioodile ka eilset päeva. Saab seadistada automaatikana tööle igal hommikul käivituma - nt Citadele, Urbo ja Šiauliai (Artea) pankade väljavõtteid ei genereerita eelneva päeva kohta automaatselt.
+- Tehingul on nüüd kuvatud _Maksete sobitamise žurnaalis_ ka "Välise dokumendi nr." - varasemalt oli hankijatele tasutud ostuarvete siduvuse kontrollimine keerulisem, kuna tehingukirjelduses oli hankija arve nr märgitud, ent _Maksete sobitamise žurnaalis_ oli seotud kannete kohta info vaid BC siseste dokumendi numbritega kajastatud.
+- Parandatud on kaks bug'i: 
+  - Makseid edastades on võimalus oodata töötlemise esmast tulemust, et näha, kas makse salvestus panka ehk oli korrektne. Teatud juhtudel tagasiside kuvades tekkis teavitusaknas tõrge, mida enam ei teki.
+  - Seadistust "Maksekorralduse registriga vastendamine" kasutades tekkis avatud kandeid sidudes tõrge, mis sai lahendatud. 
+
+##### Versioon 24.0.25248.0
 - Võimalik edastada pankadesse ka allkirjastatud kujul makseid, seda läbi Smart-ID.
 - Võimalik sisse lülitada sidumine vastandlike kannetega sobitamise žurnaalis. Süsteem seob tehinguid ka vastandmärgiliste kannetega ehk nt nii arvete kui ka kreeditarvetega.
 - Võimalik sisse lülitada sidumise loogika, mis sobitamise žurnaalis vastendab tehingud dokumentidega maksekorralduse registrisse salvestatud andmete põhjal.

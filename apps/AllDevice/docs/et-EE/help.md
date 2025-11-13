@@ -5,7 +5,7 @@ Kui teil on äri, kus vajadus hallata kaupasid ka AllDevice hooldustarkavaras, s
 
 ## Lahendus hõlmab
 * Kaupade sünkroniseerimist Business Cemtralist tarkvarasse AllDevice koos kauba kaardile märgitud kirjeldusega
-* AllDevice'i tarkvarast kauba kaardile Prodct ID lisamine
+* AllDevice'i tarkvarast kauba kaardile Product ID lisamine
 
 Kui kustutate _Kaupasid_ kas Business Centralist või AllDevice platvormilt, tuleb teiselt platvormilt seotud _Kaubad_ kustutada käsitsi.
 
