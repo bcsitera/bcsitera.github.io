@@ -22,6 +22,8 @@
 
 - Job Queue automation only applies new incoming transactions and does not modify existing rows in the Payment Reconciliation Journal.
 - Added possibility of automatically applying only selected rows in the Payment Reconciliation Journal.
+- _Payment Reconciliation Journal_ displays the statement ending balance taken imported from the latest XML statement file
+
 
 ##### Version 21.0.25024.0
 

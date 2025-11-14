@@ -21,6 +21,7 @@
 ##### Versioon 21.0.25143.0
 - Tööjärjekorra automaatika seob ainult uued sissetulnud tehingud ega muuda olemasolevaid ridu maksete sobitamise žurnaalis.
 - Lisandus võimalus maksete sobitamise žurnaalis siduda automaatselt vaid valitud read.
+- _Maksete sobitamise žurnaalis_ on kasutajale kuvatud väljavõtte lõppsaldo kõige hiljutisemast XML väljavõtte failist
 
 ##### Versioon 21.0.25024.0
 - Lisandus ebaõnnestunud maksete ülevaade rollikeskuses ning konkreetne tagaside tekkinud tõrgete kohta.
