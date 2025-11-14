@@ -2,7 +2,7 @@
 ---
 
 ##### Version 24.0.25316.0
-- In the case of a mass payment (e.g. salary payment), if it is imported from the bank, the data referring to the employee is deleted during processing
+- In case of a mass payment (e.g. salary payment), if it is imported from the bank, the data referring to the employee is deleted during processing
 - If the ending balance on the bank statement does not match the balance calculated in BC, BC will notify the user in the _Payment Reconciliation Journal_ - this situation may occur if the bank's services are down and not all transactions have been imported
 - If the transaction is not applied to any open entry in the _Payment Reconciliation Journal_ and the _Match Confidence_ remains "None", a follow-up action is triggered, which assigns the _Customer/Vendor_ to the transaction based on the Registry code specified for the related party
 - If the transaction is applied to a document in the _Payment Matching Journal_ that was previously assigned _Dimensions_, the same _Dimensions_ will also be assigned to the transaction
@@ -16,6 +16,7 @@
 - Added functionality of transmitting payments to banks in signed form using Smart-ID.
 - It is possible to enable automatic application of opposite entries in the reconciliation journal, i.e. the system also matches transactions to opposite entries, such as both invoices and credit invoices.
 - It is possible to enable application logic, which matches transactions in the reconciliation journal with documents based on data stored in credit transfer registers.
+- BC27 compatibility (2025 wave 2)
 
 ##### Version 21.0.25143.0
 

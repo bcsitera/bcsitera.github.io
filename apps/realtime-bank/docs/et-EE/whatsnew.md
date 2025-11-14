@@ -16,6 +16,7 @@
 - Võimalik edastada pankadesse ka allkirjastatud kujul makseid, seda läbi Smart-ID.
 - Võimalik sisse lülitada sidumine vastandlike kannetega sobitamise žurnaalis. Süsteem seob tehinguid ka vastandmärgiliste kannetega ehk nt nii arvete kui ka kreeditarvetega.
 - Võimalik sisse lülitada sidumise loogika, mis sobitamise žurnaalis vastendab tehingud dokumentidega maksekorralduse registrisse salvestatud andmete põhjal.
+- BC27 ühilduv (2025 wave 2)
 
 ##### Versioon 21.0.25143.0
 - Tööjärjekorra automaatika seob ainult uued sissetulnud tehingud ega muuda olemasolevaid ridu maksete sobitamise žurnaalis.
