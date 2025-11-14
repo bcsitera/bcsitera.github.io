@@ -1,7 +1,7 @@
 ---
 ---
 
-##### Versioon 24.0.25316.0
+##### Versioon 24.0.25316.0 (_saadaval al. 12.11.2025_)
 - Koondmakse (palgamakse) puhul, kui see laetakse pangast alla, siis töötlemisel kustutakse töötaja isikule viitavad andmed
 - Juhul kui pangast saadud väljavõttel olev lõppsaldo ei klapi sellega, mis on BC-s arvutatud, teavitab BC sellest kasutajat _Maksete sobitamise žurnaalis_ - olukord võib tekkida, kui panga poolelt on teenus maas ning kõik tehingud ei ole sisse laetud
 - Kui _Maksete sobitamise žurnaalis_ ei seota tehingut ühegi avatud kandega ning _Vastenduse täpsus_ jääb "Puudub", käivitub järeltegevus, mis määrab tehingu osapoolele märgitud registrikoodi alusel tehingule _Kliendi/Hankija_
@@ -12,38 +12,38 @@
   - Makseid edastades on võimalus oodata töötlemise esmast tulemust, et näha, kas makse salvestus panka ehk oli korrektne. Teatud juhtudel tagasiside kuvades tekkis teavitusaknas tõrge, mida enam ei teki.
   - Seadistust "Maksekorralduse registriga vastendamine" kasutades tekkis avatud kandeid sidudes tõrge, mis sai lahendatud. 
 
-##### Versioon 24.0.25248.0
+##### Versioon 24.0.25248.0 (_saadaval al. 05.09.2025_)
 - Võimalik edastada pankadesse ka allkirjastatud kujul makseid, seda läbi Smart-ID.
 - Võimalik sisse lülitada sidumine vastandlike kannetega sobitamise žurnaalis. Süsteem seob tehinguid ka vastandmärgiliste kannetega ehk nt nii arvete kui ka kreeditarvetega.
 - Võimalik sisse lülitada sidumise loogika, mis sobitamise žurnaalis vastendab tehingud dokumentidega maksekorralduse registrisse salvestatud andmete põhjal.
 - BC27 ühilduv (2025 wave 2)
 
-##### Versioon 21.0.25143.0
+##### Versioon 21.0.25143.0 (_saadaval al. 23.05.2025_)
 - Tööjärjekorra automaatika seob ainult uued sissetulnud tehingud ega muuda olemasolevaid ridu maksete sobitamise žurnaalis.
 - Lisandus võimalus maksete sobitamise žurnaalis siduda automaatselt vaid valitud read.
 - _Maksete sobitamise žurnaalis_ on kasutajale kuvatud väljavõtte lõppsaldo kõige hiljutisemast XML väljavõtte failist
 
-##### Versioon 21.0.25024.0
+##### Versioon 21.0.25024.0 (_saadaval al. 24.01.2025_)
 - Lisandus ebaõnnestunud maksete ülevaade rollikeskuses ning konkreetne tagaside tekkinud tõrgete kohta.
 - Pangakonto kaardile lisandus tegevus "Sea pangaühenduse alguskuupäev". Läbi selle tuleb määrata, mis kuupäeval hakatakse lahendust kasutama ning mis on konto algsaldo selleks kuupäevaks.
 
-##### Versioon 21.0.24352.0
+##### Versioon 21.0.24352.0 (_saadaval al. 17.12.2024_)
 - Lisandus Swedbank Gateway uue API tugi.
 - Lisandus makselingi funktsionaalsus [LinkPay](https://support.every-pay.com/et/merchant-support/linkpay-makselink/)
 
-##### Versioon 21.0.24242.0
+##### Versioon 21.0.24242.0 (_saadaval al. 29.08.2024_)
 - Maksete edastamisel panka maksefaili töötlemistulemuste kohene tagaside kasutajale (Swedbank, LHV, Coop).
 
-##### Versioon 21.0.24105.0
+##### Versioon 21.0.24105.0 (_saadaval al. 14.04.2024_)
 - Coop Pank Gateway on nüüd kasutatav ka BC pilveklientidel.
 
-##### Versioon 21.0.24085.0
+##### Versioon 21.0.24085.0 (_saadaval al. 25.03.2024_)
 - Lisandus Luminor Bank AS ühendus (Luminor WebService teenus).
 
-##### Versioon 21.0.24017.0
+##### Versioon 21.0.24028.0 (_saadaval al. 28.01.2024_)
 - Lisandus Swedbank jooksva päeva kontoväljavõtte päring. Seda on hea kasutada juhul, kui tehinguid on palju ja kiirteavitus ei ole otstarbekas.
 
-##### Versioon 21.0.24017.0
+##### Versioon 21.0.24017.0 (_saadaval al. 17.01.2024_)
 - Lisandus Coop Pank Gateway
 - Imporditakse mitte kõigi vaid ainult BC-s seadistatud pangakontode sõnumid. Vajalik juhul, kui on pangakontosid, mille tehinguinfot BC-sse ei soovita.
 

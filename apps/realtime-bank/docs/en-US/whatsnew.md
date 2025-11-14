@@ -1,7 +1,7 @@
 ---
 ---
 
-##### Version 24.0.25316.0
+##### Version 24.0.25316.0 (_available Nov 12th 2025_)
 - In case of a mass payment (e.g. salary payment), if it is imported from the bank, the data referring to the employee is deleted during processing
 - If the ending balance on the bank statement does not match the balance calculated in BC, BC will notify the user in the _Payment Reconciliation Journal_ - this situation may occur if the bank's services are down and not all transactions have been imported
 - If the transaction is not applied to any open entry in the _Payment Reconciliation Journal_ and the _Match Confidence_ remains "None", a follow-up action is triggered, which assigns the _Customer/Vendor_ to the transaction based on the Registry code specified for the related party
@@ -12,46 +12,46 @@
     - When transferring payments, it is possible to wait for the initial processing result to see if the payment was correct and recorded by the bank. In certain cases, an error occurred when displaying the feedback in the pop-up window, which no longer occurs.
     - When using the setting "Match Credit Transfer Register", an error occurred when appling open entries, which has been resolved. 
 
-##### Version 24.0.25248.0
+##### Version 24.0.25248.0 (_available Sept 5th 2025_)
 - Added functionality of transmitting payments to banks in signed form using Smart-ID.
 - It is possible to enable automatic application of opposite entries in the reconciliation journal, i.e. the system also matches transactions to opposite entries, such as both invoices and credit invoices.
 - It is possible to enable application logic, which matches transactions in the reconciliation journal with documents based on data stored in credit transfer registers.
 - BC27 compatibility (2025 wave 2)
 
-##### Version 21.0.25143.0
+##### Version 21.0.25143.0 (_available May 23rd 2025_)
 
 - Job Queue automation only applies new incoming transactions and does not modify existing rows in the Payment Reconciliation Journal.
 - Added possibility of automatically applying only selected rows in the Payment Reconciliation Journal.
 - _Payment Reconciliation Journal_ displays the statement ending balance taken imported from the latest XML statement file
 
 
-##### Version 21.0.25024.0
+##### Version 21.0.25024.0 (_available Jan 24th 2025_)
 
 - Added an overview of rejected payments in the role centre and specific feedback on the failures encountered for each rejected payment.
 - Added action “Set Starting Date for Bank Connector” to the bank account card. This is used to specify the specific date on which the solution will be activated.
 
-##### Version 21.0.24352.0
+##### Version 21.0.24352.0 (_available Dec 17th 2024_)
 
 - Swedbank Gateway new API is supported.
 - [LinkPay](linkpay.md) payment link functionality is now available.
 
-##### Version 21.0.24242.0
+##### Version 21.0.24242.0 (_available Aug 29th 2024_)
 
 - Immediately returns first status of payment file processing results to the user when sending payments to the bank (Swedbank, LHV, Coop).
 
-##### Version 21.0.24105.0
+##### Version 21.0.24105.0 (_available April 14th 2024_)
 
 - Coop Bank Gateway is now also available for BC cloud clients.
 
-##### Version 21.0.24085.0
+##### Version 21.0.24085.0 (_available March  25th 2024_)
 
 - Luminor Bank AS connection is now supported (Luminor WebService).
 
-##### Version 21.0.24017.0
+##### Version 21.0.24028.0 (_available Jan 28th 2024_)
 
 - Added Swedbank Current Day Account Statement query. This is good to use when the amount of transactions is large and a online notifications/alerts are not practical.
 
-##### Version 21.0.24017.0
+##### Version 21.0.24017.0 (_available Jan 17th 2024_)
 
 - Coop Pank Gateway is now supported
 - Only messages regarding bank accounts that are configured in BC are imported. Necessary if there are bank accounts for which transaction information is not desired in BC.
