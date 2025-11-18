@@ -50,13 +50,13 @@ Allkirjastatud maksete edastamiseks tuleb BC-s seadistada igale pangakontole, mi
 
 Kõik kasutajad, kes määratakse kinnitajaks, peavad olema ka Smart-ID seadistuses kasutajateks määratud - abiks on **[Smart-ID kasutusjuhend](../../../smart-id/docs/et-EE/help.md)**. Business Centralis on võimalik allkirjastada ainult Smart-ID kaudu - teised allkirjastamise lahendused ei ole toetatud Business Centralis. Meiliteavitused kinnitusnõudega edastab süsteem sellele emaili aadressile, mis on BC-s _Kasutaja_ kaardil määratud “Kontaktmeiliks”.
 
-Kui allkirjastatud maksete edastamine on algatatud, on võimalik maksekorralduste registrite alt jälgida makse allkirja staatust. Selleks tuleb valida õige makse ning välja “Allkirjastajad“ kaudu saab vaadata nõutud allkirjastajaid antud maksel. Samuti on võimalik näha, kes nõutud kinnitajatest on oma allkirja andnud ja millal ning ka informatsiooni saadetud meiliteavituste kohta. Samal lehel on võimalik uuesti meiliteavitused välja saata kasutajatele, kelle allkiri on endiselt puudu.
-
 ## Maksete edastamine panka
 
 Lehel _Maksežurnaal_ saab luua panka saadetavad maksed. Vajutades vahelehel _Pank_ nupule "Edasta panka..." avaneb aruande päringuaken. Siin on võimalus sisse lülitada funktsioon _Oota töötlemise tulemust_. Sellisel juhul jääb süsteem ootama, pangast esimest maksestaatust. Kõik maksed, mis on žurnaalis, kombineeritakse üheks maksekorralduse registriks ning edastatakse panka allkirjastamata kujul ehk panka salvestuvad need kui ootel maksed.
 
 Võimalik on maksed ka BC-s ära allkirjastada ning siis ei ole neid enam vaja pangas kinnitada, ent selleks tuleb teha vajalikud seadistused, mille kohta leiate lisainfot **[siit](#allkirjastatud-maksete-seadistused)**. Allkirjastatud kujul maksete edastamiseks tuleb sisse lülitada funktsioon _Allkirjasta maksed_. Kui maksete edastaja on ka nõutud kinnitaja, siis on temal kohe võimalus maksed allkirjastada, teistele nõutud allkirjastajatele edastatakse kinnitusnõue meili teel.  
+
+Kui allkirjastatud maksete edastamine on algatatud, on võimalik maksekorralduste registrite alt jälgida makse allkirja staatust. Selleks tuleb valida õige makse ning välja “Allkirjastajad“ kaudu saab vaadata nõutud allkirjastajaid antud maksel. Samuti on võimalik näha, kes nõutud kinnitajatest on oma allkirja andnud ja millal ning ka informatsiooni saadetud meiliteavituste kohta. Samal lehel on võimalik uuesti meiliteavitused välja saata kasutajatele, kelle allkiri on endiselt puudu.
 
 Juhul kui nõutud kinnitajad on pangakontodele seadistatud, on endiselt võimalik edastada makseid ka allkirjastamata kujul. Selleks tuleb funktsioon _Allkirjasta maksed_ välja lülitada. Siis tuleb kinnitajatel logida internetipanka ning seal ootel maksed kinnitada - kinnitamisel saab kasutada kõiki allkirjastamise meetodeid.
 
