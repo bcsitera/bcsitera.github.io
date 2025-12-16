@@ -27,6 +27,7 @@
 [HRM4Baltics](apps/payroll365/docs/en-US/help.md)  
 
 ### Apps for Real Estate
+[Object Management and Billing Solution](apps/Object-Management/docs/en-US/app.md)  
 [Moderan Real Estate Interface](apps/moderan/docs/en-US/app.md)  
 [Bidrento Interface](apps/bidrento/docs/en-US/app.md)  
 
