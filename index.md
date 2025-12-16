@@ -27,7 +27,7 @@
 [HRM4Baltics](apps/payroll365/docs/et-EE/help.md)  
 
 ### Kinnisvarahalduse lahendused
-[Objektide haldus ja arveldus](apps/Object-Management/docs/et-EE/app.md)  
+[Objektide halduse ja arvelduse lahendus](apps/Object-Management/docs/et-EE/app.md)  
 [Moderan Real Estate Interface](apps/moderan/docs/en-US/app.md)  
 [Bidrento Interface](apps/bidrento/docs/en-US/app.md)  
 
