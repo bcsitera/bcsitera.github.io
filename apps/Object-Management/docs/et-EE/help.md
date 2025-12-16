@@ -25,8 +25,8 @@ Dimensioonide sektsioonis:
 |Väli|Selgitus|
 |---|---|
 | Objekti dimensiooni tähis | Määrab mõõtmekoodi, mida kasutatakse objektide jaoks. Süsteem kasutab seda ka vaikimisi dimensiooni automaatseks loomiseks objektile. |
-| Eelarve teise dimensiooni tähis | Määrab teise dimensiooni väärtuse, mida kasutatakse eelarve avamisel objekti kaardilt. (Eeldatakse, et Global dimension 1 on objektidimensioon). |
-| Dimensioonide uuendamise filter | Määrab dimensioonid, mida uuendatakse kirjetele (G/L, FA, Budget, Analysis View kirjed), kui need muutuvad objektil. Mitme dimensiooni lisamiseks kasuta vertikaalset toru (nt OBJECT|MANAGER). |
+| Eelarve teise dimensiooni tähis | Määrab teise dimensiooni väärtuse, mida kasutatakse eelarve avamisel objekti kaardilt. (Eeldatakse, et Globaaldimensioon 1 on objekti dimensioon). |
+| Dimensioonide uuendamise filter | Määrab dimensioonid, mida uuendatakse kirjetele (PR, PV, Eelarve, Analüüsivaate kanded), kui need muutuvad objektil. Mitme dimensiooni lisamiseks kasuta vertikaalset kriipsu (nt OBJEKT&#124;OBJEKTIJUHT). |
 | Kauba vaikedimensioon | Määrab vaikimisi dimensiooni artiklite jaoks, nii et süsteem saab automaatselt luua vastava uue dimensiooniväärtuse, kui luuakse uus artikkel. |
 | Kaubakategooria vaikedimensioon | Määrab vaikimisi dimensiooni artiklikategooriate jaoks, nii et süsteem saab automaatselt luua vastava dimensiooniväärtuse, kui luuakse uus artiklikategooria. Kui artiklikategooria valitakse artiklile, lisatakse artiklile vastav vaikimisi dimensiooniväärtus. |
 | Kaubakategooria nõutud | Määrab, et süsteem kontrollib kas loodud kaupadel on kaubakategooria kui dimensioon lisatud või mitte. |
