@@ -7,24 +7,24 @@ _So this solution is for professionals working in Your company's finance departm
 ## Solution's key features:
 #### Related Dimensions
 - Connect other dimension values to global dimensions (create so called dimension tree)
-- Select a global dimension to entry and get automatically all other related dimensions
+- Select a global dimension to entry and get automatically all other related dimensions  
 
 #### Deferred entries include more information
 - Deferred entries include description from related:
   - Sales line
   - Purchase line
-  - Journal line
+  - Journal line  
 
 #### Instant balances of partners
 - Get balance at any date quickly (_without using reports_) using date filter in:
   - Customer list
-  - Vendor list
+  - Vendor list  
 
 #### G/L Entries extra info
 - Source Name
   - Customer name, Vendor name, Employee name, FA name etc.
 - Balance Account Name
-  - G/L account name, Customer name, Vendor name, Employee name, FA name etc.
+  - G/L account name, Customer name, Vendor name, Employee name, FA name etc.  
 
 #### Instant overview of Fixed Assets
 - Get overview of fixed assets quickly (_without using reports_) with added information in fixed assets list including:
@@ -32,7 +32,7 @@ _So this solution is for professionals working in Your company's finance departm
   - Acquisition Cost
   - Acquisition Date
   - Depreciation %
-  - etc (10 more fields)
+  - etc (10 more fields)  
 
 #### Fringe benefits
 - Solution for Estonian "erisoodustused" logic on purchase documents  
