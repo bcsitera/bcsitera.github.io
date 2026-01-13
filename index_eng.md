@@ -4,6 +4,7 @@
 [Realtime Bank](apps/realtime-bank/docs/en-US/app)  
 [Contract Management](apps/contract-management/docs/en-US/app.md)  
 [Expense Reports](apps/expense-reports/docs/en-US/app.md)  
+[Finance Pro](apps/Finance-Pro/docs/en-US/app.md)  
 [Dimension Correction Tool](apps/dimension-correction-tool/docs/en-US/app.md)  
 [Factoring](apps/factoring/docs/en-US/app.md)  
 [Public Sector Accounting and Reporting for Estonia](apps/Public-Sector-Accounting/docs/en-US/app.md)  
