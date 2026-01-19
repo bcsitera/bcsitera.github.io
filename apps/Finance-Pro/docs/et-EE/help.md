@@ -48,11 +48,11 @@ Müügi-/ostudokumentide rea kirjelduste kasutamiseks perioodiseerimiskannetel n
 - „Kopeeri rea kirjeldus PR kandele" (_see muudab järgneva välja nähtavaks_)
 - „Lisa rea kirjeldus periodiseerimise kannetele"
 
-Märkus! Peažurnaali kasutamisel ei ole seadistamist vaja (_st peažurnaali rea kirjeldus lisatakse alati perioodiseerimisgraafiku ridade kirjeldusele_).
+Märkus! Peažurnaali kasutamisel ei ole seadistamist vaja (_st peažurnaali rea kirjeldus lisatakse alati perioodiseerimisgraafiku ridade kirjeldusele_).  
 
 ## Partnerite kohesed saldod
 See funktsionaalsus võimaldab saada partneri saldo mis tahes kuupäeva seisuga kiiresti, kasutades ainult kuupäevafiltrit kliendi/hankija loendis.
-Lisage loendis kuupäevafilter ja uus väli „Saldo kuupäevaks (KV)" näitab saldot lõppkuupäeval, mis sai kuupäevafiltris määratud.
+Lisage loendis kuupäevafilter ja uus väli „Saldo kuupäevaks (KV)" näitab saldot lõppkuupäeval, mis sai kuupäevafiltris määratud.  
 
 ## PR kannete lisateave
 Pearaamatu kannetele lisatakse järgmine teave:
@@ -62,7 +62,8 @@ Pearaamatu kannetele lisatakse järgmine teave:
     - Hankija nimi
     - Töötaja nimi
     - Põhivara nimi
-    - Pangakonto nimi
+    - Pangakonto nimi  
+  
 
 ## Põhivarade kohene ülevaade
 - Põhivara loendisse lisatud väljad:
@@ -82,13 +83,20 @@ Pearaamatu kannetele lisatakse järgmine teave:
   - Hankija nimi
   - Hooldushankija nimi
 
-Märkus! Kui loendis on tuhandeid põhivarasid, võib loendi avamine olla aeglane (_kuna paljud neist väljadest on arvutatud ehk flowfieldid_). Sellisel juhul palun peidake väljad, mida te ei vaja.
+Märkus! Kui loendis on tuhandeid põhivarasid, võib loendi avamine olla aeglane (_kuna paljud neist väljadest on arvutatud ehk flowfieldid_). Sellisel juhul palun peidake väljad, mida te ei vaja.  
+
+  
 
 ## Erisoodustus (Eesti ettevõtetele)
+### Seadistamine
 See on aktiveeritud ainult siis, kui ettevõtte andmetes on "Riigi/regiooni tähis" väärtuseks "EE".  
 Kui funktsionaalsus on aktiveeritud, siis PR kontode kaardil on võimalik märkida kontot kui "Erisoodustuse konto" (jaotises "Erisoodustus").  
 Kui "Erisoodustuse konto" on märgitud, siis on võimalik määrata PR kontod, kuhu erisoodustusega seotud maksud arvutatakse, genereerides vastavasisulised lisaread ostudokumentidel.
 
+### Kasutamine
+Kui ostudokumendil kasutatud konto on "Erisoodustuse konto", siis konteeringu eelvaate või konteerimise tulemusena tekivad erisoodustusmaksudega seotud read.  
+Märkus! Maksudega seotud nn. arveldusread on hallid ning neid ei saa kustutada.  
+_Kui luuakse konteeritud ostuarve pealt parandav kreeditarve ja muudetakse kulukontodel summasid, siis konteeringu eelvaade arvutab ümber maksusummad._  
   
 ---
 
