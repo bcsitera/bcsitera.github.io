@@ -37,7 +37,7 @@ _Pangakonto_ kaardi väljal "Pangaühendus" määrake millist pangaühendust kas
 _Pangakonto_ kaardil on nupp "Sea pangaühenduse alguskuupäev", kus tuleb reaalajapangale ümberlülitamise päeval määrata kuupäev ning pangas olev algsaldo antud päeval. 
 
 ### Reaalajas panga seadistused
-Lehel _Reaalajas panga seadistus_ täitke väli "Konteeritud tehingu nr." määrates vastava numbriseeria. Kui internetipangas on arvelduskontosid, mida ei soovita Business Centralis kajastada, siis on võimalik sisse laadida vaid pangasõnumid, mis puudutavad Business Centralisse salvestatud kontosid. Selleks tuleb sisse lülitada funktsionaalsus "Filtreeri sissetulevad sõnumid".
+Lehel _Reaalajas panga seadistus_ täitke väli "Konteeritud tehingu nr." määrates vastava numbriseeria. Kui internetipangas on arvelduskontosid, mida ei soovita Business Centralis kajastada, siis on võimalik sisse laadida vaid pangasõnumid, mis puudutavad Business Centralisse salvestatud kontosid. Selleks tuleb sisse lülitada funktsionaalsus "Filtreeri sissetulevad sõnumid". "Eemalda sissetulev tundlik sisu" kustutab ära tundlikud andmed nagu töötaja isikule viitavad andmed, kui sisselaetud pangasõnum sisaldab koondmakse tehinguid.
 
 Pangasõnumite töötlemist puudutavatest seadistustes on võimalik _Maksete sobitamise žurnaalis_ kajastada teenustasusid eraldi ridadel. Selleks tuleb sisse lülitada "Teenustasud eraldi real". Kui sisse lülitada "Nimi konteerimise kirjelduses", siis lisatakse pangast alla laetud tehingu tekstile ette ka seotud osapoole nimi. 
 
@@ -102,6 +102,8 @@ Väljal "Saldo pangas" summale vajutades avatakse leht _Pangakonto tehingud_, mi
 Sidumiseks ja konteerimiseks kasutatakse püsivat "RTB" nimelist _Maksete sobitamise žurnaali_.  
   
 Juhul, kui pangasõnumite töötlemise tööjärjekorra automaattööl on aktiveeritud ka "Sidumine" ja "Konteerimine" - siis jäävad "RTB" žurnaali alles ainult need read, mis vajavad kästisi töötlemist ehk read, mida automaatselt siduda ei õnnestunud.
+
+_Vastenda tekst kontoks_ funktsiooni saab kasutada teenustasude jms tehingute tuvastamiseks ning sidumiseks. "Vastendamise tekstis" saab kasutada *, et muuta teksti tuvastamine universaalsemaks. Samuti on võimalik määrata ridadele ka dimensioone kasutades toimingut "Dimensioonid". Lisaks saab tehinguid selle seadistuse kaudu ka siduda konkreetsetele Pangakontodele, nt kui olete seadistanud makseterminalid Pangakontodena BC-s.
 
 ---
 

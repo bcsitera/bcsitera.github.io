@@ -38,7 +38,7 @@ Open Bank Account card and choose the connector in the Bank Connector field. If 
 On the Bank Account card, there is a button Set Starting Date for Bank Connector, where you have to set the date of switching to Realtime Bank and the opening balance in the bank on that day.
 
 ### Setup Realtime Bank
-Open Realtime Bank Setup and assign the number series for the Posted Transaction Nos. field. If there are bank accounts that you do not want to be reflected in Business Central, it is possible to download only bank messages that relate to the accounts saved in Business Central. To do this, enable the feature "Filter Incoming Messages".
+Open Realtime Bank Setup and assign the number series for the Posted Transaction Nos. field. If there are bank accounts that you do not want to be reflected in Business Central, it is possible to download only bank messages that relate to the accounts saved in Business Central. To do this, enable the feature "Filter Incoming Messages". "Clear Incoming Sensitive Content" deletes sensitive data such as employees' personal details if the imported bank message contains consolidated payments.
 
 In the settings related to the processing of bank messages, it is possible to display service fees on separate lines in the _Payment Reconciliation Journal_. To do this, enable "Charges on Separate Line". If you enable "Name in Posting Description", the name of the related party will also be added to the text of the transaction taken from the bank.
 
@@ -100,7 +100,7 @@ The number of rejected payments is displayed in the _Realtime Bank_ cue in the R
 
 ### Applying Service Fees
 
-You can use Text-To-Account functionality.  
+You can use Text-To-Account functionality. You can use * in the "Mapping Text" field to make text recognition more universal. You can also assign dimensions to rows using the "Dimensions" function. In addition, you can apply transactions to specific Bank Accounts e.g. if you have set up payment terminals as Bank Accounts in BC.
 
 ### Applying Invoices
 Appying can be done either manually or automatically.

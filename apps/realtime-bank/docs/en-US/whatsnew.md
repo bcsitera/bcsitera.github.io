@@ -1,6 +1,16 @@
 ---
 ---
 
+##### Version 24.0.26022.0 (_available 22.01.2026_)
+- Additions to the _Text-to-Account Mapping_ functionality 
+    - The "Mapping Text" field allows the use of *
+    - Dimensions can be assigned to rows
+    - Rows can be applied to Bank Accounts.
+- To use the functionality for deleting sensitive data in consolidated payments, it must be enabled on the _Realtime Bank Setup_ page.
+- The logic for balance discrepancy warnings has been improved - the warning was previously misleading.
+- A log is saved on the _Bank Account Transactions_ page, where you can see what the "Match Confidence" was for the transaction at the time of posting.
+- A bug fix for importing Citadele bank account statements thorugh Swedbank Gateway.
+
 ##### Version 24.0.25316.0 (_available Nov 12th 2025_)
 - In case of a mass payment (e.g. salary payment), if it is imported from the bank, the data referring to the employee is deleted during processing
 - If the ending balance on the bank statement does not match the balance calculated in BC, BC will notify the user in the _Payment Reconciliation Journal_ - this situation may occur if the bank's services are down and not all transactions have been imported

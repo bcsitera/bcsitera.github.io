@@ -1,6 +1,17 @@
 ---
 ---
 
+##### Versioon 24.0.26022.0 (_saadaval al. 22.01.2026_)
+- Täiendused funktsioonile _Vastenda tekst kontoks_ 
+  - "Vastendamise tekst" väljal saab kasutada *
+  - ridadele saab määrata dimensioone
+  - ridu saab siduda Pangakontodega.
+- Koondmakses tundlikke andmete kustutamise funktsionaalsuse kasutamiseks tuleb see sisse lülitada lehel _Reaalaja panga seadistus_.
+- Täiendatud on saldode erinevuse hoiatuse loogika - hoiatus oli varem eksitav.
+- Lehele _Pangakonto tehingud_ salvestub logi, kust saab jälgida, mis oli konteerimise hetkel "Vastenduse täpsus" tehingul.
+- Veaparandus Citadele pangakonto väljavõtete Swedbank Gateway kaudu importimisel.
+
+
 ##### Versioon 24.0.25316.0 (_saadaval al. 12.11.2025_)
 - Koondmakse (palgamakse) puhul, kui see laetakse pangast alla, siis töötlemisel kustutakse töötaja isikule viitavad andmed
 - Juhul kui pangast saadud väljavõttel olev lõppsaldo ei klapi sellega, mis on BC-s arvutatud, teavitab BC sellest kasutajat _Maksete sobitamise žurnaalis_ - olukord võib tekkida, kui panga poolelt on teenus maas ning kõik tehingud ei ole sisse laetud
