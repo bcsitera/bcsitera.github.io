@@ -41,8 +41,11 @@ Lehel _Reaalajas panga seadistus_ täitke väli "Konteeritud tehingu nr." määr
 
 Pangasõnumite töötlemist puudutavatest seadistustes on võimalik _Maksete sobitamise žurnaalis_ kajastada teenustasusid eraldi ridadel. Selleks tuleb sisse lülitada "Teenustasud eraldi real". Kui sisse lülitada "Nimi konteerimise kirjelduses", siis lisatakse pangast alla laetud tehingu tekstile ette ka seotud osapoole nimi. 
 
-Väljal _Sidumise loogika_ valige "Maksete sobitamise žurnaal". Teised sidumisviisid ei ole tulevikus toetatud ning eemaldatakse. "Vastandkannete sobitamine" tähendab, et sidumisel otsib sobivaid kirjeid ka erimärgiliste avatud kannete seast. Nt kasutatakse nii arvete kui ka krediitarvete kandeid. Kui makse on tehtud Business Centrali kaudu, siis "Maksekorralduste registritega sobitamine" vastendab tehingud automaatselt maksekorraldus registris olevate andmetega. 
+Väljal _Sidumise loogika_ valige "Maksete sobitamise žurnaal". Teised sidumisviisid ei ole tulevikus toetatud ning eemaldatakse.  
 
+"Vastandkannete sobitamine" tähendab, et sidumisel otsib sobivaid kirjeid ka erimärgiliste avatud kannete seast. Nt kasutatakse nii arvete kui ka krediitarvete kandeid. Kui makse on tehtud Business Centrali kaudu, siis "Maksekorralduste registritega sobitamine" vastendab tehingud automaatselt maksekorraldus registris olevate andmetega. Kui sisse lülitada "Vastenda Klient/Hankija" ning tehingut ei seota ühegi avatud kandega, siis seotakse tehing Kliendi/hankija kontoga registrikoodi alusel. 
+
+"Dimensioonid seotud kandelt" - kui tehing seotakse avatud kandega, millele on avarasemast dimensioonid määratud, siis tehingule lähevad samad dimensioonid. "Dimensioonid tekst-kontoks vastendamisest" võimaldab funktsionaalsuses lisada ka dimensioone. 
 
 ### Allkirjastatud maksete seadistused
 
