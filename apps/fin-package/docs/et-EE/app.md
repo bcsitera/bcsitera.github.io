@@ -6,11 +6,11 @@ Tegemist on kogu ettevõtte tarneahelat katva terviklahendusega, mis pakub äär
 Sellest tulenevalt oleme liitnud ühte paketti hulga täiendavaid võimalusi, mis aitavad kasutajatel (eelkõige finantsistidel) teha oma igapäevatööd võimalikult efektiivselt ja produktiivselt.
 
 Paketis sisalduvad lahendused:
-- <a href="https://apps.itera.ee/apps/Finance-Pro/docs/et-EE/app.html" target="_blank">Finatsid proffidele</a>
+- <a href="https://apps.itera.ee/apps/Finance-Pro/docs/et-EE/app.html" target="_blank">Finats pro</a>
 - <a href="https://apps.itera.ee/apps/dimension-correction-tool/docs/et-EE/app.html" target="_blank">Dimensiooniparandaja</a>
 - <a href="https://apps.itera.ee/apps/Attachment-Preview/docs/et-EE/app.html" target="_blank">Manuste eelvaade</a>
 - <a href="https://apps.itera.ee/apps/Automatic-Emailing-of-Invoices/docs/et-EE/app.html" target="_blank">Automaatne arvete saatmine meilile</a>
-- <a href="https://apps.itera.ee/apps/Vehicle-Handling-Solution/docs/et-EE/app.html" target="_blank">Sõidukite register</a>
+- <a href="https://apps.itera.ee/apps/Vehicle-Handling-Solution/docs/en-US/app.html" target="_blank">Sõidukite register</a>
 
 
 <br>
