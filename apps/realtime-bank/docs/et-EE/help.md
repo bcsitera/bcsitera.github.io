@@ -7,7 +7,9 @@
 - [Maksete edastamine panka](#maksete-edastamine-panka)  
 - [Sissetulevad pangasõnumid](#sissetulevad-pangasõnumid)
 - [Pangatehingute ülevaade, sidumine ja konteerimine](#pangatehingute-ülevaade-sidumine-ja-konteerimine)
+- [Ostuarvete ja maksete integratsiooni lahendus](#ostuarvete-ja-maksete-integratsiooni-lahendus)
 - [LinkPay kasutusjuhend](linkpay.md)
+
 
 ## Seadistused
 
@@ -107,6 +109,27 @@ Sidumiseks ja konteerimiseks kasutatakse püsivat "RTB" nimelist _Maksete sobita
 Juhul, kui pangasõnumite töötlemise tööjärjekorra automaattööl on aktiveeritud ka "Sidumine" ja "Konteerimine" - siis jäävad "RTB" žurnaali alles ainult need read, mis vajavad kästisi töötlemist ehk read, mida automaatselt siduda ei õnnestunud.
 
 _Vastenda tekst kontoks_ funktsiooni saab kasutada teenustasude jms tehingute tuvastamiseks ning sidumiseks. "Vastendamise tekstis" saab kasutada *, et muuta teksti tuvastamine universaalsemaks. Samuti on võimalik määrata ridadele ka dimensioone kasutades toimingut "Dimensioonid". Lisaks saab tehinguid selle seadistuse kaudu ka siduda konkreetsetele Pangakontodele, nt kui olete seadistanud makseterminalid Pangakontodena BC-s.
+
+## Ostuarvete ja maksete integratsiooni lahendus
+
+Ostuarve kinnitamine ning selle konteerimine eeldab, et selle arve eest tuleb tulevikus ka tasuda, enamasti enne makse tähtaega. Nüüd on võimalus ostuarve kinnitamisel kohe luua ka Maksekorralduse register ning selle loomisega edastatakse ka nõutud makse kinnitajatele meiliteavitused makse allkirjastamise nõudega. Lahendus ühildub BC standard töövoo malliga “Purchase Invoice Apporval Workflow”.
+
+### Seadistused
+
+Lahenduse kasutamiseks tuleb lehel Reaalajas panga seadistus sisse lülitada funktsioon “Allkirjasta makse arve kinnitamisel”. Seejärel tuleb kuupäeva valemiga määrata väljale “Maksetähtaja arvutamine”, mitu päeva enne arve maksetähtaega tehing pangas sooritatakse. Pangakonto, mis määratakse _Reaalajas panga seadistuses_ väljale “Vaikimisi pangakonto nr.“ on vaike arvelduskonto, millelt ostuarvete eest tasuma hakatakse. Ostuarve peal on olemas väli “Reaalajas pangakonto nr.”, kus algselt läheb vaikekonto, ent seda saab igal ostuarvel muuta enne kinnitusnõude saatmist. *Vt ka lähemalt, kuidas seadistada pangakontodele nõutud allkirjastajaid*.
+
+### Kasutamine
+
+Ostuarve kinnitusnõude edastamisel käivitub standardne protsess - nõutud kinnitajale edastatakse kinnitusnõuded. Kui arve kinnitajaid on ainult üks, siis kinnitamise järgselt arve vabastatakse ning arve alusel luuakse kohe _Maksekorralduse register_, mis on automaatselt suunatud allkirjastamisele. Kui arve kinnitajaid on töövoos seadistatud rohkem, siis _Maksekorralduse register_ luuakse alles peale viimast kinnitust. Igal juhul luuakse _Maksekorraldus register_ alles siis, kui arve on saanud kõik kinnitused ning vabastatud.
+
+Kui ostuarve kinnitaja kinnitab arve, loob süsteem taustal ajutise _Maksežurnaali_ nimetusega “_REALTIME_” ning loob antud arve alusel sinna makserea, mis on ka arvega seotud. Kui korraga kinnitada mitu arvet, nt seda läbi Rollikeskuse kuhja _Minu kinnitada_ kinnitusnõuded, loob süsteem sellesse ajutisse žurnaali iga arve alusel eraldi makserea ning seob arvega.
+
+Kui arve ainus või viimane kinnitaja on seadistatud ka makse allkirjastajaks, siis avaneb sellele kasutajale kohe allkirjastamise aken Smart-ID kontrollkoodiga. Teistele nõutud kinnitajatele edastatakse meiliteavitused makse allkirjastamise nõudega. Peale allkirjastamisi kontrollib süsteem, kas kõik nõutud allkirjad on olemas ning kas seotud arve(d) on konteeritud - maksefaili ei edastata panka enne, kui arve on konteeritud ning kõik allkirjad olemas.
+
+Kui ainsal või viimasel ostuarve kinnitamisel tekib tõrge Maksekorralduse registri loomisel, kuvab süsteem järgnevat tõrget: _Faili eksportimisel ilmnes tõrkeid. Lahendage iga eksporditava rea puhul paremal pool kuvatavad tõrked ja proovige siis uuesti eksportida._ Tõrke lahendamiseks tuleb minna lehele Maksežurnaalid ning seal valida ajutine žurnaal  “_REALTIME_“. Sealsed tõrkes olevad makseread on punasega märgistatud ning peale maksete parandamist/täiendamist tuleb käivitada toiming “Edasta panka…” ning veenduda, et sisse on lülitatud ka funktsionaalsus “Allkirjasta maksed”.
+
+Peale edastamist kustutada äsja eksporditud makseread ning kustutada ka žurnaali tööleht ise. Selleks avada ülevalt väljalt “Töölehe nimetus” menüü (kolm täppi lahtris). Avanenud lehel valida Töölehe realt sama tööleht ning kustutada sealt.
+
 
 ---
 
