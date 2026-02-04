@@ -1,7 +1,7 @@
 # FleetGuru - User Guide
-FleetGuru fleet management software solution for Microsoft Dynamics 365 Business Central.
+FleetGuru fleet management app solution for Microsoft Dynamics 365 Business Central.
   
-If you have a business where you need to manage vehicles in FleetGuru software, this solution allows you to send General Ledger Entries related to Vehchile Expenses to the FleetGuru app.
+If you have a business where you need to manage vehicles in FleetGuru software, this solution allows you to send _General Ledger Entries_ related to Vehicle Expenses to the FleetGuru fleet management app.
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@ Whichever _Dimension_ is set as "Vehicle Dimension" here, gets two new fields ad
 
 ### Expenses
 
-With the field "Costs G/L Account Filter" you can specify, which _G/L Accounts_ contain _G/L Entries_ related to vehicle expenses. "Last Sent G/L Entry No." is a so called bookmark that keeps track of the most recent _G/L Entry_ that was sent to FleetGuru. If this field is empty, there is no need to worry - no _G/L Entries_ are sent twice. The process of checking for already sent entries just takes more time and can affect performance. 
+With the field "Costs G/L Account Filter" you can specify, which _G/L Accounts_ contain _G/L Entries_ related to vehicle expenses. "Last Sent G/L Entry No." is a so-called bookmark that keeps track of the most recent _G/L Entry_ that was sent to FleetGuru. If this field is empty, there is no need to worry - no _G/L Entries_ are sent twice. The process of checking for already sent entries just takes more time and can affect performance. 
 
 If "Send Invoice PDF" is checked, the PDF file stored in the _Incoming Documents_ for the _Invoice Expense Entries_ is also sent to FleetGuru.
 

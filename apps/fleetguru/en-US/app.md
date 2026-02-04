@@ -1,11 +1,11 @@
 # FleetGuru
-FleetGuru fleet management software solution for Microsoft Dynamics 365 Business Central.
+FleetGuru fleet management app solution for Microsoft Dynamics 365 Business Central.
   
-If you have a business where you need to manage vehicles in FleetGuru software, this solution allows you to send General Ledger Entries related to Vehchile Expenses to the FleetGuru portal.
+If you have a business where you need to manage vehicles in FleetGuru software, this solution allows you to send _General Ledger Entries_ related to Vehicle Expenses to the FleetGuru fleet management app.
 
 ## Solution offers
-* Sending of _General Ledger Entries_ related to _Vehchile Expenses_ from Business Central to FleetGuru software.
-* If the sent entry is an invoice, PDF attachments can also be included.
+* Sending of _General Ledger Entries_ related to Vehicle Expenses from Business Central to FleetGuru fleet management app.
+* If the sent _General Ledger Entry_ is an invoice, PDF attachments can also be included.
 
 [User Guide](help.md)
 

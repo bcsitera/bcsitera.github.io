@@ -1,7 +1,7 @@
 # FleetGuru - Kasutusjuhend
 FleetGuru sõidukipargi haldus lahendus Microsoft Dynamics 365 Business Central tarbeks.
   
-Kui teil on äri, kus peate haldama sõidukeid FleetGuru tarkvaras, siis antud lahendus võimaldab saata FleetGuru portaali sõiduki kuludega seonduvaid pearaamatukandeid.
+Kui teil on äri, kus peate haldama sõidukeid FleetGuru tarkvaras, siis antud lahendus võimaldab saata FleetGuru haldusrakendusse sõiduki kuludega seonduvaid _Pearaamatukandeid_.
 
 ## Sisukord
 
@@ -32,7 +32,6 @@ Kui valik „Saada arve PDF” on märgitud, saadetakse FleetGuru-sse ka PDF man
 
 Võite saata sõiduki kulude PR kanded FleetGuru-sse käsitsi lehel _FleetGuru seadistus_ või luua _Tööjärjekorra kanded_, mis automatiseerivad PR kannete saatmise.
 
-You can send the Vehicle Expense G/L Entries to FleetGuru manually on the _FleetGuru Setup_ page or create _Job Queue Entries_ that automate the sending of the G/L Entries.
 
 ## Kontaktinfo
 Täpsema info saamiseks, palun võtke ühendust BCS Itera AS-ga:  

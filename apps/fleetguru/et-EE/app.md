@@ -1,11 +1,11 @@
 # FleetGuru
 FleetGuru sõidukipargi haldus lahendus Microsoft Dynamics 365 Business Central tarbeks.
   
-Kui teil on äri, kus peate haldama sõidukeid FleetGuru tarkvaras, siis antud lahendus võimaldab saata FleetGuru portaali sõiduki kuludega seonduvaid pearaamatukandeid.
+Kui teil on äri, kus peate haldama sõidukeid FleetGuru tarkvaras, siis antud lahendus võimaldab saata FleetGuru haldusrakendusse sõiduki kuludega seonduvaid _Pearaamatukandeid_.
 
 ## Lahendus hõlmab
-* Sõiduki kulude pearaamatukannete saatmist Business Centralist FleetGuru tarkvarasse
-* Kui edastatav kanne on arve, siis võimalik kaasa panna ka PDF manuseid
+* Sõiduki kulude _Pearaamatukannete_ saatmist Business Centralist FleetGuru haldusrakendusse
+* Kui edastatav _Pearaamatukanne_ on arve, siis on võimalik kaasa panna ka PDF manuseid
 
 [Kasutusjuhend](help.md)
 
