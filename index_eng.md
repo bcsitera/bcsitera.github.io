@@ -40,7 +40,7 @@
 [Realtime Economy](apps/rte/docs/en-US/app.md)  
 [Apps from Estonian Dynamics Partners](https://dynamicspartnersee.github.io/)   
 [AllDevice](apps/AllDevice/docs/en-US/app.md)  
-[FleetGuru](apps/fleetguru/en-US/app.md)  
+[FleetGuru](apps/fleetguru/docs/en-US/app.md)  
 
 
 ---

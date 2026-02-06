@@ -41,7 +41,7 @@
 [Reaalajamajandus](apps/rte/docs/et-EE/app.md)  
 [Estonian Dynamics Partners lokalisatsioon ja EDI](https://dynamicspartnersee.github.io/)  
 [AllDevice](apps/AllDevice/docs/et-EE/app.md)  
-[FleetGuru](apps/fleetguru/et-EE/app.md)  
+[FleetGuru](apps/fleetguru/docs/et-EE/app.md)  
 
 ---
 
