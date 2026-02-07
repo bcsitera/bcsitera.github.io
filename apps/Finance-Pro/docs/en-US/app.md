@@ -35,7 +35,10 @@ _So this solution is for professionals working in Your company's finance departm
   - etc (10 more fields)  
 
 #### Fringe benefits
-- Solution for Estonian "erisoodustused" logic on purchase documents  
+- Solution for Estonian "erisoodustused" logic on purchase documents
+
+#### Approval Condition on Purchase Documents
+- Assign a customizable approval condition to a purchase document to automatically route the document through the appropriate approval workflow.  
 
   
 <br>
