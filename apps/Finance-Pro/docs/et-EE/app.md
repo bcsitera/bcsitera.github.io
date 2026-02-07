@@ -37,6 +37,9 @@ _Seega on see lahendus mõeldud Teie ettevõtte finantsosakonnas töötavatele p
 #### Erisoodustused
 - Lahendus Eesti erisoodustuste loogika automaatkannete jaoks ostudokumentidel
 
+#### Kinnitamise tingimus ostudokumentidel
+- Määra ostudokumendile kohandatav kinnitamise tingimus, mis suunab dokumendi automaatselt sobivasse kinnitamise töövoogu    
+
 <br>
 <br>
 
