@@ -6,6 +6,7 @@ The Finance Pro Solution extends standard financial functionality in Microsoft D
 - [G/L Entries extra info](#gl-entries-extra-info)
 - [Instant overview of Fixed Assets](#instant-overview-of-fixed-assets)
 - [Fringe benefits](#fringe-benefits-for-estonian-companies)
+- [Approval Condition on Purchase Documents](#approvalcondition-onpurchase-documents)
 
 <br>
 
@@ -33,6 +34,7 @@ To use related dimensions it's needed to connect related dimension values to a g
 - User cannot select same dimension as a related dimension.
 - User cannot select a dimension as related, if that dimension already has the current dimension set as its related dimension.
 - If the user selects a dimension, that is already defined as a related dimension for the base dimension, as related, then user is informed about the situation and asked whether they want to continue.  
+<br>
 
 ## Deferred entries include more information
 This functionality adds line description to the deferral schedule lines description and from there it goes to general ledger entries.
@@ -49,10 +51,12 @@ To use line descriptions from sales/purchase documents navigate to "Sales & Rece
 - "Add Line Description to Deferral Entries"
 
 Note! When using general journals, then no setup is needed (_meaning journal line description is always added to deferral schedule lines description_).  
+<br>
 
 ## Instant balances of partners
 This functionality makes possible to get balance at any date quickly by only using date filter in Customer/Vendor list.
 Add date filter and new field "Balance (LCY) at Date" shows balance on the last date included in the Date Filter field.  
+<br>
 
 ## G/L Entries extra info
 Following information is added to general ledger entries:
@@ -63,6 +67,7 @@ Following information is added to general ledger entries:
     - Employee name
     - Fixed Asset name
     - Bank Account name  
+<br>
 
 ## Instant overview of Fixed Assets
 - Added fields to Fixed Asset list:
@@ -83,12 +88,18 @@ Following information is added to general ledger entries:
   - Maintenance Vendor Name   
 
 Note! If there are thousands of fixed assets in list, then opening the list might be slow (_since many of them are calculated aka flowfields_). In that case please hide the fields not needed.  
+<br>
 
 ## Fringe benefits (for Estonian companies)
 This is only activated when Country code in Company information is "EE".  
 When activated then on G/L Account card it's possible to mark account as "Fringe Benefit Account" (in section "Fringe Benefits").  
 When marked, then it's possible to specify G/L accounts where fringe benefit related taxes are calculated as extra lines on purchase documents.  
+<br>
 
+## Approval Condition on Purchase Documents
+### Usage
+A field "Approval Condition" has been added to the header of purchase documents.  
+You can select a value for this field from the "Approval Conditions" table, where you can create your own codes, that can then be used to configure the appropriate approval workflow for the purchase document.  
   
 ---
 
