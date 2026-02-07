@@ -6,6 +6,7 @@ Finance Pro lahendus laiendab standardset finantsfunktsionaalsust rakenduses Mic
 - [PR kannete lisateave](#pr-kannete-lisateave)
 - [Põhivarade kohene ülevaade](#põhivarade-kohene-ülevaade)
 - [Erisoodustus](#erisoodustus-eesti-ettevõtetele)
+- [Kinnitamise tingimus ostudokumentidel](#kinnitamise-tingimus-ostudokumentidel)
 
 <br>
 
@@ -33,6 +34,7 @@ Seotud dimensioonide kasutamiseks peate globaaldimensiooni väärtusega siduma s
 - Kasutaja ei saa valida sama dimensiooni seotud dimensiooniks.
 - Kasutaja ei saa valida dimensiooni seotud dimensiooniks, kui see dimensioon on juba määratud selle praeguse dimensiooni seotud dimensiooniks.
 - Kui kasutaja valib dimensiooni, mis on juba määratud alus-dimensiooni seotud dimensiooniks, siis teavitatakse kasutajat ja palutakse tal kinnitada, kas ta soovib jätkata.
+<br>
 
 ## Perioodiseerimiskanded sisaldavad rohkem teavet
 See funktsionaalsus lisab vastava alus-rea kirjelduse perioodiseerimisgraafiku ridade kirjeldusele (ja sealt lähevad need pearaamatu kannete kirjelduseks).
@@ -49,10 +51,12 @@ Müügi-/ostudokumentide rea kirjelduste kasutamiseks perioodiseerimiskannetel n
 - „Lisa rea kirjeldus periodiseerimise kannetele"
 
 Märkus! Peažurnaali kasutamisel ei ole seadistamist vaja (_st peažurnaali rea kirjeldus lisatakse alati perioodiseerimisgraafiku ridade kirjeldusele_).  
+<br>
 
 ## Partnerite kohesed saldod
 See funktsionaalsus võimaldab saada partneri saldo mis tahes kuupäeva seisuga kiiresti, kasutades ainult kuupäevafiltrit kliendi/hankija loendis.
 Lisage loendis kuupäevafilter ja uus väli „Saldo kuupäevaks (KV)" näitab saldot lõppkuupäeval, mis sai kuupäevafiltris määratud.  
+<br>
 
 ## PR kannete lisateave
 Pearaamatu kannetele lisatakse järgmine teave:
@@ -63,7 +67,7 @@ Pearaamatu kannetele lisatakse järgmine teave:
     - Töötaja nimi
     - Põhivara nimi
     - Pangakonto nimi  
-  
+<br>  
 
 ## Põhivarade kohene ülevaade
 - Põhivara loendisse lisatud väljad:
@@ -84,7 +88,7 @@ Pearaamatu kannetele lisatakse järgmine teave:
   - Hooldushankija nimi
 
 Märkus! Kui loendis on tuhandeid põhivarasid, võib loendi avamine olla aeglane (_kuna paljud neist väljadest on arvutatud ehk flowfieldid_). Sellisel juhul palun peidake väljad, mida te ei vaja.  
-
+<br>
   
 
 ## Erisoodustus (Eesti ettevõtetele)
@@ -95,9 +99,16 @@ Kui "Erisoodustuse konto" on märgitud, siis on võimalik määrata PR kontod, k
 
 ### Kasutamine
 Kui ostudokumendil kasutatud konto on "Erisoodustuse konto", siis konteeringu eelvaate või konteerimise tulemusena tekivad erisoodustusmaksudega seotud read.  
-Märkus! Maksudega seotud nn. arveldusread on hallid ning neid ei saa kustutada.  
+Märkus! Maksudega seotud nn. arveldusread on hallid ning neid ridu ei saa kustutada. Kui kustutada rida, millelon "Erisoodustuse konto", siis kustuvad ka maksudega seotud read.  
 _Kui luuakse konteeritud ostuarve pealt parandav kreeditarve ja muudetakse kulukontodel summasid, siis konteeringu eelvaade arvutab ümber maksusummad._  
+<br>
   
+## Kinnitamise tingimus ostudokumentidel
+### Kasutamine
+Ostudokumentide päisesse on lisatud väli "Kinnitamise tingimus".  
+Väljale saab valida väärtuse tabelist "Kinnitamise tingimused", kuhu saab ise luua tähised, mille alusel siis seadistada sobiv ostudokumendi kinnitamise töövoog.
+
+
 ---
 
 Täpsema info saamiseks, palun võtke ühendust BCS Itera AS-ga:
