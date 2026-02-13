@@ -1,6 +1,6 @@
 ---
 ---
-# Reaalaja pank - Kasutusjuhend
+# Reaalajapank - Kasutusjuhend
 ## Sisukord
 
 - [Seadistused](#seadistused)
@@ -38,8 +38,8 @@ _Pangakonto_ kaardi väljal "Pangaühendus" määrake millist pangaühendust kas
 
 _Pangakonto_ kaardil on nupp "Sea pangaühenduse alguskuupäev", kus tuleb reaalajapangale ümberlülitamise päeval määrata kuupäev ning pangas olev algsaldo antud päeval. 
 
-### Reaalajas panga seadistused
-Lehel _Reaalajas panga seadistus_ täitke väli "Konteeritud tehingu nr." määrates vastava numbriseeria. Kui internetipangas on arvelduskontosid, mida ei soovita Business Centralis kajastada, siis on võimalik sisse laadida vaid pangasõnumid, mis puudutavad Business Centralisse salvestatud kontosid. Selleks tuleb sisse lülitada funktsionaalsus "Filtreeri sissetulevad sõnumid". "Eemalda sissetulev tundlik sisu" kustutab ära tundlikud andmed nagu töötaja isikule viitavad andmed, kui sisselaetud pangasõnum sisaldab koondmakse tehinguid.
+### Reaalajapanga seadistused
+Lehel _Reaalajapanga seadistus_ täitke väli "Konteeritud tehingu nr." määrates vastava numbriseeria. Kui internetipangas on arvelduskontosid, mida ei soovita Business Centralis kajastada, siis on võimalik sisse laadida vaid pangasõnumid, mis puudutavad Business Centralisse salvestatud kontosid. Selleks tuleb sisse lülitada funktsionaalsus "Filtreeri sissetulevad sõnumid". "Eemalda sissetulev tundlik sisu" kustutab ära tundlikud andmed nagu töötaja isikule viitavad andmed, kui sisselaetud pangasõnum sisaldab koondmakse tehinguid.
 
 Pangasõnumite töötlemist puudutavatest seadistustes on võimalik _Maksete sobitamise žurnaalis_ kajastada teenustasusid eraldi ridadel. Selleks tuleb sisse lülitada "Teenustasud eraldi real". Kui sisse lülitada "Nimi konteerimise kirjelduses", siis lisatakse pangast alla laetud tehingu tekstile ette ka seotud osapoole nimi. 
 
@@ -69,7 +69,7 @@ Juhul kui nõutud kinnitajad on pangakontodele seadistatud, on endiselt võimali
 
 Eksporditud maksefailid leiad samalt lehelt nupu alt, või otsides vaadet, _Maksekorralduste registrid_. Välja alla _Ülekannete arv_ on salvestatud kõik žurnaali tehingud eraldi ning iga tehingu kohta ka maksestaatus.
 
-Kui kasutaja roll on _Raamatupidaja_, tekib talle avalehele _Reaalajas pank_ kuhi. Sinna tuleb sisse informatsioon tagasilükatud ning ootel maksete kohta. Avades leht _Tagasilükatud maksed_ on võimalik iga makse eraldi märkida peidetuks, kasutades nuppu "Peida/kuva" - see eemaldab probleemse makse rollikeskuse ülevaatest.
+Kui kasutaja roll on _Raamatupidaja_, tekib talle avalehele _Reaalajapank_ kuhi. Sinna tuleb sisse informatsioon tagasilükatud ning ootel maksete kohta. Avades leht _Tagasilükatud maksed_ on võimalik iga makse eraldi märkida peidetuks, kasutades nuppu "Peida/kuva" - see eemaldab probleemse makse rollikeskuse ülevaatest.
 
 ## Sissetulevad pangasõnumid
 
@@ -116,7 +116,7 @@ Ostuarve kinnitamine ning selle konteerimine eeldab, et selle arve eest tuleb tu
 
 ### Seadistused
 
-Lahenduse kasutamiseks tuleb lehel Reaalajas panga seadistus sisse lülitada funktsioon “Allkirjasta makse arve kinnitamisel”. Seejärel tuleb kuupäeva valemiga määrata väljale “Maksetähtaja arvutamine”, mitu päeva enne arve maksetähtaega tehing pangas sooritatakse. Pangakonto, mis määratakse _Reaalajas panga seadistuses_ väljale “Vaikimisi pangakonto nr.“ on vaike arvelduskonto, millelt ostuarvete eest tasuma hakatakse. Ostuarve peal on olemas väli “Reaalajas pangakonto nr.”, kus algselt läheb vaikekonto, ent seda saab igal ostuarvel muuta enne kinnitusnõude saatmist. *Vt ka lähemalt, kuidas seadistada pangakontodele nõutud allkirjastajaid*.
+Lahenduse kasutamiseks tuleb lehel Reaalajapanga seadistus sisse lülitada funktsioon “Allkirjasta makse arve kinnitamisel”. Seejärel tuleb kuupäeva valemiga määrata väljale “Maksetähtaja arvutamine”, mitu päeva enne arve maksetähtaega tehing pangas sooritatakse. Pangakonto, mis määratakse _Reaalajapanga seadistuses_ väljale “Vaikimisi pangakonto nr.“ on vaike arvelduskonto, millelt ostuarvete eest tasuma hakatakse. Ostuarve peal on olemas väli “Reaalajas pangakonto nr.”, kus algselt läheb vaikekonto, ent seda saab igal ostuarvel muuta enne kinnitusnõude saatmist. *Vt ka lähemalt, kuidas seadistada pangakontodele nõutud allkirjastajaid*.
 
 ### Kasutamine
 

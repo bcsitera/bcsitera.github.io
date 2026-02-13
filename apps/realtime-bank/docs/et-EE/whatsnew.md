@@ -6,7 +6,7 @@
   - "Vastendamise tekst" väljal saab kasutada *
   - ridadele saab määrata dimensioone
   - ridu saab siduda Pangakontodega.
-- Koondmakses tundlikke andmete kustutamise funktsionaalsuse kasutamiseks tuleb see sisse lülitada lehel _Reaalaja panga seadistus_.
+- Koondmakses tundlikke andmete kustutamise funktsionaalsuse kasutamiseks tuleb see sisse lülitada lehel _Reaalajapanga seadistus_.
 - Täiendatud on saldode erinevuse hoiatuse loogika - hoiatus oli varem eksitav.
 - Lehele _Pangakonto tehingud_ salvestub logi, kust saab jälgida, mis oli konteerimise hetkel "Vastenduse täpsus" tehingul.
 - Veaparandus Citadele pangakonto väljavõtete Swedbank Gateway kaudu importimisel.
@@ -66,7 +66,7 @@ Pangatehingute sidumiseks ja konteerimiseks saab nüüd kasutada "Maksete sobita
  
 Sellisel juhul imporditakse pangatehingud **RTB** nimelisse maksete sobitamise žurnaali. Tegu on püsiva žurnaaliga, mis ei kustu konteerimisel ning millest on lubatud ka osaline konteerimine. Žurnaalirea konteerimisel märgitakse pangatehingute aknas tehing konteerituks.
 
-Maksete sobitamise žurnaali kasutamise saab aktiveerida reaalaja panga seadistuse "Sidumise loogika" valikus.  
+Maksete sobitamise žurnaali kasutamise saab aktiveerida reaalajapanga seadistuse "Sidumise loogika" valikus.  
 
 ##### Versioon 20.2.23046.0
 - Lisandus vaikedimensioonide määramise võimalus tekst kontoks vastendamisele.
