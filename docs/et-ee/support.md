@@ -1,15 +1,16 @@
 # Kasutajatugi
 
-Digmatix Estonia AS  
+**DIGMATIX Estonia AS**  
 Mäealuse 2/4, 12618 Tallinn, Estonia  
 Telefon: +372 650 33 80  
 E-post: estonia@digmatix.com  
-[http://www.digmatix.com/ee](http://www.digmatix.com/ee)
-  
+<a href="https://www.digmatix.com/ee/kontaktid" target="_blank">www.digmatix.com/ee</a>  
 
-BCS Itera Oy  
+<br>
+
+**BCS Itera Oy** (Digmatix Finland)  
 Taivalmäki 9, 02200 Espoo, Finland  
 Phone: +358 40 665 0588  
 Business ID: 2817826-5  
 E-Mail: bcsitera@bcsitera.fi  
-[http://www.bcsitera.fi](http://www.bcsitera.fi)
+<a href="https://www.digmatix.com/fi/yhteystiedot" target="_blank">www.digmatix.com/fi</a>  
