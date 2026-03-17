@@ -1,0 +1,20 @@
+---
+---
+##### Versioon 25.0.26076.0 _(saadaval al. 18.03.2026)_
+- Edasimüügi kaupade tabelisse (_Konteeritud ostuarvete read_) lisatud väli "Hind müügiarvel", kuhu müügiarve konteerimisel salvestatakse vastava edasimüügi kauba müügihind.
+  - _Vajalik selleks, et kerge vaevaga leida edasimüügikaupade tegelik ostu- ja müügihind._
+- Täiendatud objekti vaikedimensioonide käitumist objekti valideerimisel nii, et nüüd kustutatakse dimensioonid, mis jäävad objektihalduse seadistuse dimensioonide filtrisse  ja lisatakse vastavad uued dimensioonid objekti päisest.
+  - Mõjutab tabeleid müügipäis ja read, ostupäsi ja read, peažurnaali read, kaubažurnaali read.
+- Täiendatud osturidade kinnitusringi loogikat nii, et märkustega ostuarve ridade kinnitusringile teistkordsel saatmisel ei looda märkuste ridade kinnituskandeid.
+- Lisatud objekti kaardilt avaneva objekti Muudatuste logi filtrisse "Objekti müügiread" ning "Kaubad/Töövahendid" tabelid, et ka seal tehtud muudatused oleksid kohe nähtaval.
+- Edasimüügi müügiridadel piiratud lepingu valikut objekti ridade järgi (st valikus kuvatakse ainult sama objektiga seotud lepingud).
+- Konteeritud müügiarve ja konteeritud müügi kreeditarve päisesse lisati Objekti nr. väli.
+- Lisati kontroll, mis takistab objekti kustutamist, kui mõnel edasimüügiks märgitud ostureal on vastav objekt.
+- Parandatava ostu kreeditarve loomisel enam ei kopeerita ridade kinnitamise staatust.
+- Põhivarade valimisel "Põhivarade arv objektil" lehe kaudu on nüüd valida ka lukus või passiivseid põhivarasid, kuid kasutajat hoiatatakse vastavalt.
+- Eemaldatud teavitus, mis hoiatas kasutajat, et müügiarve lähetamiskuupäev on enne töökuupäeva, kui kasutaja käivitas "Too edasimüügi kaubad" toimingu.
+- Hinnakirja rea kirjeldus võetakse nüüd objekti müügirealt, mitte kauba/PR konto kaardilt.
+- Uue rea (nii müügiarvel, kui ostuarvel) lisamisel täidetakse nüüd objekti nr ja lepingu nr automaatselt vastavalt dokumendi päises olevale määrangule.
+- Kontakti lisamisel objektilt või objekti lepingult täidetakse nüüd isiku liik ja seos ettevõttega automaatselt.
+- Lisati kontroll, mis ei luba määrata rida edasimüügiks, kui real puudub lepingu number.
+- Objekti kaardil olevas FactBoxi kastis "Konteerimata müügiread", kuvatakse nüüd ka dokumendid liigiga „Tellimus“ (lisaks varasematele Arve ja Kreeditarve).  
