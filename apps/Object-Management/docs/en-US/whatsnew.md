@@ -1,0 +1,20 @@
+---
+---
+##### Version 25.0.26076.0 _(available from March 18th, 2026)_
+- Added the "Price On Sales Invoice" field to the Resale Items table (_Posted Purchase Invoice Lines_), where the sales price of the corresponding resale item is saved when posting the sales invoice.
+  - Necessary to easily find the actual purchase and sales prices of resale items.
+- Enhanced the behavior of default object dimensions during object validation so that dimensions that fall within the object management setup dimension filter are now deleted and corresponding new dimensions are added from the object header.
+  - Affects the sales header and lines, purchase header and lines, general journal lines, item journal lines tables.
+- Enhanced the purchase line approval workflow logic so that when purchase invoice lines with notes are sent for approval for the second time, approval entries for note lines are not created.
+- Added "Object Sales Lines" and "Items/Implements" tables to the filter of the Object Change Log opened from the object card, so that changes made there are also immediately visible.
+- Limited the contract selection on resale sales lines according to object lines (i.e., only contracts related to the same object are displayed in the selection).
+- Added the Object No. field to the header of posted sales invoices and posted sales credit memos.
+- Added a check that prevents deleting an object if any resale-marked purchase line has the corresponding object.
+- When creating a corrective purchase credit memo, the approval status of lines is no longer copied.
+- When selecting fixed assets through the "Fixed Assets per Object" page, it is now possible to select locked or inactive fixed assets as well, but the user is warned accordingly.
+- Removed the notification that warned the user that the sales invoice shipment date is before the work date when the user ran the "Get Resale Items" action.
+- The price list line description is now taken from the object sales line, not from the item/G/L account card.
+- When adding a new line (on both sales invoice and purchase invoice), the object no. and contract no. are now filled automatically according to the assignment in the document header.
+- When adding a contact from the object or object contract, the person type and company relation are now filled automatically.
+- Added a check that does not allow marking a line for resale if the line lacks a contract number.
+- In the "Unposted Sales Lines" FactBox on the object card, documents of type "Order" are now also displayed (in addition to previous Invoice and Credit Memo).  
