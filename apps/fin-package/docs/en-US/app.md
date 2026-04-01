@@ -7,7 +7,7 @@ It is an end-to-end solution covering the entire company supply chain, offering 
 As a result, we have combined a range of additional capabilities into a single package to help users (especially financial professionals) perform their daily work as efficiently and productively as possible.
 
 Solutions included in the package:
-- <a href="https://apps.itera.ee/apps/Finance-Pro/docs/en-US/app.html" target="_blank">Finance pro</a>
+- <a href="https://apps.itera.ee/apps/Finance-Pro/docs/en-US/app.html" target="_blank">Finance Pro</a>
 - <a href="https://apps.itera.ee/apps/dimension-correction-tool/docs/en-US/app.html" target="_blank">Dimension Correction Tool</a>
 - <a href="https://apps.itera.ee/apps/Attachment-Preview/docs/en-US/app.html" target="_blank">Attachment Preview</a>
 - <a href="https://apps.itera.ee/apps/Automatic-Emailing-of-Invoices/docs/en-US/app.html" target="_blank">Automatic Emailing of Invoices</a>
