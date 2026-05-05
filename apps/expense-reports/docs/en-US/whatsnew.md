@@ -1,5 +1,9 @@
 ---
 ---
+##### Version 25.0.26125.0 _(available from May 05, 2026)_
+- Some non-functional technical improvements in code.
+- BC28 compatible version.  
+
 ##### Version 24.0.25289.0 _(available from October 17, 2025)_
 - Added translations for Latvian, Lithuanian, and Norwegian.
 - Fixed an issue where the Country code was left empty on travel reports imported from CostPocket.
