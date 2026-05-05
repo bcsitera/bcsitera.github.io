@@ -1,5 +1,9 @@
 ---
 ---
+##### Versioon 25.0.26125.0 _(saadaval al. 05.05.2025)_
+- Mõned mittefunktsionaalsed koodisisesed tehnilised täiendused.
+- BC28 ühilduv versioon.  
+
 ##### Versioon 24.0.25289.0 _(saadaval al. 17.10.2025)_
 - Lisatud tõlked Läti, Leedu ja Norra keelele.
 - Parandatud olukord, kus CostPocketist tulnud lähetusaruandel jäi Riigi tähis täitmata.
