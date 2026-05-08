@@ -1,5 +1,8 @@
 ---
 ---
+##### Version 25.0.26128.0 _(available from May 8th, 2026)_
+- Fields "Current Approver" and "Future Approver" are now visible on page "Purchase Approval Lines" by default.  
+
 ##### Version 25.0.26076.0 _(available from March 18th, 2026)_
 - Added the "Price On Sales Invoice" field to the Resale Items table (_Posted Purchase Invoice Lines_), where the sales price of the corresponding resale item is saved when posting the sales invoice.
   - Necessary to easily find the actual purchase and sales prices of resale items.
