@@ -1,5 +1,8 @@
 ---
 ---
+##### Versioon 25.0.26128.0 _(saadaval al. 08.05.2026)_
+- Nüüd on vaikimisi nähtaval "Osturead kinnitamiseks" lehel väljad "Hetke kinnitaja" ja "Tuleviku kinnitaja".
+
 ##### Versioon 25.0.26076.0 _(saadaval al. 18.03.2026)_
 - Edasimüügi kaupade tabelisse (_Konteeritud ostuarvete read_) lisatud väli "Hind müügiarvel", kuhu müügiarve konteerimisel salvestatakse vastava edasimüügi kauba müügihind.
   - _Vajalik selleks, et kerge vaevaga leida edasimüügikaupade tegelik ostu- ja müügihind._
