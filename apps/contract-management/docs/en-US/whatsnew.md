@@ -1,4 +1,7 @@
 ---
+##### Version 26.0.26133.0 Published 14.05.2026
+- BC28 compatible version.
+  
 ##### Version 21.0.24324.0 Published 19.11.2024
 - Contract name on sales and purcahse documents.
 - Contract Contact transfer to sales and purchase documents.
