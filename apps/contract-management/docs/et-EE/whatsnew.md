@@ -1,4 +1,7 @@
 ---
+##### Versioon 26.0.26133.0 Avaldatud 14.05.2026
+- BC28 ühilduv versioon.
+  
 ##### Versioon 21.0.24324.0 Avaldatud 19.11.2024
 - Lepingu nimetus müügi ja ostu dokumentidel.
 - Kanna lepingu kontakt müügi ja ostudokumendile.
