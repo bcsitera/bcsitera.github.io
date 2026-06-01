@@ -1,0 +1,138 @@
+---
+---
+# Reaalajapank - Kasutusjuhend
+## Sisukord
+
+- [Seadistused](#seadistused)
+- [Maksete edastamine panka](#maksete-edastamine-panka)  
+- [Sissetulevad pangasõnumid](#sissetulevad-pangasõnumid)
+- [Pangatehingute ülevaade, sidumine ja konteerimine](#pangatehingute-ülevaade-sidumine-ja-konteerimine)
+- [Ostuarvete ja maksete integratsiooni lahendus](#ostuarvete-ja-maksete-integratsiooni-lahendus)
+- [LinkPay kasutusjuhend](linkpay.md)
+
+
+## Seadistused
+
+### Pangaühenduste seadistused
+
+Võimalik on seadistada pangaühendused järgmiste pankadega:
+1. Swedbank Gateway
+2. SEB Baltic Gateway
+3. LHV Connect
+4. Coop Pank Gateway
+5. Luminor Web Service
+
+Liitumisjuhiseid leiab [siit](join.md).
+
+Iga pangaühenduse kohta on seadistuse leht (n. "Swedbank Gateway seadistus"), kus tuleb täita järgmised väljad:
+
+Väli |  Selgitus | 
+-- | --
+Teenuse URL | Sisestage panga teenuse aadress: <br> Swedbank - https://psd2.api.swedbank.com/partner/v1/sgw/ <br> SEB - https://api.bgw.baltics.sebgroup.com/ <br> LHV - https://connect.lhv.eu/ <br> Coop Pank - https://cpgw.cooppank.ee/ <br> Luminor - https://ftc.luminoropenbanking.com/v1/ft-services/CorporateFileService  
+Seadme- või autentimissertifikaadi failinimi | Importige sertifikaadi fail (pfx/p12 formaat). Sertifikaadi saate pangast.
+Seadme- või autentimissertifikaadi parool | Sisestage sertifikaadi parool.
+Lepingu ja/või kliendi id-d | Andmed panga lepingust.
+
+### Pangakonto seadistused
+_Pangakonto_ kaardi väljal "Pangaühendus" määrake millist pangaühendust kasutate. Juhul, kui kontol jätta pangaühendus määramata, siis selle konto tehinguinfot Business Centralisse ei laeta.
+
+_Pangakonto_ kaardil on nupp "Sea pangaühenduse alguskuupäev", kus tuleb reaalajapangale ümberlülitamise päeval määrata kuupäev ning pangas olev algsaldo antud päeval. 
+
+### Reaalajapanga seadistused
+Lehel _Reaalajapanga seadistus_ täitke väli "Konteeritud tehingu nr." määrates vastava numbriseeria. Kui internetipangas on arvelduskontosid, mida ei soovita Business Centralis kajastada, siis on võimalik sisse laadida vaid pangasõnumid, mis puudutavad Business Centralisse salvestatud kontosid. Selleks tuleb sisse lülitada funktsionaalsus "Filtreeri sissetulevad sõnumid". "Eemalda sissetulev tundlik sisu" kustutab ära tundlikud andmed nagu töötaja isikule viitavad andmed, kui sisselaetud pangasõnum sisaldab koondmakse tehinguid.
+
+Pangasõnumite töötlemist puudutavatest seadistustes on võimalik _Maksete sobitamise žurnaalis_ kajastada teenustasusid eraldi ridadel. Selleks tuleb sisse lülitada "Teenustasud eraldi real". Kui sisse lülitada "Nimi konteerimise kirjelduses", siis lisatakse pangast alla laetud tehingu tekstile ette ka seotud osapoole nimi. 
+
+Väljal _Sidumise loogika_ valige "Maksete sobitamise žurnaal". Teised sidumisviisid ei ole tulevikus toetatud ning eemaldatakse.  
+
+"Vastandkannete sobitamine" tähendab, et sidumisel otsib sobivaid kirjeid ka erimärgiliste avatud kannete seast. Nt kasutatakse nii arvete kui ka krediitarvete kandeid. Kui makse on tehtud Business Centrali kaudu, siis "Maksekorralduste registritega sobitamine" vastendab tehingud automaatselt maksekorraldus registris olevate andmetega. Kui sisse lülitada "Vastenda Klient/Hankija" ning tehingut ei seota ühegi avatud kandega, siis seotakse tehing Kliendi/hankija kontoga registrikoodi alusel. 
+
+"Dimensioonid seotud kandelt" - kui tehing seotakse avatud kandega, millele on avarasemast dimensioonid määratud, siis tehingule lähevad samad dimensioonid. "Dimensioonid tekst-kontoks vastendamisest" võimaldab funktsionaalsuses lisada ka dimensioone. 
+
+### Allkirjastatud maksete seadistused
+
+Allkirjastatud maksete edastamiseks tuleb BC-s seadistada igale pangakontole, millelt makseid sooritatakse, nõutud kinnitajad. Kinnitajaid võib olla üks või mitu. Pangakontole saab määrata nõutud allkirjastajad nii _Pangakontode_ loendis kui ka igalt _Pangakonto_ kaardilt eraldi. Kõik määratud kinnitajad on makse edastamiseks ka kohustuslikud - makset ei edastata panka juhul, kui kellegi allkiri on puudu.
+
+Kõik kasutajad, kes määratakse kinnitajaks, peavad olema ka Smart-ID seadistuses kasutajateks määratud - abiks on **[Smart-ID kasutusjuhend](../../../smart-id/docs/et-EE/help.md)**. Business Centralis on võimalik allkirjastada ainult Smart-ID kaudu - teised allkirjastamise lahendused ei ole toetatud Business Centralis. Meiliteavitused kinnitusnõudega edastab süsteem sellele emaili aadressile, mis on BC-s _Kasutaja_ kaardil määratud “Kontaktmeiliks”.
+
+## Maksete edastamine panka
+
+Lehel _Maksežurnaal_ saab luua panka saadetavad maksed. Vajutades vahelehel _Pank_ nupule "Edasta panka..." avaneb aruande päringuaken. Siin on võimalus sisse lülitada funktsioon _Oota töötlemise tulemust_. Sellisel juhul jääb süsteem ootama, pangast esimest maksestaatust. Kõik maksed, mis on žurnaalis, kombineeritakse üheks maksekorralduse registriks ning edastatakse panka allkirjastamata kujul ehk panka salvestuvad need kui ootel maksed.
+
+Võimalik on maksed ka BC-s ära allkirjastada ning siis ei ole neid enam vaja pangas kinnitada, ent selleks tuleb teha vajalikud seadistused, mille kohta leiate lisainfot **[siit](#allkirjastatud-maksete-seadistused)**. Allkirjastatud kujul maksete edastamiseks tuleb sisse lülitada funktsioon _Allkirjasta maksed_. Kui maksete edastaja on ka nõutud kinnitaja, siis on temal kohe võimalus maksed allkirjastada, teistele nõutud allkirjastajatele edastatakse kinnitusnõue meili teel.  
+
+Kui allkirjastatud maksete edastamine on algatatud, on võimalik maksekorralduste registrite alt jälgida makse allkirja staatust. Selleks tuleb valida õige makse ning välja “Allkirjastajad“ kaudu saab vaadata nõutud allkirjastajaid antud maksel. Samuti on võimalik näha, kes nõutud kinnitajatest on oma allkirja andnud ja millal ning ka informatsiooni saadetud meiliteavituste kohta. Samal lehel on võimalik uuesti meiliteavitused välja saata kasutajatele, kelle allkiri on endiselt puudu.
+
+Juhul kui nõutud kinnitajad on pangakontodele seadistatud, on endiselt võimalik edastada makseid ka allkirjastamata kujul. Selleks tuleb funktsioon _Allkirjasta maksed_ välja lülitada. Siis tuleb kinnitajatel logida internetipanka ning seal ootel maksed kinnitada - kinnitamisel saab kasutada kõiki allkirjastamise meetodeid.
+
+**Microsofti soovitus**: Pärast maksežurnaali panka edastamist, tuleks kõik read _Maksežurnaalist_ kustutada. Konteerima peaks alles _Maksete sobitamise žurnaalis_, kui pangast on juba saabunud kinnitus väljaminekute korrektsuse osas.
+
+Eksporditud maksefailid leiad samalt lehelt nupu alt, või otsides vaadet, _Maksekorralduste registrid_. Välja alla _Ülekannete arv_ on salvestatud kõik žurnaali tehingud eraldi ning iga tehingu kohta ka maksestaatus.
+
+Kui kasutaja roll on _Raamatupidaja_, tekib talle avalehele _Reaalajapank_ kuhi. Sinna tuleb sisse informatsioon tagasilükatud ning ootel maksete kohta. Avades leht _Tagasilükatud maksed_ on võimalik iga makse eraldi märkida peidetuks, kasutades nuppu "Peida/kuva" - see eemaldab probleemse makse rollikeskuse ülevaatest.
+
+## Sissetulevad pangasõnumid
+
+### Pangasõnumite laadimine pangast
+
+Iga pangaühenduse seadistamise lehel (n. _Swedbank Gateway seadistus)_ on nupp "Võta uued pangasõnumid", mida saab kasutada pangasõnumite impordiks.
+    
+Vajutades nupule "Tööjärjekorra kanded", avatakse leht _Tööjärjekorra kanded_, kus on võimalik seadistada kaks automaattööd: 
+- pangasõnumite võtmine pangast ja 
+- pangasõnumite töötlemine (sh. tehingute sidumine ning konteerimine). 
+
+Soovitud töötlemise sammud määrake töötlemise automaattöö nupu all _Aruande päringuaken_.
+
+Imporditud pangasõnumid kuvatakse lehel _Sissetulevad pangasõnumid_. Vaikimisi kuvatakse kirjed, mis on veel töötlemata. Kõikide sõnumite nägemiseks vajutage nupule "Näita kõiki sõnumeid".
+
+
+### Pangasõnumite import failist
+
+Lehel _Sissetulevad pangasõnumid_ on tegevus "Impordi failist". Seda saab kasutada juhuks, kui pangaühendus ei ole seadistatud ja sõnumeid pangast automaatselt ei tule.
+
+### Pangasõnumite töötlemine
+Pangsõnumi(te) töötlemiseks vajutage nupule "Töötle", mis loeb XML vormingus pangasõnumist välja  tehingute info ning salvestab need tabelitesse _Pangakonto tehingud_ ning _Maksete sobitamise žurnaal_.
+
+Peale sõnumi edukat töötlemist saate vajutada nupule "Näita kõiki sõnumeid" - sõnumil on nüüd Olek _Töödeldud_. Paremal olevas kiirinfos on näha _Salvestatud tehingute arv_. Sellele numbrile vajutades on võimalik liikuda lehele _Pangakonto tehingud_.
+
+## Pangatehingute ülevaade, sidumine ja konteerimine
+
+### Pangatehingud
+
+Pangakonto kaardil on uus väli "Saldo pangas". Selles summas kajastuvad kõik pangast imporditud tehingud, ka need, mis on veel sidumata ja/või konteerimata. Seetõttu võib väljal "Saldo pangas" olev summa erineda väljal "Saldo" kuvatavast summast. 
+
+Väljal "Saldo pangas" summale vajutades avatakse leht _Pangakonto tehingud_, millel on näha kõik tehingud nii nagu need on pangakontol pangas.
+
+### Pangatehingute sidumine ja konteerimine
+Sidumiseks ja konteerimiseks kasutatakse püsivat "RTB" nimelist _Maksete sobitamise žurnaali_.  
+  
+Juhul, kui pangasõnumite töötlemise tööjärjekorra automaattööl on aktiveeritud ka "Sidumine" ja "Konteerimine" - siis jäävad "RTB" žurnaali alles ainult need read, mis vajavad kästisi töötlemist ehk read, mida automaatselt siduda ei õnnestunud.
+
+_Vastenda tekst kontoks_ funktsiooni saab kasutada teenustasude jms tehingute tuvastamiseks ning sidumiseks. "Vastendamise tekstis" saab kasutada *, et muuta teksti tuvastamine universaalsemaks. Samuti on võimalik määrata ridadele ka dimensioone kasutades toimingut "Dimensioonid". Lisaks saab tehinguid selle seadistuse kaudu ka siduda konkreetsetele Pangakontodele, nt kui olete seadistanud makseterminalid Pangakontodena BC-s.
+
+## Ostuarvete ja maksete integratsiooni lahendus
+
+Ostuarve kinnitamine ning selle konteerimine eeldab, et selle arve eest tuleb tulevikus ka tasuda, enamasti enne makse tähtaega. Nüüd on võimalus ostuarve kinnitamisel kohe luua ka Maksekorralduse register ning selle loomisega edastatakse ka nõutud makse kinnitajatele meiliteavitused makse allkirjastamise nõudega. Lahendus ühildub BC standard töövoo malliga “Purchase Invoice Apporval Workflow”.
+
+### Seadistused
+
+Lahenduse kasutamiseks tuleb lehel Reaalajapanga seadistus sisse lülitada funktsioon “Allkirjasta makse arve kinnitamisel”. Seejärel tuleb kuupäeva valemiga määrata väljale “Maksetähtaja arvutamine”, mitu päeva enne arve maksetähtaega tehing pangas sooritatakse. Pangakonto, mis määratakse _Reaalajapanga seadistuses_ väljale “Vaikimisi pangakonto nr.“ on vaike arvelduskonto, millelt ostuarvete eest tasuma hakatakse. Ostuarve peal on olemas väli “Reaalajas pangakonto nr.”, kus algselt läheb vaikekonto, ent seda saab igal ostuarvel muuta enne kinnitusnõude saatmist. *Vt ka lähemalt, kuidas seadistada pangakontodele nõutud allkirjastajaid*.
+
+### Kasutamine
+
+Ostuarve kinnitusnõude edastamisel käivitub standardne protsess - nõutud kinnitajale edastatakse kinnitusnõuded. Kui arve kinnitajaid on ainult üks, siis kinnitamise järgselt arve vabastatakse ning arve alusel luuakse kohe _Maksekorralduse register_, mis on automaatselt suunatud allkirjastamisele. Kui arve kinnitajaid on töövoos seadistatud rohkem, siis _Maksekorralduse register_ luuakse alles peale viimast kinnitust. Igal juhul luuakse _Maksekorraldus register_ alles siis, kui arve on saanud kõik kinnitused ning vabastatud.
+
+Kui ostuarve kinnitaja kinnitab arve, loob süsteem taustal ajutise _Maksežurnaali_ nimetusega “_REALTIME_” ning loob antud arve alusel sinna makserea, mis on ka arvega seotud. Kui korraga kinnitada mitu arvet, nt seda läbi Rollikeskuse kuhja _Minu kinnitada_ kinnitusnõuded, loob süsteem sellesse ajutisse žurnaali iga arve alusel eraldi makserea ning seob arvega.
+
+Kui arve ainus või viimane kinnitaja on seadistatud ka makse allkirjastajaks, siis avaneb sellele kasutajale kohe allkirjastamise aken Smart-ID kontrollkoodiga. Teistele nõutud kinnitajatele edastatakse meiliteavitused makse allkirjastamise nõudega. Peale allkirjastamisi kontrollib süsteem, kas kõik nõutud allkirjad on olemas ning kas seotud arve(d) on konteeritud - maksefaili ei edastata panka enne, kui arve on konteeritud ning kõik allkirjad olemas.
+
+Kui ainsal või viimasel ostuarve kinnitamisel tekib tõrge Maksekorralduse registri loomisel, kuvab süsteem järgnevat tõrget: _Faili eksportimisel ilmnes tõrkeid. Lahendage iga eksporditava rea puhul paremal pool kuvatavad tõrked ja proovige siis uuesti eksportida._ Tõrke lahendamiseks tuleb minna lehele Maksežurnaalid ning seal valida ajutine žurnaal  “_REALTIME_“. Sealsed tõrkes olevad makseread on punasega märgistatud ning peale maksete parandamist/täiendamist tuleb käivitada toiming “Edasta panka…” ning veenduda, et sisse on lülitatud ka funktsionaalsus “Allkirjasta maksed”.
+
+Peale edastamist kustutada äsja eksporditud makseread ning kustutada ka žurnaali tööleht ise. Selleks avada ülevalt väljalt “Töölehe nimetus” menüü (kolm täppi lahtris). Avanenud lehel valida Töölehe realt sama tööleht ning kustutada sealt.
+
+
+---
+
+### Kontaktinfo
+Täpsema info saamiseks, palun võtke ühendust BCS Itera AS-ga:
+<a href="https://www.itera.ee/" target="_blank">www.itera.ee</a>
