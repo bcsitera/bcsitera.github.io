@@ -1,6 +1,32 @@
 ---
 ---
 
+##### The operator channel solution is available with the following banks:
+- Swedbank
+- SEB
+- Coop Pank
+
+##### Version 25.4.26125.0 (_available 05.05.2026_)
+- Improvements to Citadele statement import.
+
+##### Version 25.4.26114.0 (_available 24.04.2026_)
+- Addition to the _Map Text to Account_ function: it is now possible to run the function based on the payment party type, meaning matching can be applied:
+    - in all cases,
+    - only when the related party is an Organization,
+    - only when the related party is a Private Person.
+
+##### Version 25.4.26096.0 (_available 07.04.2026_)
+- Payment tolerance detection is now possible for transactions applied to multiple open entries.
+- The amount of payment tolerance that will be posted to the G/L is displayed in the _Payment Reconciliation Journal_ in the field "Applied Payment Discount"
+  - The "Match Confidence" for a transaction with a payment tolerance is still set to _Medium_
+- New permission set BGW REALTIMEBANKLITE addded, suitable for users who do not work with banks directly but handle purchase invoices.
+- New filter views are available in the _Payment Reconciliation Journal_ under _Show_:
+    - Show Customer Lines
+    - Show Vendor Lines
+    - Show G/L Account Lines
+    These actions display lines according to the related entry "Account Type", making it easier to separate transactions between Purchasing and Sales departments.
+- Fixes for sending signed payments to SEB and Coop banks.
+
 ##### Version 24.0.26022.0 (_available 22.01.2026_)
 - Additions to the _Text-to-Account Mapping_ functionality 
     - The "Mapping Text" field allows the use of *

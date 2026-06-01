@@ -1,6 +1,33 @@
 ---
 ---
 
+##### Operaatorkanali lahendus on saadaval pankades:
+- Swedbank
+- SEB
+- Coop Pank
+
+##### Versioon 25.4.26125.0 (_saadaval al. 05.05.2026_)
+- Täiendused Citadele väljavõtte impordil
+
+##### Versioon 25.4.26114.0 (_saadaval al. 24.04.2026_)
+- Täiendus funktsioonile _Vastenda tekst kontoks_: võimalik rakendada funktsiooni käivituma vastavalt tehingu makse osapoole liigile ehk vastendamine rakendub, kas
+ - igal juhul,
+ - ainult kui makse osapool on Organisatsioon
+ - ainult kui makse osapool on Eraisik.
+
+##### Versioon 25.4.26096.0 (_saadaval al. 07.04.2026_)
+- Võimaldatud on maksehälbe tuvastamine ka tehingutel, mis on seotud mitme avatud kandega.
+- Maksehälbe summa, mis on suunatud konteerimisele, on kuvatud _Maksete sobitamise Žurnaalis_ väljal "Rakendatud maksesoodustus"
+  - Tehing on "Vastenduse täpsus" on maksehälbega tehingul endiselt _Keskmine_
+- Lisatud on uus õiguste komplekt BGW REALTIMEBANKLITE, mis sobib kasutajatele, kes ei puutu kokku pangaga, ent tegelevad ostuarvetega.
+- Uued filtrivaated valitavad _Maksete sobitamise žurnaalis_ vahelehel _Näita_:
+  - Näita kliendi ridu
+  - Näita hankija ridu
+  - Näita PR konto ridu
+  Toimingud kuvavad ridu vastavalt seotud kande "Konto liigile", et oleks võimalik eristada Ostu ning Müügi osakondade tehinguid
+- Parandused SEB ja Coop pankade allkirjastatud maksete edastamisel
+
+
 ##### Versioon 24.0.26022.0 (_saadaval al. 22.01.2026_)
 - Täiendused funktsioonile _Vastenda tekst kontoks_ 
   - "Vastendamise tekst" väljal saab kasutada *
