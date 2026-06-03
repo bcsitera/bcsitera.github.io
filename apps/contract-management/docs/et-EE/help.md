@@ -345,7 +345,7 @@ Eelduseks on see, et nii klientide kui hankijate puhul on lubatud kasutada mitut
 
 Lepingute seadistuses on võimalik määrata mis tüüpi lahendust ja kus kasutatakse ning lisaks täiendavad seadistused.
 
-<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/tagatised_lep.seaded_png" target="_blank"><img src="tagatised_lep_seaded.png" alt="Tagatiste seaded" width="800"/></a>
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManSetupCol.png" target="_blank"><img src="ContManSetupCol.png" alt="Tagatiste seaded" width="800"/></a>
 
 ### Müügi tagatiste lahenduse liik
 
@@ -390,6 +390,7 @@ Lisa olemasolevatele konteeringurühmadele veergudesse Lühiajaliste tagatise ko
 
 ## Lepingu kaart (Tagatised vahekaart)
 
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManCardCol.png" target="_blank"><img src="ContManCardCol.png" alt="Tagatised lepingul" width="800"/></a>
 
 | Väli | Selgitus |
 |-------|----------|
@@ -418,7 +419,7 @@ Lisa olemasolevatele konteeringurühmadele veergudesse Lühiajaliste tagatise ko
 
 #### Ostuarvel nupud
 
-<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/tagatiste nupud arvel.png" target="_blank"><img src="tagatiste nupud arvel.png" alt="Tagatise ostuarvel" width="400"/></a>
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ContManColActions.png" target="_blank"><img src="ContManColActions.png" alt="Tagatise ostuarvel" width="400"/></a>
 
 ##### Arvuta lühiajaline tagatis
 
