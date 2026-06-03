@@ -10,6 +10,7 @@ Contract management functionality in BC enables the following:
 - Create contract lines for billing.
 - Create periodic sales orders and invoices based on contract lines.
 - Multiple partners for 1 contract.
+- Manage collaterals and retentions on purchase and sales documents.
 
 ## Table of Contents
   - [Settings](#settings)
@@ -633,5 +634,5 @@ These values indicate the outstanding collateral amount that has not yet been pa
 
 ---
 
-For more information please contact BCS Itera AS:  
-https://www.itera.ee
+For more information please contact DIGMATIX ESTONIA AS:  
+https://www.digmatix.com/ee
