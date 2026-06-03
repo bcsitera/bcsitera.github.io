@@ -345,6 +345,8 @@ Eelduseks on see, et nii klientide kui hankijate puhul on lubatud kasutada mitut
 
 Lepingute seadistuses on võimalik määrata mis tüüpi lahendust ja kus kasutatakse ning lisaks täiendavad seadistused.
 
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/tagatised_lep.seaded.png" target="_blank"><img src="tagatised_lep_seaded.png" alt="Lepingu seadistus" width="800"/></a>
+
 ### Müügi tagatiste lahenduse liik
 
 | Väärtus | Selgitus |
@@ -388,6 +390,8 @@ Lisa olemasolevatele konteeringurühmadele veergudesse Lühiajaliste tagatise ko
 
 ## Lepingu kaart (Tagatised vahekaart)
 
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/tagatised vahekaart.png" target="_blank"><img src="tagatised vahekaart.png" alt="Tagatised lepingul" width="800"/></a>
+
 | Väli | Selgitus |
 |-------|----------|
 | Arvuta tagatis KM-ga summast | võimaldab määrata kas tagatise summad arvutatakse KM-ta või KM-ga summast. |
@@ -414,6 +418,8 @@ Lisa olemasolevatele konteeringurühmadele veergudesse Lühiajaliste tagatise ko
 | Pikaajalise tagatise tähtaeg | võimaldab määrata pikaajalise tagatise eeldatavat tähtaega. Konteerimisel lisatakse see kuupäeva loodavale reskontrokandele tähtajaks. |
 
 #### Ostuarvel nupud
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/tagatiste nupud arvel.png" target="_blank"><img src="tagatiste nupud arvel.png" alt="Tagatise ostuarvel" width="400"/></a>
 
 ##### Arvuta lühiajaline tagatis
 
