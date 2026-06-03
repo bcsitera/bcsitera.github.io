@@ -24,6 +24,10 @@ Contract management functionality in BC enables the following:
   - [Billing](#billing)
     - [Create Contract Invoice Lines](#create-contract-invoice-lines)
     - [Create Sales Invoices](#create-sales-invoices)
+  - [Collateral Management](#collateral-management)
+    - [Setup](#setup)
+    - [Usage (Retentions)](#usage-retentions)
+    - [Usage (Collaterals)](#usage-collaterals)
 
 ## Settings
 To use the functionality, **Contract Setup** must be opened and following fields filled:
@@ -339,6 +343,293 @@ Fill in **Posting Date**, this date will be an end date for a range that will be
 | **_Create as Invoice or Order_** | Allows to select which type of sales documents should be created: **Invoices** (default) or **Orders**.|
 
 Press **OK**.
+
+
+# Collateral Management
+
+Collateral management can be handled in two ways. The solution type and where it is used (Purchase, Sales) can be configured in Contract Setup.
+
+### Guarantee
+
+In the Guarantee solution, the logic is based on document lines and Guarantee ledger entries (similar to customer/vendor-specific prepayments).
+
+Can be used with both purchase invoices and purchase orders, as well as sales invoices and sales orders.
+
+For example, in purchasing, an additional negative line is added to the expense line using the collateral account.
+
+Collateral accounts must be configured so that they are excluded from the INF report.
+
+### Retentions
+
+In the Retention solution, collateral calculation and logic are handled through customer/vendor ledger entries. The customer/vendor ledger amount is split during posting.
+
+Can be used only with purchase invoices and sales invoices.
+
+A prerequisite is that multiple customer/vendor posting groups are allowed for both customers and vendors.
+
+# Setup
+
+## Contract Setup (Collateral Management FastTab)
+
+In Contract Setup, it is possible to define which solution type is used and where it is applied, as well as configure additional settings.
+
+### Sales Collateral Solution Type
+
+| Value | Description |
+|----------|----------|
+| blank | collaterals are not used. |
+| Collateral | uses the Guarantee ledger entry solution. |
+| Retention | uses the customer/vendor ledger entry solution. |
+
+### Purch Collateral Solution Type
+
+| Value | Description |
+|----------|----------|
+| blank | collaterals are not used. |
+| Collateral | uses the Guarantee ledger entry solution. |
+| Retention | uses the customer/vendor ledger entry solution. |
+
+### Due Date Settings
+
+| Field | Description |
+|-------|----------|
+| Short-t. Ret. Due Date Calc. | Specifies the date formula used to calculate the expected due date of a short-term collateral. Used when no Contract is assigned to the entry. |
+| Long-t. Ret.Due Date Calc | Specifies the date formula used to calculate the expected due date of a long-term collateral. Used when no Contract is assigned to the entry. |
+
+### Retentions
+
+| Field | Description |
+|-------|----------|
+| ShortTerm Col.Vend.Post.Gr, LongTerm Col. Vend.Post.Gr | Specifies the vendor posting groups used for posting collaterals. |
+| ShortTerm Col.Cust.Post.Gr, LongTerm Col. Cust.Post.Gr | Specifies the customer posting groups used for posting collaterals. |
+| LongTerm Col Journal Template, LongTerm Col Journal Batch | Specifies the general journal template and batch where Long-term Collateral entries are created when using the Calculate Long-Term Collateral function from customer/vendor ledger entries. |
+
+## Vendor/Customer Posting Groups
+
+### Create New Posting Groups (Retention Solution)
+
+Create new posting groups for Short-term and Long-term Collaterals and assign the collateral account to the Payables Account field.
+
+### Configure Existing Posting Groups (Collateral Solution)
+
+Add the appropriate G/L accounts to the Short-term Collateral Account and Long-term Collateral Account fields in the existing posting groups.
+
+## Contract Card (Collaterals FastTab)
+
+| Field | Description |
+|-------|----------|
+| Calculate Collaterals from Amount incl. VAT | Specifies whether collateral amounts are calculated from the amount excluding VAT or including VAT. |
+| Short-term Collateral, % | Specifies the short-term collateral percentage used in collateral calculation. |
+| Short-Term Collateral Due Date | Specifies the date on which the short-term collateral is expected to be released. |
+| Short-term Collateral Due Date Calculation | Specifies the date formula used to calculate the short-term collateral due date. The document posting date is used as the base date. |
+| Long-term Collateral % | Specifies the long-term collateral percentage used in collateral calculation. |
+| Long-Term Collateral Due Date | Specifies the date on which the long-term collateral is expected to be released. |
+| Long-term Collateral Due Date Calculation | Specifies the date formula used to calculate the long-term collateral due date. The document posting date is used as the base date. |
+
+# Usage (Retentions)
+
+## Purchase
+
+### Purchase Invoice
+
+#### Purchase Invoice Fields
+
+| Field | Description |
+|-------|----------|
+| Short-term Collateral Amount | Specifies the short-term collateral amount. During posting, a vendor ledger entry is created for the specified amount and the Collateral Type is set to Short-term. In addition, the value STR is assigned to the On Hold field. |
+| Short-term Collateral Due Date | Specifies the expected due date of the short-term collateral. During posting, this date is assigned as the due date of the created vendor ledger entry. |
+| Long-term Collateral Amount | Specifies the long-term collateral amount. During posting, a vendor ledger entry is created for the specified amount and the Collateral Type is set to Long-term. In addition, the value LTR is assigned to the On Hold field. |
+| Long-term Collateral Due Date | Specifies the expected due date of the long-term collateral. During posting, this date is assigned as the due date of the created vendor ledger entry. |
+
+#### Actions on Purchase Invoice
+
+##### Calculate Short-Term Collateral
+
+Calculates the short-term collateral according to the setup on the Contract Card and populates the Short-term Collateral Amount and Short-term Collateral Due Date fields on the purchase invoice.
+
+Note! The action is visible only when a Contract No. has been selected on the document.
+
+##### Calculate Long-Term Collateral
+
+Calculates the long-term collateral according to the setup on the Contract Card and populates the Long-term Collateral Amount and Long-term Collateral Due Date fields on the purchase invoice.
+
+Note! The action is visible only when a Contract No. has been selected on the document.
+
+### Vendor Ledger Entries
+
+#### Vendor Ledger Entry Fields
+
+##### Collateral Type
+
+- Short-term – assigned automatically to short-term collateral entries.
+- Long-term – assigned automatically to long-term collateral entries.
+
+#### Vendor Ledger Entry Actions
+
+##### Calculate Long-Term Collateral
+
+Works only when the selected entry or entries have the Collateral Type set to Short-term.
+
+A page is displayed where it is possible to specify the Document No., Posting Date, Long-term Collateral Amount, and Long-term Collateral Due Date.
+
+This function is used when long-term collateral information was not specified during invoice posting.
+
+When the Create Entries action is selected, the configured General Journal Batch is opened containing a closing entry for the short-term collateral and a new long-term collateral entry.
+
+During posting, the short-term collateral vendor ledger entry is applied against the corresponding short-term collateral entry and a new long-term collateral vendor ledger entry is created.
+
+## Sales
+
+### Sales Invoice
+
+#### Sales Invoice Fields
+
+| Field | Description |
+|-------|----------|
+| Short-term Collateral Amount | Specifies the short-term collateral amount. During posting, a customer ledger entry is created for the specified amount and the Collateral Type is set to Short-term. In addition, the value STR is assigned to the On Hold field. |
+| Short-term Collateral Due Date | Specifies the expected due date of the short-term collateral. During posting, this date is assigned as the due date of the created customer ledger entry. |
+| Long-term Collateral Amount | Specifies the long-term collateral amount. During posting, a customer ledger entry is created for the specified amount and the Collateral Type is set to Long-term. In addition, the value LTR is assigned to the On Hold field. |
+| Long-term Collateral Due Date | Specifies the expected due date of the long-term collateral. During posting, this date is assigned as the due date of the created customer ledger entry. |
+
+#### Actions on Sales Invoice
+
+##### Calculate Short-Term Collateral
+
+Calculates the short-term collateral according to the setup on the Contract Card and populates the Short-term Collateral Amount and Short-term Collateral Due Date fields on the sales invoice.
+
+Note! The action is visible only when a Contract No. has been selected on the document.
+
+##### Calculate Long-Term Collateral
+
+Calculates the long-term collateral according to the setup on the Contract Card and populates the Long-term Collateral Amount and Long-term Collateral Due Date fields on the sales invoice.
+
+Note! The action is visible only when a Contract No. has been selected on the document.
+
+### Customer Ledger Entries
+
+#### Customer Ledger Entry Fields
+
+##### Collateral Type
+
+- Short-term – assigned automatically to short-term collateral entries.
+- Long-term – assigned automatically to long-term collateral entries.
+
+#### Customer Ledger Entry Actions
+
+##### Calculate Long-Term Collateral
+
+Works only when the selected entry or entries have the Collateral Type set to Short-term.
+
+A page is displayed where it is possible to specify the Document No., Posting Date, Long-term Collateral Amount, and Long-term Collateral Due Date.
+
+This function is used when long-term collateral information was not specified during invoice posting.
+
+When the Create Entries action is selected, the configured General Journal Batch is opened containing a closing entry for the short-term collateral and a new long-term collateral entry.
+
+During posting, the short-term collateral customer ledger entry is applied against the corresponding short-term collateral entry and a new long-term collateral customer ledger entry is created.
+
+# Usage (Guarantee)
+
+## Purchase
+
+### Collateral Retention
+
+The following actions are available on purchase invoices and purchase orders:
+
+#### Calculate Short-Term Collateral
+
+Calculates the short-term collateral based on the purchase document line amounts and the conditions configured on the Contract Card, and adds the result as a new purchase line.
+
+Note! The action is visible only when a Contract No. has been selected on the purchase document.
+
+#### Calculate Long-Term Collateral
+
+Calculates the long-term collateral based on the purchase document line amounts and the conditions configured on the Contract Card, and adds the result as a new purchase line.
+
+Note! The action is visible only when a Contract No. has been selected on the purchase document.
+
+When the purchase invoice is posted, open vendor Guarantee ledger entries are created. The expected due date of the entry is calculated based on the collateral due date calculation formula.
+
+### Collateral Payment
+
+Collateral payments can be initiated from a purchase invoice using the Get Vendor Short-Term Collateral action.
+
+#### Prerequisites
+
+- A Contract No. must be assigned to the purchase invoice.
+
+The page displays all open Guarantee ledger entries that meet the following criteria:
+
+- same vendor,
+- same currency,
+- same collateral type,
+- Open = Yes.
+
+The user selects the appropriate Guarantee ledger entry.
+
+As a result, a new purchase line is added to the purchase invoice using the remaining amount of the Guarante ledger entry.
+
+When the purchase invoice is posted:
+
+- a new vendor Guarantee ledger entry is created,
+- the remaining amount of the original entry is reduced.
+
+When the collateral is fully paid out, the Open field of the Guarantee ledger entry is updated to No.
+
+## Sales
+
+### Collateral Retention
+
+The following actions are available on sales invoices and sales orders:
+
+#### Calculate Short-Term Collateral
+
+Calculates the short-term collateral based on the sales document line amounts and the conditions configured on the Contract Card, and adds the result as a new sales line.
+
+Note! The action is visible only when a Contract No. has been selected on the sales document.
+
+#### Calculate Long-Term Collateral
+
+Calculates the long-term collateral based on the sales document line amounts and the conditions configured on the Contract Card, and adds the result as a new sales line.
+
+Note! The action is visible only when a Contract No. has been selected on the sales document.
+
+When the sales invoice is posted, open customer Guarantee ledger entries are created. The expected due date of the entry is calculated based on the collateral due date calculation formula.
+
+### Collateral Release
+
+Collateral release can be initiated from a sales invoice using the Get Customer Collateral action.
+
+#### Prerequisites
+
+- A Contract No. must be assigned to the sales invoice.
+
+The page displays all open Guarantee ledger entries that meet the following criteria:
+
+- same customer,
+- same currency,
+- same collateral type,
+- Open = Yes.
+
+The user selects the appropriate Guarantee ledger entry.
+
+As a result, a new sales line is added to the sales invoice using the remaining amount of the Guarantee ledger entry.
+
+When the sales invoice is posted:
+
+- a new customer Guarantee ledger entry is created,
+- the remaining amount of the original entry is reduced.
+
+When the collateral is fully released, the Open field of the Guarantee ledger entry is updated to No.
+
+## Contract Balance Updates
+
+The system automatically updates the following fields on the Contract Card:
+
+- Short-term Collateral Amount (Posted)
+- Long-term Collateral Amount (Posted)
+
+These values indicate the outstanding collateral amount that has not yet been paid out or released.
 
 ---
 
