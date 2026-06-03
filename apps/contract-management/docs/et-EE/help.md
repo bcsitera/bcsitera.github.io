@@ -390,7 +390,6 @@ Lisa olemasolevatele konteeringurühmadele veergudesse Lühiajaliste tagatise ko
 
 ## Lepingu kaart (Tagatised vahekaart)
 
-<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/tagatisedvahekaart.png" target="_blank"><img src="tagatisedvahekaart.png" alt="Tagatised lepingul" width="800"/></a>
 
 | Väli | Selgitus |
 |-------|----------|
