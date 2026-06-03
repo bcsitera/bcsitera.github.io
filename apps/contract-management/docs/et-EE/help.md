@@ -345,7 +345,7 @@ Eelduseks on see, et nii klientide kui hankijate puhul on lubatud kasutada mitut
 
 Lepingute seadistuses on võimalik määrata mis tüüpi lahendust ja kus kasutatakse ning lisaks täiendavad seadistused.
 
-<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/tagatised_lep.seaded.png" target="_blank"><img src="tagatised_lep_seaded.png" alt="Lepingu seadistus" width="800"/></a>
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/tagatised_lep.seaded_png" target="_blank"><img src="tagatised_lep_seaded.png" alt="Tagatiste seaded" width="800"/></a>
 
 ### Müügi tagatiste lahenduse liik
 
@@ -390,7 +390,7 @@ Lisa olemasolevatele konteeringurühmadele veergudesse Lühiajaliste tagatise ko
 
 ## Lepingu kaart (Tagatised vahekaart)
 
-<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/tagatised vahekaart.png" target="_blank"><img src="tagatised vahekaart.png" alt="Tagatised lepingul" width="800"/></a>
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/tagatisedvahekaart.png" target="_blank"><img src="tagatisedvahekaart.png" alt="Tagatised lepingul" width="800"/></a>
 
 | Väli | Selgitus |
 |-------|----------|
