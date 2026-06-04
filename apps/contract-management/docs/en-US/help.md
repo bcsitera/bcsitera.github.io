@@ -374,6 +374,8 @@ A prerequisite is that multiple customer/vendor posting groups are allowed for b
 
 In Contract Setup, it is possible to define which solution type is used and where it is applied, as well as configure additional settings.
 
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ContManColSetupENG.png" target="_blank"><img src="ContManColSetupENG.png" alt="Tagatiste seaded" width="800"/></a>
+
 ### Sales Collateral Solution Type
 
 | Value | Description |
@@ -417,6 +419,8 @@ Add the appropriate G/L accounts to the Short-term Collateral Account and Long-t
 
 ## Contract Card (Collaterals FastTab)
 
+<a href="https://apps.itera.ee/apps/contract-management/docs/en-US/ConManCardColENG.png" target="_blank"><img src="ConManCardColENG.png" alt="Tagatised lepingul" width="800"/></a>
+
 | Field | Description |
 |-------|----------|
 | Calculate Collaterals from Amount incl. VAT | Specifies whether collateral amounts are calculated from the amount excluding VAT or including VAT. |
@@ -443,6 +447,8 @@ Add the appropriate G/L accounts to the Short-term Collateral Account and Long-t
 | Long-term Collateral Due Date | Specifies the expected due date of the long-term collateral. During posting, this date is assigned as the due date of the created vendor ledger entry. |
 
 #### Actions on Purchase Invoice
+
+<a href="https://apps.itera.ee/apps/contract-management/docs/et-EE/ConManColActionsENG.png" target="_blank"><img src="ConManColActionsENG.png" alt="TagatiseD ostuarvel" width="400"/></a>
 
 ##### Calculate Short-Term Collateral
 
