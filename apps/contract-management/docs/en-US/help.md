@@ -28,7 +28,7 @@ Contract management functionality in BC enables the following:
   - [Collateral Management](#collateral-management)
     - [Setup](#setup)
     - [Usage (Retentions)](#usage-retentions)
-    - [Usage (Collaterals)](#usage-collaterals)
+    - [Usage (Guarantee)](#usage-guarantee)
 
 ## Settings
 To use the functionality, **Contract Setup** must be opened and following fields filled:
