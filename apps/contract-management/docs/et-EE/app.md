@@ -11,10 +11,11 @@ Lepingute halduse funktsionaalsus võimaldab järgmist:
 - Vaikedimensioonide kasutamine lepingtel
 - Lepingu arvelduse ridade loomine
 - Perioodiliste müügiarvete loomine lepingu arvelduse ridade alusel
+- Tagatiste haldus
 
 [Kasutusjuhend](help.md)
 
 ## Kontakt
 
-Lisainformatsiooni saamiseks palun võta ühendust BCS Itera AS:
-[https://www.itera.ee](https://www.itera.ee)
+Lisainformatsiooni saamiseks palun võta ühendust DIGMATIX ESTONIA AS:  
+[https://www.digmatix.com/ee](https://www.digmatix.com/ee)
