@@ -8,6 +8,7 @@ Solution offers:
 - Contract support on Job card for job sales invoice creation
 - Partner and contract support on Job planning lines for planning purposes
 - Manage collaterals and retentions on purchase and sales documents
+- Planning and tracking payments via payment schedules
 
 [User Guide](help.md)
 
