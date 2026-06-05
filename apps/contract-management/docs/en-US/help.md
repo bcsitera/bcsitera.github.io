@@ -29,6 +29,7 @@ Contract management functionality in BC enables the following:
     - [Setup](#setup)
     - [Usage (Retentions)](#usage-retentions)
     - [Usage (Guarantee)](#usage-guarantee)
+  - [Payment Schedules](#payment-schedules)
 
 ## Settings
 To use the functionality, **Contract Setup** must be opened and following fields filled:
@@ -637,6 +638,51 @@ The system automatically updates the following fields on the Contract Card:
 - Long-term Collateral Amount (Posted)
 
 These values indicate the outstanding collateral amount that has not yet been paid out or released.
+
+# Payment Schedules
+
+Payment schedules let you plan expected payments and match them against actual entries.
+
+## Creating Payment Schedule Lines
+
+1. Open a Contract Card
+2. Click **Navigate > Payment Schedule**
+3. Add lines:
+
+| Field | Action |
+|---|---|
+| **Customer/Vendor No.** | Auto-populated from contract; can override |
+| **Amount (LCY)** | Enter the expected payment amount |
+| **VAT Amount (LCY)** | Enter the VAT portion |
+| **Document Date** | Enter the expected document date |
+| **Due Date** | Enter the expected payment due date |
+| **Comments** | Add notes |
+| **Payment Schedule Category** | Classify the line |
+
+## Automatic Matching
+
+1. Navigate to **Search > Payment Schedule Lines (LEP)**
+2. Click **Actions > Match with Actuals**
+3. The system automatically:
+   - Matches unmatched lines to Customer/Vendor Ledger Entries based on contract, partner, and date range (within the same month)
+   - Sets the **Matching Method** to **Automatic**
+   - Fills in **Document No.** and **External Document No.**
+4. After matching, the system resolves **Paid Amount** and **Paid Date** from Detailed Ledger Entries
+
+## Manual Matching
+
+1. Open a payment schedule line
+2. Look up the **Cust./Vend. Ledger Entry No.** field
+3. Select the matching ledger entry
+4. The **Matching Method** is set to **Manual**
+
+## Cash Flow View
+
+1. Navigate to **Search > Payment Schedule Cash Flow (LEP)**
+2. View payment schedule data organized by:
+   - Payment schedule categories
+   - Monthly/annual periods
+   - Opening/closing balances
 
 ---
 
