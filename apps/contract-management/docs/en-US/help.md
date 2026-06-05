@@ -11,6 +11,7 @@ Contract management functionality in BC enables the following:
 - Create periodic sales orders and invoices based on contract lines.
 - Multiple partners for 1 contract.
 - Manage collaterals and retentions on purchase and sales documents.
+- Planning and tracking payments via payment schedules
 
 ## Table of Contents
   - [Settings](#settings)
