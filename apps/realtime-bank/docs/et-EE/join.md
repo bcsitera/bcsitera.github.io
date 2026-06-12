@@ -2,6 +2,15 @@
 ---
 # Liitumine
 
+## Sisukord
+
+- [Taotluse esitamine](#taotluse-esitamine)
+- [Otsekanal vs operaatorkanal](#otsekanal-vs-operaatorkanal)
+- [Toetatud teenused](#toetatud-teenused)
+- [Turvasertifikaat](#turvasertifikaat)
+- [Seadistused](#seadistused)
+
+
 ## Taotluse esitamine
 Business Central kasutab liidestamisel nii otsekanalit kui ka operaatorkanalit - pankade lõikes erinev. Liitumiseks võtke ühendust oma kliendihalduriga või esitage taotlus panga kodulehel.
 
@@ -12,7 +21,7 @@ Võimalik on seadistada pangaühendused järgmiste pankadega:
 4. [Coop Pank Gateway - otse- ja operaatorkanal](https://www.cooppank.ee/gateway)
 5. [Luminor Web Service - otsekanal](https://luminor.ee/ari/web-services)
 
-### Otsekanal vs operaatorkanal
+## Otsekanal vs operaatorkanal
 
 Otsekanali puhul on Teie majandustarkvara ühendatud otse pangaga. See lahendus on saadval kõikides pankades. Andmete vahendamiseks tuleb luua turvasertifikaat. Sertifikaadi loomise juhendi edastab pank Teile ning on osa lepingu sõlmimise prostessist. Sektsioonis [Turvasertifikaat](#turvasertifikaat) saate tutvuda antud sammuga. Soovitus on lasta DIGMATIX Estonial ära teha antud tegevused.
 **NB!** Swedbank edastab ka juhendi Swedbank Developer Portaalis tegevuste läbimiseks. Palume need sammud läbi teha - küsimuste tekkimisel abistab konsultant.
@@ -125,11 +134,7 @@ Allkirjastatud maksete edastamiseks tuleb BC-s seadistada igale pangakontole, mi
 
 Kõik kasutajad, kes määratakse kinnitajaks, peavad olema ka Smart-ID seadistuses kasutajateks määratud - abiks on **[Smart-ID kasutusjuhend](../../../smart-id/docs/et-EE/help.md)**. Business Centralis on võimalik allkirjastada ainult Smart-ID kaudu - teised allkirjastamise lahendused ei ole toetatud Business Centralis. Meiliteavitused kinnitusnõudega edastab süsteem sellele emaili aadressile, mis on BC-s _Kasutaja_ kaardil määratud “Kontaktmeiliks”.
 
-## Ostuarvete ja maksete integratsiooni lahendus
-
-Ostuarve kinnitamine ning selle konteerimine eeldab, et selle arve eest tuleb tulevikus ka tasuda, enamasti enne makse tähtaega. Nüüd on võimalus ostuarve kinnitamisel kohe luua ka Maksekorralduse register ning selle loomisega edastatakse ka nõutud makse kinnitajatele meiliteavitused makse allkirjastamise nõudega. Lahendus ühildub BC standard töövoo malliga “Purchase Invoice Apporval Workflow”.
-
-### Seadistused
+### Ostuarvete ja maksete integratsiooni lahenduse seadistused
 
 Lahenduse kasutamiseks tuleb lehel Reaalajapanga seadistus sisse lülitada funktsioon “Allkirjasta makse arve kinnitamisel”. Seejärel tuleb kuupäeva valemiga määrata väljale “Maksetähtaja arvutamine”, mitu päeva enne arve maksetähtaega tehing pangas sooritatakse. Pangakonto, mis määratakse _Reaalajapanga seadistuses_ väljale “Vaikimisi pangakonto nr.“ on vaike arvelduskonto, millelt ostuarvete eest tasuma hakatakse. Ostuarve peal on olemas väli “Reaalajas pangakonto nr.”, kus algselt läheb vaikekonto, ent seda saab igal ostuarvel muuta enne kinnitusnõude saatmist. *Vt ka lähemalt, kuidas seadistada pangakontodele nõutud allkirjastajaid*.
 

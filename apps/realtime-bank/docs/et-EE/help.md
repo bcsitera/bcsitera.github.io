@@ -3,6 +3,8 @@
 
 # Reaalajapank: kasutusjuhend
 
+Liitumisjuhendi leiate [siit](join.md).
+
 ## Sisukord
 
 - [Rollikeskus](#rollikeskus)
@@ -131,6 +133,8 @@ Igal real saab määrata ka dimensioone. Selleks kasutada toimingu "Dimensioonid
 Lisatud on ka väli "Vastendamise seotud osapoole liik", kus saab määrata, kas vastendus käivitub ainult _Organisatsioonide_ või ainult _Eraisikute_ puhul. Kui väli tühjaks jätta käivitub vastendmaine olenemata maksja liigist.
 
 ## Ostuarvete ja maksete integratsiooni lahendus
+
+Ostuarve kinnitamine ning selle konteerimine eeldab, et selle arve eest tuleb tulevikus ka tasuda, enamasti enne makse tähtaega. Nüüd on võimalus ostuarve kinnitamisel kohe luua ka Maksekorralduse register ning selle loomisega edastatakse ka nõutud makse kinnitajatele meiliteavitused makse allkirjastamise nõudega. Lahendus ühildub BC standard töövoo malliga “Purchase Invoice Apporval Workflow”.
 
 ### Kasutamine
 

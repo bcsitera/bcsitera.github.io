@@ -3,9 +3,10 @@
 
 # Realtime Bank: User Guide
 
+Instructions to join with the service can be found [here](join.md).
+
 ## Table of Contents
 
-- [Setup](#setup)
 - [Role Center](#role-center)
   - [Realtime Bank Cue](#realtime-bank-cue)
 - [Payment Journal Page](#payment-journal-page)

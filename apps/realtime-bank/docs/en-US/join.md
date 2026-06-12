@@ -1,6 +1,14 @@
 
 # Joining
 
+## Table of Contents
+
+- [Submitting the application](#submitting-the-application)
+- [Direct Channel vs. Operator Channel](#direct-channel-vs-operator-channel)
+- [Supported services](#supported-services)
+- [Certificates](#certificates)
+- [Setup](#setup)
+
 ## Submitting the application
 
 Our Business Central product uses both direct and operator channels for integration — this varies by bank. To join, contact your customer manager or submit an application on the bank's website.
@@ -13,9 +21,9 @@ Bank connectors are supported by the following bank providers:
 4. [Coop Pank Gateway - direct and operator channel](https://www.cooppank.ee/en/business/daily-banking/interfaces)
 5. [Luminor Web Service - direct channel](https://luminor.ee/business/web-services)
 
-### Direct Channel vs. Operator Channel
+## Direct Channel vs. Operator Channel
 
-With the Direct Channel, your ERP software is connected directly to the bank. This solution is available at all banks. A security certificate must be created to allow data transfer. The bank will provide you with instructions for creating the certificate, which is part of the contract signing process. In the [Security Certificate](#turvasertifikaat) section, you can have an overview of this step. We recommend having DIGMATIX Estonia handle these tasks.
+With the Direct Channel, your ERP software is connected directly to the bank. This solution is available at all banks. A security certificate must be created to allow data transfer. The bank will provide you with instructions for creating the certificate, which is part of the contract signing process. In the [Certificates](#certificates) section, you can have an overview of this step. We recommend having DIGMATIX Estonia handle these tasks.
 **NB!** Swedbank also provides instructions for completing setups in the Swedbank Developer Portal. Please follow these steps — your consultant will assist you, if you have any questions.
 
 With the operator channel, DIGMATIX Estonia acts as a data intermediary. This means that your ERP software sends data to us, and we in turn forward it to the bank and vice versa. All connections in the data transfer process are protected by security certificates. In this solution, DIGMATIX Estonia creates and manages all necessary certificates. Bank agreements are generally offered on more favorable terms to users of the operator channel.
@@ -92,8 +100,6 @@ The following connectors are supported out-of-the-box:
 3. LHV Connect
 4. Coop Pank Gateway
 5. Luminor Web Service
-
-Instructions to join with the service can be found [here](join.md).
 
 Each has its own setup card (e.g., _Swedbank Gateway Setup_). Please open the setup of your bank connector and enter the following information: 
 
