@@ -1,7 +1,8 @@
 ---
 ---
 
-# Kas midagi valesti/puudu?
+# Kõige levinumad lahendused
+
 
 - [_Maksežurnaalis_ konteeriti tehingud ette](#maksežurnaalis-konteeriti-tehingud-ette)
 - [_Maksete sobitamise žurnaali_ avades tuli hoiatus, et saldod ei ühti](#maksete-sobitamise-žurnaali-avades-tuli-hoiatus-et-saldod-ei-ühti)
@@ -30,34 +31,33 @@ _Pangakontode_ loendis avada _Filtripaan_. Seejärel "Filtreeri koguväärtused 
 
 ## Uusi tehinguid ei ole laekunud/tehingud on puudu
 
-- Kontrolli kas kõik RTB tööjärjekorra kanded töötavad. Selleks, et automaatika edaspidi töötaks tuleb tööjärjekorrad uuesti töökorda saada. Igal juhul anda konsultandile teada, kui tööd on tõrkesse läinud. Lihtsalt tööjärjekorra kande taas käivitamisest ei pruugi piisata, et automaatika taas tööle hakkaks.
-  - kui panga nimeline töö ei tööta
-    - suure tõenäosusega oli pangas teenus maas, ühendus katkes ing tööjärjekord ei õnnestunud süsteemi automaatselt taastada
-    - on ka võimalik, et sertifikaat on aegunud
-    - muu probleem
+- Kontrolli kas kõik RTB tööjärjekorra kanded töötavad. Selleks, et automaatika edaspidi töötaks tuleb tööjärjekorrad uuesti töökorda saada. Igal juhul anda konsultandile teada, kui tööd on tõrkesse läinud. Lihtsalt tööjärjekorra kande taas käivitamisest ei pruugi piisata, et automaatika taas tööle hakkaks. Tööjärjekorra logikannete alt on võimalik näha ka tõrketeate sisu. 
+  - Kui panganimeline töö ei tööta
+    - Tõrkekood algab 5-ga (500, 503 jt), tähendab see, et pank ei võta päringuid vastu. Enamikel juhtudel viitab see, kas tõrgetele nende keskkonnas või ka hooldustöödele.
+    - On ka võimalik, et sertifikaat on aegunud
   - kui "RTB - Töötle/Seo/Konteeri" ei tööta
-    - konsultant selgitab välja probleemi olemuse
+    - Probleem tekkis peale pangast sõnumite importimist, kas töötlemise, sidumise või konteerimise käigus. Konsultant aitab probleemi olemust selgitada.
   - kui tööjärjekorrad töötavad
-    - kontrollida lehel _Pangakonto_ tehingud, kas tehingud on tõesti puudu
-    - anda konsultandile teada
+    - Kontrollida lehel _Pangakonto_ tehingud, kas tehingud on puudu
+    - Konsultant aitab probleemi olemust selgitada.
 - Kas lehel _Sissetulevad pangasõnumid_ on uusi sõnumeid?
-  - kui lehele minna ja seal on kohe näha read, kuupäeva(de)ga, mis süsteemist puudu, siis tähendab, et pangast on andmed kätte saadud, aga neid ei ole ära töödeldud.
-    - kui need on punased on sõnumite töötlemisel olnud tõrge, tõrke info on infopaanis kuvatud - vajadusel pöörduda konsultandi poole
-    - kui sõnumid on rasvases mustaas tekstis on need töötlemata. nende puhul käivitada toiming "Töötle" ning kustutada filtriväli tühjaks
-  - kui vastavatest kuupäevadest uued sõnumid puuduvad või ei ole kindel, kas midagi on puudu…
+  - Kui minna lehele _Sissetulevad pangasõnumid_ ja seal on kohe näha read, kuupäeva(de)ga, mis süsteemist puudu, siis tähendab, et pangast on andmed kätte saadud, aga neid ei ole ära töödeldud.
+    - Kui need on punased on sõnumite töötlemisel olnud tõrge, tõrke info on infopaanis kuvatud - vajadusel pöörduda konsultandi poole
+    - Kui sõnumid on rasvases mustas tekstis on need töötlemata. Nende puhul käivitada toiming "Töötle" ning kustutada filtriväli tühjaks
+  - Kui vastavatest kuupäevadest uued sõnumid puuduvad või ei ole kindel, kas midagi on puudu…
 - Lae puudu olevad tehingud süsteemi sisse. Selleks on kaks varianti: esimene on küll pikem, aga töötab igal juhul. **Kui kasutada all olevaid variante, ei laeta ühtegi tehingut süsteemi topelt, olenemata sellest, kas tehingud juba olid varem süsteemis või mitte.**
   - Maksefaili käitsi import
     - internetipangas eksportida puudu olevad väljavõtted XML-na
     - Business Centralis avada leht _Sissetulevad pangasõnumid_
-    - seal on toiming "Impordi failist"
+    - toiming "Impordi failist"
     - XML väljavõtte lisada sinna
-    - uu(te)l sõnumi(te)l käivitada toiming "Töötle"
+    - käivitada toiming "Töötle"
     - kustutada filtriväli tühjaks
     - **OK**
   - Maksefaili import Swedbank pangaühenduse kaudu
     - lehel _Swedbank Gateway seadistus_
     - toiming "Päri kontoväljavõte"
-    - valida "Aruande liik" Varasem periood
+    - valida "Aruande liik" _Varasem periood_
     - märkida periood, kus tehingud on (potentsiaalelt) puudu  
        **NB!** kui perioodi jääb ka jooksev päev ehk tänane kuupäev, rakendub teenustasu 0,50€
     - **OK**
@@ -82,17 +82,9 @@ _Pangakontode_ loendis avada _Filtripaan_. Seejärel "Filtreeri koguväärtused 
 
 Valesti importimine tähendab otse Maksete sobitamise žurnaali - seda ei tohi teha.
 
-Kui tehingud said sedasi konteeritud, tulid nüüd ka _Reaalajapanga_ kaudu samad tehingud uuesti _Maksete sobitamise žurnaali_ - tähendab see, et neid ei saa enam kustutada. Kindlasti teada anda konsultandile teada ning koos olukorda hinnata.
+Kui tehingud said sedasi konteeritud, tulid nüüd ka _Reaalajapanga_ kaudu samad tehingud uuesti _Maksete sobitamise žurnaali_ - tähendab see, et neid ei saa enam kustutada. Kindlasti anda konsultandile teada ning koos olukorda hinnata.
 
-Lahenduseks saab proovida, kas süsteem laseb need tehingud konteerida mõnele vahekontole nt _Raha teel_. Seejärel teha käsitsi vastandkanded, et need tagasi pöörata.
-
-Kui süsteem seda ei võimalda, siis tuleb:
-
-- üles kirjutada, millistel kasutajatel on seni kasutuses _Reaalajapanga_ õiguste komplektid BGW REALTIMEBANKFULL ja BGW REALTIMEBANKLITE
-- Reaalajapanga äpp uninstallida (**mitte** kustutada andmed)
-- tehingud _Maksete sobitamise žurnaalis_ kustutada
-- äpp uuesti installida
-- kasutajatel taastada _Reaalajapanga_ õiguste komplektid BGW REALTIMEBANKFULL ja BGW REALTIMEBANKLITE
+Üks lahendus on app uninstallida (andmed alles jätta), topelttehingud seejärel kustutada Maksete sobitamise žurnaalist, app uuesti installida ning üle kontrollida kasutajate õigused.
 
 ## Tehingud on _Maksete sobitamise žurnaalis_, aga need on sidumata
 

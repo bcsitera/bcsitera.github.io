@@ -12,52 +12,8 @@
   - [Transmitting Payments to the Bank](#transmitting-payments-to-the-bank)
 - [Bank Accounts Page](#bank-accounts-page)
 - [Payment Reconciliation Journals Page](#payment-reconciliation-journals-page)
-- [Something Wrong/Missing?](#something-wrongmissing)
+- [Something Wrong/Missing?](fix.md)
 
-## Setup
-
-### Setup Bank Connetors
-
-The following connectors are supported out-of-the-box:
-1. Swedbank Gateway
-2. SEB Baltic Gateway
-3. LHV Connect
-4. Coop Pank Gateway
-5. Luminor Web Service
-
-Instructions to join with the service can be found [here](join.md).
-
-Each has its own setup card. Please open the setup of your bank connector and enter the following information: 
-
-Field |  Description | 
--- | --
-Service URL | Enter the address of bank service. <br> Swedbank - https://psd2.api.swedbank.com/partner/v1/sgw/ <br> SEB - https://api.bgw.baltics.sebgroup.com/ <br> LHV - https://connect.lhv.eu/ <br> Coop Pank - https://cpgw.cooppank.ee/ <br> Luminor - https://ftc.luminoropenbanking.com/v1/ft-services/CorporateFileService  
-Authorization/Device Certificate Filename | Import certificate file (pfx/p12 format). Certifcate will be given by bank.
-Authorization/Device Certificate Password | Enter certificate password.
-Agreement Id/Customer Id | Details from the bank agreement.
-
-
-### Setup Bank Account
-Open Bank Account card and choose the connector in the Bank Connector field. If no connector is specified, the transaction information for this bank account will not be pulled into Business Central.
-
-On the Bank Account card, there is a button Set Starting Date for Bank Connector, where you have to set the date of switching to Realtime Bank and the opening balance in the bank on that day.
-
-### Setup Realtime Bank
-Open Realtime Bank Setup and assign the number series for the Posted Transaction Nos. field. If there are bank accounts that you do not want to be reflected in Business Central, it is possible to download only bank messages that relate to the accounts saved in Business Central. To do this, enable the feature "Filter Incoming Messages". "Clear Incoming Sensitive Content" deletes sensitive data such as employees' personal details if the imported bank message contains consolidated payments.
-
-In the settings related to the processing of bank messages, it is possible to display service fees on separate lines in the _Payment Reconciliation Journal_. To do this, enable "Charges on Separate Line". If you enable "Name in Posting Description", the name of the related party will also be added to the text of the transaction taken from the bank.
-
-In the _Application Logic_ field, select "Payment Reconciliation Journal". Other application methods will soon not be supported and will be removed. 
-
-"Match Opposite Entries" means that when applying, the system also searches for matching entries among open entries with opposite symbols. E.g. both invoice and credit invoice entries are used. If the payment was made via Business Central, "Match Credit Transfer Register" automatically matches the transactions with the data from the Credit Transfer Registers. If "Match Customer/Vendor" is on and the transaction is not applied to any open entry, then the transaction is applied to the Client/Vendor account based on the registration code.
-
-"Dimensions from Applied Entry" - if the transaction is linked to an open entry to which dimensions have been previously assigned, then the same dimensions are applied to the transaction. "Dimensions from Text-to-Account" allows you to add dimensions within the functionality.
-
-### Setup Signed Payments
-
-In order to send signed payments, the required approvers must be set up in Business Central. There may be one or more approvers. The required approvers can be assigned to a bank account both in the _Bank Accounts_ list and separately on each _Bank Account_ card. All assigned users are mandatory for the transmission of the payment - if even one approver signature is missing, the payment will not be transmitted to the bank. 
-
-All users who are assigned as approvers must also be set up as _Smart-ID users_ - refer to our **[Smart-ID User Guide](../../../smart-id/docs/en-US/help.md)**. In Business Central, it is only possible to sign via Smart-ID – other signing solutions are not supported in Business Central. Email notifications with approval request will be sent to the persons' email address listed under “Contact Email“ on the _User_ card.
 
 ## Role Center
 

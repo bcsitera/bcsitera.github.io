@@ -1,7 +1,7 @@
 ---
 ---
 
-# Something Wrong/Missing?
+# Most Common Fixes
 
 - [Transactions Were Posted in Advance in the _Payment Journal_](#transactions-were-posted-in-advance-in-the-payment-journal)
 - [When Opening the _Payment Reconciliation Journal_, a Warning Appeared That Balances Do Not Match](#when-opening-the-payment-reconciliation-journal-a-warning-appeared-that-balances-do-not-match)
@@ -32,50 +32,49 @@ In the _Bank Accounts_ list, open the _Filter pane_. Then "Filter totals by", se
 
 ## New Transactions Have Not Arrived/Transactions Are Missing
 
-- Check if all RTB _Job Queue Entries_ are working. In order for automation to work in the future, job queues must be restored. In any case, let the consultant know if jobs have failed. Simply restarting the _Job Queue Entry_ may not be enough for automation to start working again.
-  - if the bank-named job has stopped working
-    - most likely the service was down at the bank, the connection was lost, and the job queue could not be automatically restored by the system
-    - it is also possible that the certificate has expired
-    - other problem
-  - if the "RTB - Process/Apply/Post" job  has stopped working
-    - the consultant will clarify the nature of the problem
-  - if job queues are working
-    - check on the _Bank Account_ page transactions whether transactions are really missing
-    - notify the consultant
+- Check if all RTB _Job Queue Entries_ are working. In order for automation to work in the future, job queues must be restored. In any case, let the consultant know if jobs have failed. Simply restarting the _Job Queue Entry_ may not be enough for automation to start working again. You can also view the content of error messages under the Job Queue Log Entries. 
+  - If the bank-named job has stopped working
+    - If the error code starts with 5 (500, 503, etc.), it means that the bank is not accepting requests. In most cases, this indicates either issues with their system or maintenance work.
+    - It is also possible that the certificate has expired
+  - If the "RTB - Process/Apply/Post" job has stopped working
+    - The problem occurred after importing messages from the bank, either during processing, application, or posting. The consultant will help clarify the nature of the problem.
+  - If job queues are working
+    - Check on the _Bank Account_ page transactions whether transactions are missing
+    - The consultant will help clarify the nature of the problem.
 - Are there new messages on the _Incoming Bank Messages_ page?
-  - if you go to the page and immediately see lines with date(s) that are missing from the system, it means that data has been received from the bank but has not been processed.
-    - if they are red, there was an error processing the messages, error info is displayed in the info pane - contact the consultant if necessary
-    - if the messages are in bold black text, they are unprocessed. for these, run the "Process" action and clear the filter field
-  - if new messages from the respective dates are missing or you are not sure if something is missing...
+  - If you go to the page and immediately see lines with date(s) that are missing from the system, it means that data has been received from the bank but has not been processed.
+    - If they are red, there was an error processing the messages, error info is displayed in the info pane - contact the consultant if necessary
+    - If the messages are in bold black text, they are unprocessed. For these, run the "Process" action and clear the filter field
+  - If new messages from the respective dates are missing or you are not sure if something is missing...
 - Load the missing transactions into the system. There are two options for this: the first is longer but works in any case. **If you use the options below, no transactions will be loaded into the system twice, regardless of whether the transactions were already in the system before or not.**
   - Manual payment file import
     - export the missing bank statements as XML in the internet bank
     - open the _Incoming Bank Messages_ page in Business Central
-    - there is an "Import from File" action there
-    - add the XML statement there
-    - run the "Process" action on the new message(s)
+    - "Import from File" action
+    - add the XML statement
+    - run the "Process" action
     - clear the filter field
     - **OK**
   - Payment file import via Swedbank bank connection
-    - on the _Swedbank Gateway Setup_ page
-    - "Request Account Statement" action
-    - select "Report Type" Previous Period
+    - page _Swedbank Gateway Setup_ 
+    - action "Request Account Statement" 
+    - select "Report Type" _Previous Period_
     - mark the period where transactions are (potentially) missing  
        **NB!** if the current day i.e. today's date falls within the period, a service fee of €0.50 applies
     - **OK**
-    - run the "Get New Bank Messages" action
-    - on the _Incoming Bank Messages_ page
-    - run the "Process" action
+    - action "Get New Bank Messages" 
+    - page _Incoming Bank Messages_
+    - action "Process" 
     - clear the filter field
     - **OK**
   - Payment file import via SEB bank connection (if missing transactions are within the last 21 days)
-    - on the _SEB Baltic Gateway Setup_ page
-    - "Get EOD Transactions" action
+    - page _SEB Baltic Gateway Setup_ 
+    - action "Get EOD Transactions"
     - mark the date with (potentially) missing transactions  
        **NB!** must be done separately for each date
     - **OK**
-    - on the _Incoming Bank Messages_ page
-    - run the "Process" action
+    - page _Incoming Bank Messages_ 
+    - action "Process" 
     - clear the filter field
     - **OK**
 - Now the transactions are in the _Payment Reconciliation Journal_ and their "Match Confidence" is _None_
@@ -86,15 +85,7 @@ Incorrect import means directly into the Payment Reconciliation Journal - this m
 
 If transactions were posted this way, now the same transactions have also come through _Realtime Bank_ again into the _Payment Reconciliation Journal_ - this means they can no longer be deleted. Definitely notify the consultant and assess the situation together.
 
-As a solution, you can try whether the system allows posting these transactions to an intermediate account, e.g., _Cash in Transit_. Then make manual reversing entries to reverse them.
-
-If the system does not allow this, then you must:
-
-- write down which users currently have the _Realtime Bank_ permission sets BGW REALTIMEBANKFULL and BGW REALTIMEBANKLITE in use
-- uninstall the Realtime Bank app (**do not** delete data)
-- delete the transactions in the _Payment Reconciliation Journal_
-- install the app again
-- restore the _Realtime Bank_ permission sets BGW REALTIMEBANKFULL and BGW REALTIMEBANKLITE for users
+One solution is to uninstall the app (while keeping the data), then delete the duplicate transactions from the _Payment Reconciliation Journal_, reinstall the app, and review user permissions.
 
 ## Transactions Are in the _Payment Reconciliation Journal_, but They Are Unapplied
 
