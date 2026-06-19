@@ -3,23 +3,12 @@
 
 # Kõige levinumad lahendused
 
-
-- [_Maksežurnaalis_ konteeriti tehingud ette](#maksežurnaalis-konteeriti-tehingud-ette)
 - [_Maksete sobitamise žurnaali_ avades tuli hoiatus, et saldod ei ühti](#maksete-sobitamise-žurnaali-avades-tuli-hoiatus-et-saldod-ei-ühti)
 - [Uusi tehinguid ei ole laekunud/tehingud on puudu](Uusi tehinguid ei ole laekunud/tehingud on puudu)
 - [Väljavõte imporditi valesti, nüüd on topelt tehingud süsteemis](#väljavõte-imporditi-valesti-nüüd-on-topelt-tehingud-süsteemis)
 - [Tehingud on _Maksete sobitamise žurnaalis_, aga need on sidumata](#tehingud-on-maksete-sobitamise-žurnaalis-aga-need-on-sidumata)
 - [_Kõrged_ tehingud on _Maksete sobitamise žurnaalis_, aga kasutusel on automaatne konteerimine](#kõrged-tehingud-on-maksete-sobitamise-žurnaalis-aga-kasutusel-on-automaatne-konteerimine)
 
-## _Maksežurnaalis_ konteeriti tehingud ette
-
-Sellised makseread sulgevad Hankijaandmiku kanded, kuid loovad uued pangakontoandmiku kanded, mis jäävad avatuks. Selleks, et need saaksid suletud tuleb oodata, kuni väljavõtte laekub süsteemi. Süsteem tuvastab ise ära maksed, mis said varem konteeritud ning sobitab need olemasolevate Pangakontoandmiku kannetega.
-
-Kui varasemalt konteeritud tehing on _Maksete sobitamise žurnaalis_ sobitatud Pangakontoandmiku kandega, siis on veerus "Konto liik" märgitud _Pangakonto_. Nende tehingute "Vastenduse täpsus" on _Kõrge_. Nendele võib ka käivitada "Konteerimise eelvaate" ning seal tuleb teade, et ühtegi uut kannet ei looda. Seejärel võib tehingud ära konteerida - sellega vaid suletakse eelnevalt loodud Pangakontoandmiku kanded.
-
-Kui hakkategi ette konteerima teadlikult kõiki makseid hankijatele, siis võib lehel _Maksete sidumise seadistus_ välja lülitada "Luba hankijaandmiku kannete sidumine".
-
-Kui see oli ühekordne juhus, siis tasub lehel _Maksete sidumise seadistus_ välja lülitada "Luba hankijaandmiku kannete sidumine" ajutiselt. _Maksete sobitamise žurnaalis_ üles leida tehingud, mis said eelnevalt konteeritud, need valida ning käivitada "Eemalda sidumised". Seejärel käivitada "Seo valitud…". Nüüd saab tehingud konteerida ning seejärel uuesti sisse lülitada lehel _Maksete sidumise seadistus_ välja lülitada "Luba hankijaandmiku kannete sidumine".
 
 ## _Maksete sobitamise žurnaali_ avades tuli hoiatus, et saldod ei ühti
 

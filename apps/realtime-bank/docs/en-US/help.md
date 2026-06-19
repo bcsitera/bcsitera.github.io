@@ -112,6 +112,16 @@ If the created line needs to be applied to a specific _Customer_/_Vendor_ open e
 
 "Difference" can be transferred to new lines as many times as necessary.
 
+**Transactions Were Posted in Advance in the _Payment Journal_**
+
+Such payment lines close _Vendor Ledger Entries_ but create new _Bank Account Ledger Entries_ that remain open. In order for these to be closed, you must wait until the bank statement arrives in the system. The system will automatically recognize payments that were posted earlier and match them with existing _Bank Account Ledger Entries_.
+
+If a previously posted transaction is matched with a _Bank Account Ledger Entry_ in the _Payment Reconciliation Journal_, then _Bank Account_ is marked in the "Account Type" column. The "Match Confidence" of these transactions is _High_. For verification purposes, you can also run "Preview..." for these, and there will be a message that no new entries will be created. After that, you can post the transactions - this only closes the previously created _Bank Account Ledger Entries_.
+
+If you knowingly start posting all payments to vendors in advance, you can disable "Enable Vendor Ledger Entries Matching" on the _Payment Application Settings_ page.
+
+If this was a one-time occurrence, please temporarily disable "Enable Vendor Ledger Entries Matching" on the page _Payment Application Settings_. In the _Payment Reconciliation Journal_, find the transactions that were posted in advance, select them, and run "Remove Applications". Then run "Apply Selected...". Now you can post the transactions and then re-enable "Enable Vendor Ledger Entries Matching" on the _Payment Application Settings_ page.
+
 **Accepting Applications**
 
 Transactions that have been reviewed should be marked - use the "Accept Applications" action for this. This makes it easier to manage which transactions have been checked and accepted. This is also helpful if you want to visually reduce transactions in the journal and partially post them.

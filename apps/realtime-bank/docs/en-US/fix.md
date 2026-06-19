@@ -3,7 +3,6 @@
 
 # Most Common Fixes
 
-- [Transactions Were Posted in Advance in the _Payment Journal_](#transactions-were-posted-in-advance-in-the-payment-journal)
 - [When Opening the _Payment Reconciliation Journal_, a Warning Appeared That Balances Do Not Match](#when-opening-the-payment-reconciliation-journal-a-warning-appeared-that-balances-do-not-match)
 - [New Transactions Have Not Arrived/Transactions Are Missing](#new-transactions-have-not-arrivedtransactions-are-missing)
 - [Bank Statements Were Imported Incorrectly, Now There Are Duplicate Transactions in the System](#bank-statements-were-imported-incorrectly-now-there-are-duplicate-transactions-in-the-system)
@@ -11,16 +10,6 @@
 - [_High_ Transactions Are in the _Payment Reconciliation Journal_, but Automatic Posting Is in Use](#high-transactions-are-in-the-payment-reconciliation-journal-but-automatic-posting-is-in-use)
 
 
-
-## Transactions Were Posted in Advance in the _Payment Journal_
-
-Such payment lines close _Vendor Ledger Entries_ but create new _Bank Account Ledger Entries_ that remain open. In order for these to be closed, you must wait until the bank statement arrives in the system. The system will automatically recognize payments that were posted earlier and match them with existing _Bank Account Ledger Entries_.
-
-If a previously posted transaction is matched with a _Bank Account Ledger Entry_ in the _Payment Reconciliation Journal_, then _Bank Account_ is marked in the "Account Type" column. The "Match Confidence" of these transactions is _High_. You can also run "Preview..." for these, and there will be a message that no new entries will be created. After that, you can post the transactions - this only closes the previously created _Bank Account Ledger Entries_.
-
-If you knowingly start posting all payments to vendors in advance, you can disable "Enable Vendor Ledger Entries Matching" on the _Payment Application Settings_ page.
-
-If this was a one-time occurrence, it is worth temporarily disabling "Enable Vendor Ledger Entries Matching" on the _Payment Application Settings_ page. In the _Payment Reconciliation Journal_, find the transactions that were posted in advance, select them, and run "Remove Applications". Then run "Apply Selected...". Now you can post the transactions and then re-enable "Enable Vendor Ledger Entries Matching" on the _Payment Application Settings_ page.
 
 ## When Opening the _Payment Reconciliation Journal_, a Warning Appeared That Balances Do Not Match
 

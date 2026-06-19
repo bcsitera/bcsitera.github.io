@@ -112,6 +112,17 @@ Kui on vaja tekkinud rida siduda konkreetse Kliendi/Hankija avatud kandega, siis
 
 "Erinevust" saab uutele ridadele viia nii mitu korda kui vaja.
 
+**_Maksežurnaalis_ konteeriti tehingud ette**
+
+Sellised makseread sulgevad Hankijaandmiku kanded, kuid loovad uued pangakontoandmiku kanded, mis jäävad avatuks. Selleks, et need saaksid suletud tuleb oodata, kuni väljavõtte laekub süsteemi. Süsteem tuvastab ise ära maksed, mis said varem konteeritud ning sobitab need olemasolevate Pangakontoandmiku kannetega.
+
+Kui varasemalt konteeritud tehing on _Maksete sobitamise žurnaalis_ sobitatud Pangakontoandmiku kandega, siis on veerus "Konto liik" märgitud _Pangakonto_. Nende tehingute "Vastenduse täpsus" on _Kõrge_. Kontrolli mõttes võib nendele käivitada "Konteerimise eelvaate" ning seal tuleb teade, et ühtegi uut kannet ei looda. Need tehingud saab ära konteerida - sellega vaid suletakse eelnevalt loodud Pangakontoandmiku kanded.
+
+Kui hakkategi ette konteerima teadlikult kõiki makseid hankijatele, siis võib lehel _Maksete sidumise seadistus_ välja lülitada "Luba hankijaandmiku kannete sidumine".
+
+Kui see oli ühekordne juhus, siis tasub lehel _Maksete sidumise seadistus_ ajutiselt välja lülitada "Luba hankijaandmiku kannete sidumine". _Maksete sobitamise žurnaalis_ üles leida tehingud, mis said eelnevalt konteeritud, need valida ning käivitada "Eemalda sidumised". Seejärel käivitada tehingutel "Seo valitud…". Nüüd saab tehingud konteerida ning seejärel uuesti lehel _Maksete sidumise seadistus_ sisse lülitada "Luba hankijaandmiku kannete sidumine".
+
+
 **Sidumise kinnitamine**
 
 Tehingud, mis on üle vaadatud tasub märkida ära - kasuta selleks toimingut "Kinnita sidumised". Sedasi on lihtsam hallata, millised tehingud on üle kontrollitud ning kinnitatud. See on ka abiks kui on soov vahepeal žurnaalis tehinguid vähendada ning osaliselt konteerida neid.
