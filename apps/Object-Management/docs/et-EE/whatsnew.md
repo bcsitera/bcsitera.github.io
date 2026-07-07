@@ -1,5 +1,12 @@
 ---
 ---
+##### Versioon 25.0.26188.0 _(saadaval al. 07.07.2026)_
+- Täiendatud edasimüügi osturidade loogika: leping määratakse edasimüügi ridadele automaatselt, kui objekti müügiridadel on ainult üks leping.
+- Parandatud olukord, kus ostuarve päises ei saanud lepingut valida, kui objekti müügiridadelt leiti mitu lepingut.
+- Täiendatud loogika objekti koodi muutmisel:
+  - uueneb objekti kood tabelis Default dimensions
+  - uueneb objekti dimensiooni kood
+  
 ##### Versioon 25.0.26128.0 _(saadaval al. 08.05.2026)_
 - Nüüd on vaikimisi nähtaval "Osturead kinnitamiseks" lehel väljad "Hetke kinnitaja" ja "Tuleviku kinnitaja".
 
