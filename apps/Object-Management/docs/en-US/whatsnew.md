@@ -1,5 +1,12 @@
 ---
 ---
+##### Version 25.0.26188.0 _(available from 07.07.2026)_
+- Enhanced the resale purchase line logic: the contract is assigned automatically to resale lines when there is only one contract on the object's sales lines.
+- Fixed an issue where it was not possible to select a contract in the purchase invoice header when multiple contracts were found on the object's sales lines.
+- Enhanced the logic for changing the object code:
+  - Updates the object code in the "Default Dimensions" table.
+  - Updates the object dimension code.
+    
 ##### Version 25.0.26128.0 _(available from May 8th, 2026)_
 - Fields "Current Approver" and "Future Approver" are now visible on page "Purchase Approval Lines" by default.  
 
