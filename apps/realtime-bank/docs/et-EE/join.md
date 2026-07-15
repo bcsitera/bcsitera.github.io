@@ -31,10 +31,10 @@ SEB Baltic Gateway | ✅ | ✅ |
 Coop Pank Gateway | ✅ | ✅ | 
 Luminor Web Service | ✅ | ⏳ | 
 
-Otsekanali puhul on Teie majandustarkvara ühendatud otse pangaga. See lahendus on saadval kõikides pankades üle Baltikumi. Andmete vahendamiseks tuleb luua turvasertifikaat. Sertifikaadi loomise juhendi edastab pank Teile ning on osa lepingu sõlmimise prostessist. Sektsioonis [Turvasertifikaat](#turvasertifikaat) saate tutvuda antud sammuga. Soovitus on lasta DIGMATIX Estonial ära teha antud tegevused.
+Otsekanali puhul on Teie majandustarkvara ühendatud otse pangaga. See lahendus on saadval kõikides pankades üle Baltikumi. Andmete vahendamiseks tuleb luua turvasertifikaat. Sertifikaadi loomise juhendi edastab pank Teile ning on osa lepingu sõlmimise prostessist. Sektsioonis [Turvasertifikaat](#turvasertifikaat) saate tutvuda antud sammuga. Soovitus on lasta DIGMATIX Estonial ära teha antud tegevused.  
 **NB!** Swedbank edastab ka juhendi Swedbank Developer Portaalis tegevuste läbimiseks. Palume need sammud läbi teha - küsimuste tekkimisel abistab konsultant.
 
-Operaatorkanali puhul on DIGMATIX Estonia andmete vahendaja. See tähendab, et Teie majandustarkavara edastab andmeid meile ning meie omakorda edastame need panka ja vastupidi. Kõik ühendused andmete vahendamise protsessis on kaitstud turvasertifikaatidega. Siin lahenduses loob ja haldab kõiki vajalikke sertifikaate DIGMATIX Estonia. Operaatorkanali kasutajatele on pangalepingud üldjuhul soodsamatel tingimusel. See lahnedus on saadval hetkel läbi Swedbank, SEB ja Coop Panga ning ainult Eestis.
+Operaatorkanali puhul on DIGMATIX Estonia andmete vahendaja. See tähendab, et Teie majandustarkavara edastab andmeid meile ning meie omakorda edastame need panka ja vastupidi. Kõik ühendused andmete vahendamise protsessis on kaitstud turvasertifikaatidega. Siin lahenduses loob ja haldab kõiki vajalikke sertifikaate DIGMATIX Estonia. Operaatorkanali kasutajatele on pangalepingud üldjuhul soodsamatel tingimusel. See lahnedus on saadval hetkel läbi Swedbank, SEB ja Coop Panga ning ainult Eestis.  
 **NB!** Kui olete Business Centrali Pilve lahenduse kasutaja, on Coop Pank Gateway teile saadaval ainult operaatorkanalina.
 
 Siit leite ka **Swedbank Gateway operaatorkanali kiirtaotluse lingi**: https://www.swedbank.ee/business/d2d/ebanking/gateway/conclude?operatorId=47540
