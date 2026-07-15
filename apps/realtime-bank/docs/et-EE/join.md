@@ -70,7 +70,8 @@ Coop Pank on omalt poolt loonud hea võrdlustabeli hinnakirja erinevuste kajasta
 
 Otsekanali hinnakirja erinevused [leiate siit](https://www.cooppank.ee/ariklient/igapaevapangandus/liidestused#?tab=tab-4&accordionItem=otsekanal).  
 
-Operaatorkanali hinnakirja erinevused [leiate siit](https://www.cooppank.ee/ariklient/igapaevapangandus/liidestused#?tab=tab-4&accordionItem=otsekanal). **NB!** Operaatorkanalit toetame vaid Swedbank, SEB ning Coop Pank Gateway-ga.
+Operaatorkanali hinnakirja erinevused [leiate siit](https://www.cooppank.ee/ariklient/igapaevapangandus/liidestused#?tab=tab-4&accordionItem=otsekanal).  
+**NB!** Operaatorkanalit toetame vaid Swedbank, SEB ning Coop Pank Gateway-ga.
 
 ## Turvasertifikaat (otsekanal)
 Kõigi pankade puhul tuleb lahenduses seadistada turvasertifikaat. Liitumisel annab pank teile sellekohased juhised. Kuna tegemist on üsna tehniliste sammudega, siis soovitav on pöörduda oma BC partneri poole, kes aitab need teha.

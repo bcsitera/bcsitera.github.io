@@ -70,7 +70,8 @@ Coop Pank has created a comparative table of each banks' price lists. It can be 
 
 Differences in the Direct Channel price list [can be found here](https://www.cooppank.ee/en/business/daily-banking/interfaces#?tab=tab-4&accordionItem=Direct+channel).
 
-Differences in the Operator Channel price list [can be found here](https://www.cooppank.ee/en/business/daily-banking/interfaces#?tab=tab-4&accordionItem=vordlus). **NB!** Operator Channel is supported only through Swedbank, SEB, and Coop Pank Gateway.
+Differences in the Operator Channel price list [can be found here](https://www.cooppank.ee/en/business/daily-banking/interfaces#?tab=tab-4&accordionItem=vordlus).  
+**NB!** Operator Channel is supported only through Swedbank, SEB, and Coop Pank Gateway.
 
 ## Certificates (direct channel)
 
