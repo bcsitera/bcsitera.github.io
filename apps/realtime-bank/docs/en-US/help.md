@@ -20,6 +20,8 @@ Instructions to join with the service can be found [here](join.md).
 
 ### _Realtime Bank_ Cue  
 
+The cue _Realtime Bank_ is available to users, whose set role is "Accountant".
+
 #### Rejected Payments
 
 Information about rejected payments appears here. If the bank detected an error after the payment was sent from the _Payment Journal_ to the bank, the transaction will appear here. Each transaction has a description of what the error was. At the top there is an action "Hide/Unhide", which can be used to remove transactions from this cue.

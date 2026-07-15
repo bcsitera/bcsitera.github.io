@@ -20,6 +20,8 @@ Liitumisjuhendi leiate [siit](join.md).
 
 ### Kuhi _Reaalajapank_  
 
+Kuhi _Reaalajapank_ on kasutajatel, kelle rolliks on määratud "Raamatupidaja". 
+
 #### Tagasilükatud maksed
 
 Siia jõuab info tagasilükatud maksete kohta. Kui pank tuvastas vea peale makse panka saatmist _Maksežunraalist_, siis jõuab see tehing siia. Igal tehingul on kirjas, milles tõrge seisnes. Üleval on toiming "Peida/Kuva", millega saab tehingud antud kuhjast eemaldada.

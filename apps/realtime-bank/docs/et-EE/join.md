@@ -23,10 +23,18 @@ Võimalik on seadistada pangaühendused järgmiste pankadega:
 
 ## Otsekanal vs operaatorkanal
 
-Otsekanali puhul on Teie majandustarkvara ühendatud otse pangaga. See lahendus on saadval kõikides pankades. Andmete vahendamiseks tuleb luua turvasertifikaat. Sertifikaadi loomise juhendi edastab pank Teile ning on osa lepingu sõlmimise prostessist. Sektsioonis [Turvasertifikaat](#turvasertifikaat) saate tutvuda antud sammuga. Soovitus on lasta DIGMATIX Estonial ära teha antud tegevused.
+Pangad | Otsekanal | Operaatorkanal |
+--|--|--
+Swedbank Gateway | ✅ | ✅ |
+LHV Connect | ✅ | ⏳ | 
+SEB Baltic Gateway | ✅ | ✅ |
+Coop Pank Gateway | ✅ | ✅ | 
+Luminor Web Service | ✅ | ⏳ | 
+
+Otsekanali puhul on Teie majandustarkvara ühendatud otse pangaga. See lahendus on saadval kõikides pankades üle Baltikumi. Andmete vahendamiseks tuleb luua turvasertifikaat. Sertifikaadi loomise juhendi edastab pank Teile ning on osa lepingu sõlmimise prostessist. Sektsioonis [Turvasertifikaat](#turvasertifikaat) saate tutvuda antud sammuga. Soovitus on lasta DIGMATIX Estonial ära teha antud tegevused.
 **NB!** Swedbank edastab ka juhendi Swedbank Developer Portaalis tegevuste läbimiseks. Palume need sammud läbi teha - küsimuste tekkimisel abistab konsultant.
 
-Operaatorkanali puhul on DIGMATIX Estonia andmete vahendaja. See tähendab, et Teie majandustarkavara edastab andmeid meile ning meie omakorda edastame need panka ja vastupidi. Kõik ühendused andmete vahendamise protsessis on kaitstud turvasertifikaatidega. Siin lahenduses loob ja haldab kõiki vajalikke sertifikaate DIGMATIX Estonia. Operaatorkanali kasutajatele on pangalepingud üldjuhul soodsamatel tingimusel.
+Operaatorkanali puhul on DIGMATIX Estonia andmete vahendaja. See tähendab, et Teie majandustarkavara edastab andmeid meile ning meie omakorda edastame need panka ja vastupidi. Kõik ühendused andmete vahendamise protsessis on kaitstud turvasertifikaatidega. Siin lahenduses loob ja haldab kõiki vajalikke sertifikaate DIGMATIX Estonia. Operaatorkanali kasutajatele on pangalepingud üldjuhul soodsamatel tingimusel. See lahnedus on saadval hetkel läbi Swedbank, SEB ja Coop Panga ning ainult Eestis.
 **NB!** Kui olete Business Centrali Pilve lahenduse kasutaja, on Coop Pank Gateway teile saadaval ainult operaatorkanalina.
 
 Siit leite ka **Swedbank Gateway operaatorkanali kiirtaotluse lingi**: https://www.swedbank.ee/business/d2d/ebanking/gateway/conclude?operatorId=47540
@@ -60,11 +68,11 @@ LinkPay* | ✅ |✅ |✅ | | |
 ### Hinnakiri pankade lõikes
 Coop Pank on omalt poolt loonud hea võrdlustabeli hinnakirja erinevuste kajastamiseks pankade lõikes. See asub Coop Panga Gateway liidese lehel.  
 
-Otsekanali hinnakirja erinevused [leiate siit.](https://www.cooppank.ee/ariklient/igapaevapangandus/liidestused#?tab=tab-4&accordionItem=otsekanal).  
+Otsekanali hinnakirja erinevused [leiate siit](https://www.cooppank.ee/ariklient/igapaevapangandus/liidestused#?tab=tab-4&accordionItem=otsekanal).  
 
-Operaatorkanali hinnakirja erinevused [leiate siit.](https://www.cooppank.ee/ariklient/igapaevapangandus/liidestused#?tab=tab-4&accordionItem=otsekanal). **NB!** Operaatorkanalit toetame vaid Swedbank, SEB ning Coop Pank Gateway-ga.
+Operaatorkanali hinnakirja erinevused [leiate siit](https://www.cooppank.ee/ariklient/igapaevapangandus/liidestused#?tab=tab-4&accordionItem=otsekanal). **NB!** Operaatorkanalit toetame vaid Swedbank, SEB ning Coop Pank Gateway-ga.
 
-## Turvasertifikaat
+## Turvasertifikaat (otsekanal)
 Kõigi pankade puhul tuleb lahenduses seadistada turvasertifikaat. Liitumisel annab pank teile sellekohased juhised. Kuna tegemist on üsna tehniliste sammudega, siis soovitav on pöörduda oma BC partneri poole, kes aitab need teha.
 
 Kokkuvõtvalt on vajalik:
