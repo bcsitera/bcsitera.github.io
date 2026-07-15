@@ -58,9 +58,9 @@ Siit leite ka **Swedbank Gateway operaatorkanali kiirtaotluse lingi**: https://w
 --|--|--|--|--|--
 Maksete edastamine panka| ✅ | ✅ | ✅ | ✅ | ✅ |
 Regulaarne konto väljavõte | ✅ | ✅ | ✅ | ✅ | ✅ |
-Kiirteavitused | ✅ |✅ | | ✅ |✅ |
-Jooksva päeva kontoväljavõtte päring | ✅ | |✅ | | ✅ |
-LinkPay* | ✅ |✅ |✅ | | |
+Kiirteavitused | ✅ |✅ | ❌ | ✅ | ✅ |
+Jooksva päeva kontoväljavõtte päring | ✅ | ❌ |✅ | ❌ | ✅ |
+LinkPay* | ✅ |✅ |✅ | ❌ | ❌ |
 
 
 *Lisainformatsiooni leiate [meie LinkPay juhendist](linkpay.md).

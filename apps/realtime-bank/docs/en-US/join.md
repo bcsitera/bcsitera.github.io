@@ -58,9 +58,9 @@ Services | Swedbank | LHV | SEB | Coop Pank | Luminor |
 --|--|--|--|--|--
 Transmitting payments to the bank | ✅ | ✅ | ✅ | ✅ | ✅ |
 Regular account statement | ✅ | ✅ | ✅ | ✅ | ✅ |
-Urgent notifications | ✅ |✅ | | ✅ |✅ |
-Current day account statement | ✅ | |✅ | | ✅ |
-LinkPay* | ✅ |✅ |✅ | | |
+Urgent notifications | ✅ |✅ | ❌ | ✅ | ✅ |
+Current day account statement | ✅ | ❌ |✅ | ❌ | ✅ |
+LinkPay* | ✅ |✅ |✅ | ❌ | ❌ |
 
 
 *Refer to [our LinkPay guide](linkpay.md).
