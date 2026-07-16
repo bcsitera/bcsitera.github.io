@@ -1,4 +1,8 @@
 ---
+##### Versioon 26.0.26198.0 Avaldatud 17.07.2026
+- Muudeti maksegraafiku rea kustutamise loogikat – maksegraafiku rea kustutamisel märgitakse kõik sellega seotud aktiivsed (*Valid = true*) **LEP Payment Sched. Line Entry** kirjed kehtetuks (*Valid = false*).
+- Leht **Payment Schedule Entries** on nüüd leitav üldotsingust.
+  
 ##### Versioon 26.0.26133.0 Avaldatud 14.05.2026
 - BC28 ühilduv versioon.
   
