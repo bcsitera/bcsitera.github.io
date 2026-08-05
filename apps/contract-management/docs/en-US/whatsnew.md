@@ -1,4 +1,7 @@
 ---
+##### Version 26.0.26217.0 Published 05.08.2026
+- Non-functional technical enhancements
+  
 ##### Versioon 26.0.26198.0 Published 17.07.2026
 - Changed the payment schedule line deletion logic. When a payment schedule line is deleted, all related active (*Valid = true*) **LEP Payment Sched. Line Entry** records are marked as invalid (*Valid = false*). 
 - The **Payment Schedule Entries** page is now available through Tell Me (Search).
