@@ -1,5 +1,11 @@
 ---
 ---
+##### Versioon 25.0.26230.0 _(saadaval al. 19.08.2025)_
+- Kuludokumendile lisatud väljad Maksetähtaeg ja Makse viide (ning vastav täitumise funktsionaalsus).
+- Lisatud võimalus piirata päritavate dokumentide arvu CostPocketist _(vastav väli tuleb seadistuses isikupärastamisega nähtavaks teha)_.
+- Suurendatud CostPocketist dokumente päriva funktsiooni timeout-i vaike 100 sekundi pealt 300 sekundi peale.
+  - _Vajalik selleks, et suure hulga dokumentide korral ei katkeks ühendus._  
+
 ##### Versioon 25.0.26125.0 _(saadaval al. 05.05.2025)_
 - Mõned mittefunktsionaalsed koodisisesed tehnilised täiendused.
 - BC28 ühilduv versioon.  
