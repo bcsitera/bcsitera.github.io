@@ -1,5 +1,12 @@
 ---
 ---
+
+##### Version 25.0.26230.0 _(available from August 19, 2026)_
+- Added the Due Date and Payment Reference fields to Expense Documents (including the corresponding functionality to populate these fields).
+- Added the option to limit the number of documents imported from CostPocket _(the corresponding field must be made visible through personalization in the setup page)_.
+- Increased the default timeout for the CostPocket document import function from 100 seconds to 300 seconds.
+  - _Required to prevent connection timeouts when importing a large number of documents._  
+
 ##### Version 25.0.26125.0 _(available from May 05, 2026)_
 - Some non-functional technical improvements in code.
 - BC28 compatible version.  
