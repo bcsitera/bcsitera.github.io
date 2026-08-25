@@ -9,5 +9,5 @@ If you are in the business where you have to handle multilevel packaging, lot of
 
 [User Guide](help.md)
 ## Contact information
-For more information and pricing please contact BCS Itera:  
-<a href="https://www.itera.ee/en/about-us/" target="_blank">https://www.itera.ee/en/about-us/</a>
+For more information and pricing please contact DIGMATIX:    
+<a href="https://www.digmatix.com/en/contacts" target="_blank">https://www.digmatix.com/en/contacts</a>

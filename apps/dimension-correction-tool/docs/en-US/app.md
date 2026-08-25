@@ -7,4 +7,4 @@ Correct dimension information without reversing posted documents or general ledg
 ### Contact information
 
 For more information and pricing please contact BSC Itera AS:
-[http://www.itera.ee](http://www.itera.ee)
+[http://https://www.digmatix.com/ee/kontaktid](http://https://www.digmatix.com/ee/kontaktid)

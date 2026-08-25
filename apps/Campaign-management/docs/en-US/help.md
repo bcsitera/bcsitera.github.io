@@ -142,5 +142,5 @@ Item rows prices are calculated based on Date of sales date. Campaign prices on 
 Coping rows from Excel. User needs rows in order: Item No, Prediction, Campaign Price. Copy these 3 rows and all other rows will be filled automatically. 
 If you change row information for example the price user sees new Modified by name and date/time. If user add comment into the row, then the Modified by name and date/time will not change. 
 
-For more information and pricing please contact BCS Itera AS:
-[https://www.itera.ee](https://www.itera.ee)
+For more information and pricing please contact DIGMATIX:  
+[https://www.digmatix.com/ee/kontaktid](https://www.digmatix.com/ee/kontaktid)

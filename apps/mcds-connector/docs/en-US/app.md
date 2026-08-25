@@ -20,5 +20,5 @@ Estonia
 [Extension Download](https://github.com/bcsitera/bcsitera.github.io/tree/master/apps/mcds-connector/release)  
 
 ### Contact information
-For more information please contact BCS Itera AS:  
-[http://www.itera.ee](http://www.itera.ee)
+For more information please contact DIGMATIX:    
+[http://https://www.digmatix.com/ee/kontaktid](http://https://www.digmatix.com/ee/kontaktid)

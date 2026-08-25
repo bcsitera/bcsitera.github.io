@@ -31,5 +31,5 @@ Rakendus on saadaval järgmistes keeltes: eesti keeles ja inglise keeles (Ameeri
 
 ### Kontaktinfo
 
-Täpsema info saamiseks, palun võtke ühendust BCS Itera AS-ga:  
-<a href="https://www.itera.ee/ " target="_blank">http://www.itera.ee </a>
+Täpsema info saamiseks, palun võtke ühendust DIGMATIX-ga:    
+<a href="https://www.digmatix.com/ee/kontaktid " target="_blank">http://https://www.digmatix.com/ee/kontaktid </a>

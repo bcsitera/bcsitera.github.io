@@ -33,5 +33,5 @@ If "Send Invoice PDF" is checked, the PDF file stored in the _Incoming Documents
 You can send the _Vehicle Expense G/L Entries_ to FleetGuru manually on the _FleetGuru Setup_ page or create _Job Queue Entries_ that automate the sending of the _G/L Entries_.
 
 ## Contact information
-For more information and pricing please contact BCS Itera:  
-<a href="https://www.itera.ee/en/about-us/" target="_blank">https://www.itera.ee/en/about-us/</a>
+For more information and pricing please contact DIGMATIX:    
+<a href="https://www.digmatix.com/en/contacts" target="_blank">https://www.digmatix.com/en/contacts</a>

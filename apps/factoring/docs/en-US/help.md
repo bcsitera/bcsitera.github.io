@@ -135,4 +135,4 @@ XML is generated each time factor makes payment. This XML file can be downloaded
 
 ---
 For more information, please contact:  
-[https://www.itera.ee](https://www.itera.ee)
+[https://www.digmatix.com/ee/kontaktid](https://www.digmatix.com/ee/kontaktid)

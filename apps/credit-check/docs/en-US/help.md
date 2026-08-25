@@ -60,6 +60,6 @@ Credit Control functionality controls payment terms through „Due Date Calculat
 For example: customer has overdue invoices, but wants to pay by card or in cash. In that case, the Credit Control will not be applied.   
 ![PaymenTerms](PaymentTerms.png)
  
-For more information and pricing please contact BCS Itera AS:  
-www.itera.ee
+For more information and pricing please contact DIGMATIX:    
+https://www.digmatix.com/ee/kontaktid
 

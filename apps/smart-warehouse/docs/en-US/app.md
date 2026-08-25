@@ -37,4 +37,4 @@ Estonia, United States, United Kingdom, Australia, Canada, South Africa, New Zea
 [User Guide](help.md)
 
 ### Contact information
-For more information and pricing please contact BCS Itera:  [https://www.itera.ee/en/about-us/](https://www.itera.ee/en/about-us/)
+For more information and pricing please contact DIGMATIX:    [https://www.digmatix.com/en/contacts](https://www.digmatix.com/en/contacts)

@@ -599,5 +599,5 @@ Need väärtused näitavad väljamaksmata tagatise summat.
 
 ---
 
-Täpsema info saamiseks, palun võtke ühendust BCS Itera AS-ga:  
-https://www.itera.ee
+Täpsema info saamiseks, palun võtke ühendust DIGMATIX-ga:    
+https://www.digmatix.com/ee/kontaktid

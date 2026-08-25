@@ -138,7 +138,7 @@ Kaubaridade lisamine kopeerides need Excelist. Selleks peab järjestama veerud s
 Rea muutmisel märgitakse reale uus Muutja nimi ja muutmise kuupäev/kellaaeg. Kui sisestada reale kommentaar, siis muutja nime ei muudeta ja muutmis aega samuti mitte.
 
 Lisainformatsiooni saamiseks palun võta ühendust BCS Itera AS:
-[https://www.itera.ee](https://www.itera.ee)
+[https://www.digmatix.com/ee/kontaktid](https://www.digmatix.com/ee/kontaktid)
 
 
 

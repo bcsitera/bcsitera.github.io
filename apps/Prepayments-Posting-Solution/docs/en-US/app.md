@@ -20,5 +20,5 @@ This solution makes possible to post invoices and prepayment invoices using Cust
 [User Guide](help.md)
 
 ### Contact information
-For more information and pricing please contact BCS Itera:<br>
-<a href="https://www.itera.ee/en/about-us/" target="_blank">https://www.itera.ee/en/about-us/</a>
+For more information and pricing please contact DIGMATIX:  <br>
+<a href="https://www.digmatix.com/en/contacts" target="_blank">https://www.digmatix.com/en/contacts</a>

@@ -46,5 +46,5 @@ Allkirjastamisel saab sisse lülitada ka eelneva autentimise ehk lisaks PIN2-ga 
 
 ### Kontaktinfo
 
-Täpsema info saamiseks, palun võtke ühendust BCS Itera AS-ga:  
-<a href="https://www.itera.ee/ " target="_blank">http://www.itera.ee </a>
+Täpsema info saamiseks, palun võtke ühendust DIGMATIX-ga:    
+<a href="https://www.digmatix.com/ee/kontaktid " target="_blank">http://https://www.digmatix.com/ee/kontaktid </a>

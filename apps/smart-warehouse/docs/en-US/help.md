@@ -560,8 +560,8 @@ Example put away from Tallinn to Tartu Location:
 ![SWtranswerputaway](SWtranswerputaway.png)
 
 
-For more information and pricing please contact BCS Itera AS:
-[https://www.itera.ee](https://www.itera.ee)
+For more information and pricing please contact DIGMATIX:  
+[https://www.digmatix.com/ee/kontaktid](https://www.digmatix.com/ee/kontaktid)
 
 
 

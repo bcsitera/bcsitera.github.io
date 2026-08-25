@@ -66,7 +66,7 @@ Kui soovitud sortiment on loodud, saad klikkides **Ava Excelis** filtris oleva s
 Kui sortiment on loodud Excelis, siis on võimalik sortiment luua BusinessCentral ka ainult esimese kahe välja abil (Saaja nr, Kauba nr). Eeldab, et kõik eelseadistused BusinessCentrali poole peal on tehtud. 
 
 Lisainformatsiooni saamiseks palun võta ühendust BCS Itera AS:
-[https://www.itera.ee](https://www.itera.ee)
+[https://www.digmatix.com/ee/kontaktid](https://www.digmatix.com/ee/kontaktid)
 
 
 

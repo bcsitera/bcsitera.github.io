@@ -10,5 +10,5 @@ If you have a business where you need to manage goods in AllDevice maintenance s
 [User Guide](help.md)
 
 ## Contact information
-For more information and pricing please contact BCS Itera:  
-<a href="https://www.itera.ee/en/about-us/" target="_blank">https://www.itera.ee/en/about-us/</a>
+For more information and pricing please contact DIGMATIX:  
+<a href="https://www.digmatix.com/en/contacts" target="_blank">https://www.digmatix.com/en/contacts</a>

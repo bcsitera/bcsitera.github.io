@@ -15,6 +15,6 @@ You should see now Dynamics 365 Business Central in Estonian.
 
 ***
 
-For more information, please contact BCS Itera:
+For more information, please contact DIGMATIX:  
 
-[http://www.itera.ee](http://www.itera.ee)
+[http://https://www.digmatix.com/ee/kontaktid](http://https://www.digmatix.com/ee/kontaktid)

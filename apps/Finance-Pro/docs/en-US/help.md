@@ -103,5 +103,5 @@ You can select a value for this field from the "Approval Conditions" table, wher
   
 ---
 
-For more information please contact BCS Itera AS:  
-<a href="https://www.itera.ee/en/about-us/" target="_blank">www.itera.ee/en/about-us/</a>
+For more information please contact DIGMATIX:    
+<a href="https://www.digmatix.com/en/contacts" target="_blank">https://www.digmatix.com/en/contacts</a>

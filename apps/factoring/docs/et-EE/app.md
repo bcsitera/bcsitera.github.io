@@ -7,4 +7,4 @@ Faktooringu lahendus lisab Business Central-i faktooringusse müügiarvete loovu
 ### Kontakt 
 
 Lisainformatsiooni saamiseks palun võtke ühendust:  
-[https://www.itera.ee](https://www.itera.ee)
+[https://www.digmatix.com/ee/kontaktid](https://www.digmatix.com/ee/kontaktid)

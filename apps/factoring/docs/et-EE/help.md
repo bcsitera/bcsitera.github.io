@@ -144,4 +144,4 @@ Konteerimata kanded tekivad automaatselt, summad saadakse XML failist. Allpool o
 
 ---
 Täpsema info saamiseks, palun võtke ühendust:  
-[https://www.itera.ee](https://www.itera.ee)
+[https://www.digmatix.com/ee/kontaktid](https://www.digmatix.com/ee/kontaktid)

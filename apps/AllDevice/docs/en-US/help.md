@@ -12,5 +12,5 @@ When deleting _Items_ from either Business Central or AllDevice platform, the re
 The functionality only offers the adding of Items from Business Central into AllDevice. The _Description_ must be filled on the _Item_ card.
 
 ## Contact information
-For more information and pricing please contact BCS Itera:  
-<a href="https://www.itera.ee/en/about-us/" target="_blank">https://www.itera.ee/en/about-us/</a>
+For more information and pricing please contact DIGMATIX:  
+<a href="https://www.digmatix.com/en/contacts" target="_blank">https://www.digmatix.com/en/contacts</a>

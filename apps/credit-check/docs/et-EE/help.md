@@ -65,4 +65,4 @@ Näiteks: Kui kliendil on üle tähtaja maksmata arveid, kuid soovib tehingu soo
 ![PaymenTerms_est](PaymentTerms_est.png)
  
 Lisainformatsiooni saamiseks palun võta ühendust BCS Itera AS:  
-www.itera.ee
+https://www.digmatix.com/ee/kontaktid

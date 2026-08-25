@@ -67,5 +67,5 @@ Once your needed Stock Range has been created click **Open in Excel** and this o
 
 If you create Stock Range in Excel, then it is possible to import it into BC with only 2 first rows (Sell-to-No, Item No).  It assumes that all needed settings in BusinessCentral are done before. 
 
-For more information and pricing please contact BCS Itera AS:
-[https://www.itera.ee](https://www.itera.ee)
+For more information and pricing please contact DIGMATIX:  
+[https://www.digmatix.com/ee/kontaktid](https://www.digmatix.com/ee/kontaktid)

@@ -53,5 +53,5 @@ Selleks tuleb Teil võtta ühendust oma konsultandiga ning koostöös arendajaga
 ---
 ### Kontaktinfo
 
-Täpsema info saamiseks, palun võtke ühendust BCS Itera AS-ga:
-<a  href="https://www.itera.ee/"  target="_blank">www.itera.ee</a>
+Täpsema info saamiseks, palun võtke ühendust DIGMATIX-ga:  
+<a  href="https://www.digmatix.com/ee/kontaktid"  target="_blank">https://www.digmatix.com/ee/kontaktid</a>
