@@ -42,6 +42,8 @@
 [Apps from Estonian Dynamics Partners](https://dynamicspartnersee.github.io/)   
 [AllDevice](apps/AllDevice/docs/en-US/app.md)  
 [FleetGuru](apps/fleetguru/docs/en-US/app.md)  
+[Master Data Sync](apps/master-data-sync/docs/en-US/app.md)  
+
 
 
 ---
