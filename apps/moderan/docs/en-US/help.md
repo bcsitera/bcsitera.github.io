@@ -109,6 +109,8 @@ For example: OBJEKT:008; DEPARTMENT:PROD
 
 The same dimension and dimension value must be set up in BC.
 
+**NB!** It is important that all dimensions intended to be imported from Moderan are defined as shortcut dimensions in BC.
+
 
 ### Setup Payment Terms Code in Moderan and BC
 Describe the same Payment Terms Codes in Moderan and in BC.
