@@ -31,7 +31,8 @@ The app is available in: Estonian (Estonia) and English (United States)
 
 ---
 
-[User Guide](../et-EE/help.md)
+[User Guide](help.md)
+[Joining Guide](join.md)
 
 ### Contact Information
 For more information and pricing please contact:  
