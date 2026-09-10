@@ -31,7 +31,7 @@ The app is available in: Estonian (Estonia) and English (United States)
 
 ---
 
-[User Guide](help.md)
+[User Guide](help.md)  
 [Joining Guide](join.md)
 
 ### Contact Information
