@@ -186,10 +186,10 @@ To get invoices from Moderan, run action **Moderan – Get Invoices** and fill i
 |Period Start*|Choose period from which invoices will be retrieved|  
 |Posting Date*|Enter Posting Date for the invoices|  
 |Document Date*|Enter Document Date for the invoices|  
-|Payment Terms Code|Select Payment Terms Code. This applies to invoices that do not have a payment term specified in Moderan|
+|Payment Terms Code|Specify the Payment Terms. If left blank, the payment terms from the customer card will be assigned to the invoice. If Payment Terms are specified, the selected payment terms will be assigned to all generated invoices|
 |Customer Filter|If set, invoices of other customers will be skipped|  
 |Invoice Type*|Choose **Rent** or **Costs** or **Fees**|  
-|Cost Optional Filters*|Choose Distribution Sets |
+|Cost Optional Filters*|If the Invoice Type is "Costs", the appropriate Distribution Set must be selected |
 |No. Series|If the field is empty, the system will use the number series configured in Sales and Receivables Setup. If a value is entered, invoices will be created using the selected number series.|
 |Posting No. Series|If the field is empty, the system will use the Posted Invoice Nos. configured in Sales and Receivables Setup. If a value is entered, invoices will be created using the selected number series. **Important!** The number series used must be related to the number series defined in the Sales and Receivables Setup.|
 
