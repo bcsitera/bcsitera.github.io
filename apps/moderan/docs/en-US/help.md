@@ -189,9 +189,9 @@ To get invoices from Moderan, run action **Moderan – Get Invoices** and fill i
 |Payment Terms Code|Select Payment Terms Code. This applies to invoices that do not have a payment term specified in Moderan|
 |Customer Filter|If set, invoices of other customers will be skipped|  
 |Invoice Type*|Choose **Rent** or **Costs** or **Fees**|  
+|Cost Optional Filters*|Choose Distribution Sets |
 |No. Series|If the field is empty, the system will use the number series configured in Sales and Receivables Setup. If a value is entered, invoices will be created using the selected number series.|
 |Posting No. Series|If the field is empty, the system will use the Posted Invoice Nos. configured in Sales and Receivables Setup. If a value is entered, invoices will be created using the selected number series. **Important!** The number series used must be related to the number series defined in the Sales and Receivables Setup.|
-|Cost Optional Filters*|Choose Distribution Sets |
 
 
 ![GetInvoices](GetInvoices.png)
