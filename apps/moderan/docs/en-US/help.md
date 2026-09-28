@@ -223,7 +223,7 @@ It is possible to use the contract-based dimensions or/and the building dimensio
 On the Moderan Interface page, you can specify which dimension is used.
 The dimensions of the Building are read first and then Contract dimensions. If the same dimension is added in both, the lines will have the dimension that is in the Moderan contract.
 <br/>
-**Important!** Both the Building and Contract dimensions must be defined as Shortcut Dimensions (i.e., they must be included within the eight available Shortcut Dimensions).
+**Important!** All dimensions that are to be imported from Moderan must be defined as Shortcut Dimensions in Business Central (i.e., they must be included within the eight available Shortcut Dimensions).
 
 If the dimension or dimension value is missing in BC, the user is notified at the end that dimension was missing, the dimension value is not added to the sales invoice line and no error is given.
 
