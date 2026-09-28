@@ -142,7 +142,7 @@ Open **Interface** in Moderan menu or page Moderan Interface and fill the fields
 
 <br/>
 
-![E-Invoices](E-Invoices.PNG)
+![E-Invoices2](E-Invoices2.PNG)
 
 There is a new field in the Moderan on the Organization card - E-invoices. Please put all 4 values separating them with ; and without spaces.
 
