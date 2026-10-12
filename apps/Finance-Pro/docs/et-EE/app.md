@@ -6,8 +6,13 @@ _Seega on see lahendus mõeldud Teie ettevõtte finantsosakonnas töötavatele p
 
 ## Lahenduse peamised omadused:
 #### Seotud dimensioonid
-- Saab siduda teised dimensiooniväärtused soovitud globaaldimensiooni väärtusega (looge nn dimensioonipuu)
-- Valides kandele globaaldimensiooni tulevad automaatselt kõik teised seotud dimensioonid
+- Saab siduda teised dimensiooniväärtused soovitud globaaldimensiooni väärtusega (looge nn dimensioonipuu).
+- Valides kandele globaaldimensiooni tulevad automaatselt kõik teised seotud dimensioonid.
+
+#### Automaatsed vaikedimensioonid
+- Saab põhiandmete tabelitele (nt Klient, Kaup, Põhivara, Töötaja jne) panna automaatselt külge vastava vaikedimensiooni uue kirje lisandumisel.
+  - _Nt iga kauba lisandumisel lisatakse automaatselt kauba kood selle kauba vaikedimensiooniks._
+  - _Dimensioon liigub seejärel kõikidele vastava tabeliga seotud kannetele kaasa ja seeläbi hõlbustab aruandlust._
 
 #### Periodiseerimise kanded sisaldavad rohkem teavet
 - Periodiseerimise kanded sisaldavad kirjeldust seotud:
