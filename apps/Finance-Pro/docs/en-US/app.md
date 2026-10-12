@@ -9,6 +9,11 @@ _So this solution is for professionals working in Your company's finance departm
 - Connect other dimension values to global dimensions (create so called dimension tree)
 - Select a global dimension to entry and get automatically all other related dimensions  
 
+#### Automatic Default Dimensions
+- Automatically assigns a corresponding **Default Dimension** to master data records (such as Customer, Item, Fixed Asset, Employee, etc.) when a new record is created.
+  - _For example, when a new Item is created, the Item No. is automatically added as a Default Dimension for that Item._
+  - _The dimension is then carried to all entries related to that record, making reporting easier and more consistent._  
+
 #### Deferred entries include more information
 - Deferred entries include description from related:
   - Sales line
