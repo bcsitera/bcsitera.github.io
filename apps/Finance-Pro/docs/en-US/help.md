@@ -1,12 +1,13 @@
 # Finance Pro
 The Finance Pro Solution extends standard financial functionality in Microsoft Dynamics 365 Business Central with the following:
 - [Related Dimensions](#related-dimensions)
+- [Automatic Default Dimensions](#automatic-default-dimensions)
 - [Deferred entries include more information](#deferred-entries-include-more-information)
 - [Instant balances of partners](#instant-balances-of-partners)
 - [G/L Entries extra info](#gl-entries-extra-info)
 - [Instant overview of Fixed Assets](#instant-overview-of-fixed-assets)
 - [Fringe benefits](#fringe-benefits-for-estonian-companies)
-- [Approval Condition on Purchase Documents](#approvalcondition-onpurchase-documents)
+- [Approval Condition on Purchase Documents](#approval-condition-on-purchase-documents)
 
 <br>
 
@@ -25,15 +26,59 @@ This is possible on the following entities:
 
 ### Setup
 To use related dimensions it's needed to connect related dimension values to a global dimension value:
-1. Navigate to dimensions
-2. Open dimension values for a global dimension
-3. Select action "Related Dimensions"
-4. Add suitable related dimension values to that global dimension value on related dimensions page  
+1. Navigate to page **Dimensions**
+2. On the **Global Dimension**, select the **Related Dimensions** action.
+   1. _Alternatively, open the Dimension Values for the Global Dimension and select the **Related Dimensions** action there._
+3. Add suitable related dimension values to that global dimension value on related dimensions page  
 
 **Setup notes:**
-- User cannot select same dimension as a related dimension.
-- User cannot select a dimension as related, if that dimension already has the current dimension set as its related dimension.
-- If the user selects a dimension, that is already defined as a related dimension for the base dimension, as related, then user is informed about the situation and asked whether they want to continue.  
+- User cannot select **same** dimension as a related dimension.
+- User cannot select a dimension as related, if that dimension **already has** the current dimension set as its related dimension.
+- If the user selects a dimension, that is **already defined** as a related dimension for the base dimension, as related, then user is informed about the situation and asked whether they want to continue.
+- When the **Base Dimension Value Name** is changed on the **Related Dimensions** page, all corresponding Dimension Value Names for that Dimension Value are updated accordingly.
+- When the **Dimension Value Name** is changed on the **Dimension Values** page, the corresponding **Base Dimension Value Name** values are updated accordingly.
+- The **Related Dimensions** action is available only when the selected Dimension is configured as **Global Dimension 1** or **Global Dimension 2**.  
+<br>
+
+## Automatic Default Dimensions
+This feature enables the automatic assignment of Default Dimensions to various master data tables.  
+For example, by configuring Automatic Default Dimensions for the Customer table, the Customer No. is automatically assigned as a Default Dimension to each newly created customer. The dimension is then carried through to all entries related to that customer, making reporting easier and more consistent.
+
+Automatic Default Dimensions can be configured for master data tables that support Default Dimensions and have a single unique identifier (a simple primary key), such as:
+- Customer
+- Vendor
+- Employee
+- Fixed Asset
+- Resource
+- Project
+- Location
+- etc. _(including custom tables that support Default Dimensions)_  
+
+### Setup
+To use Automatic Default Dimensions:
+1. Create a **Dimension** for the relevant master data table.
+   - _This dimension will receive the Dimension Values that are automatically created by the solution._
+2. Open the **Automatic Default Dimensions** page and select the appropriate master data table.
+3. Select the table field(s) that will be used as the **Dimension Value Name**.
+   - _When using multiple fields, separate them with the "&" character._
+4. **Link** the master data table to the **Dimension** created in step 1.
+5. Select **Synchronize** to create or update the Dimension Values and Default Dimensions for the selected table, including the Dimension Value Name.  
+
+**Setup Notes:**
+- Multiple Default Dimensions can be configured for the same table if required, although this is generally not recommended.
+  - _For example, the Employee table could be linked to both PERSON and EMPLOYEE dimensions. While this creates duplicate Default Dimensions, such a setup may be justified in specific scenarios._
+- The source field(s) for the **Dimension Value Name** are identified automatically whenever possible, but can be changed by the user.  
+
+### Usage
+After completing the setup and running **Synchronize**, all existing records in the selected table will have the corresponding Default Dimensions assigned.
+When a **new record is created**, the system automatically:
+- Creates a new **Dimension Value** in the configured Dimension.
+- Assigns that Dimension Value as a **Default Dimension** to the newly created record.  
+
+**Usage Notes:**
+- If the user changes the primary key value in the source table (for example, Employee No., Item No., Customer No., etc.), the system automatically updates the corresponding Dimension Value Code.
+  - _Note: If the source table is linked to a **Global Dimension**, automatic renaming of the Dimension Value is currently not technically possible. The user is informed accordingly._
+- If the user changes the source field(s) used for the **Dimension Value Name**, the system automatically updates the Dimension Value Name as well.  
 <br>
 
 ## Deferred entries include more information
@@ -87,7 +132,10 @@ Following information is added to general ledger entries:
   - Vendor Name
   - Maintenance Vendor Name   
 
-Note! If there are thousands of fixed assets in list, then opening the list might be slow (_since many of them are calculated aka flowfields_). In that case please hide the fields not needed.  
+**Notes:**
+- If the **FA Posting Date Filter** is added to the Fixed Asset List, the **Book Value** and **Acquisition Cost** will be calculated according to the specified filter.
+  - _This makes it easy, for example, to view the fixed asset position as of the end of the previous year directly from the list._
+- If there are thousands of fixed assets in list, then opening the list might be slow (_since many of them are calculated aka flowfields_). In that case please hide the fields not needed.  
 <br>
 
 ## Fringe benefits (for Estonian companies)
@@ -98,8 +146,8 @@ When marked, then it's possible to specify G/L accounts where fringe benefit rel
 
 ## Approval Condition on Purchase Documents
 ### Usage
-A field "Approval Condition" has been added to the header of purchase documents.  
-You can select a value for this field from the "Approval Conditions" table, where you can create your own codes, that can then be used to configure the appropriate approval workflow for the purchase document.  
+A field **Approval Condition** has been added to the header of purchase documents.  
+You can select a value for this field from the **Approval Conditions** table, where you can create your own codes, that can then be used to configure the appropriate approval workflow for the purchase document.  
   
 ---
 
