@@ -68,7 +68,7 @@ Automaatsete vaikedimensioonide kasutamiseks tuleb:
 - **Dimensiooniväärtuse nimetuse** allikaks olevad tabeliväljad leitakse võimalusel automaatselt. Kasutaja saab seda muuta.
 
 ### Kasutamine
-Peale seadistust sh nupu **Sünkroniseeri** vajutamist on kõikidele vastava tabeli kirjetele lisatud vastavad vaikedimensioonid.
+Peale seadistust sh nupu **Sünkroniseeri** vajutamist on kõikidele vastava tabeli kirjetele lisatud vastavad vaikedimensioonid.  
 Kui nüüd süsteemis **luuakse uus kirje**, siis süsteem **loob automaatselt** määratud dimensioonile **uue vaikedimensiooni väärtuse** ning **lisab** vastava väärtuse automaatselt selle kirje **vaikedimensiooniks**.
 
 **Kasutamise märkused:**
