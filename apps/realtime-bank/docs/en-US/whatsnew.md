@@ -6,6 +6,9 @@
 - SEB
 - Coop Pank
 
+##### Version 25.4.26258.0 (_available 23.10.2026_)
+- Latvian language has been added.
+
 ##### Version 25.4.26125.0 (_available 05.05.2026_)
 - Improvements to Citadele statement import.
 

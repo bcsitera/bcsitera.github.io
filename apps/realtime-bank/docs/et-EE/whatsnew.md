@@ -6,6 +6,9 @@
 - SEB
 - Coop Pank
 
+##### Versioon 25.4.26258.0 (_saadaval al. 23.10.2026_)
+- Lisandus Läti keel.
+
 ##### Versioon 25.4.26125.0 (_saadaval al. 05.05.2026_)
 - Täiendused Citadele väljavõtte impordil
 
