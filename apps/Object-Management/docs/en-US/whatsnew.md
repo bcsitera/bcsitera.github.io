@@ -1,5 +1,9 @@
 ---
 ---
+##### Version 26.0.26320.0 _(available from 17.11.2026)_
+- Compatibility with Business Central 29.
+- Added the ability to delegate multiple selected approval entries at once on the **Purchase Line Approval Entries** page.
+  
 ##### Version 25.0.26188.0 _(available from 07.07.2026)_
 - Enhanced the resale purchase line logic: the contract is assigned automatically to resale lines when there is only one contract on the object's sales lines.
 - Fixed an issue where it was not possible to select a contract in the purchase invoice header when multiple contracts were found on the object's sales lines.
