@@ -1,5 +1,9 @@
 ---
 ---
+##### Versioon 26.0.26320.0 _(saadaval al. 17.11.2026)_
+- Ühilduvus Business Central 29-ga.
+- Lisatud võimalus delegeerida lehel **Osturidade kinnitus kanded** mitu valitud kinnituskannet korraga.
+  
 ##### Versioon 25.0.26188.0 _(saadaval al. 07.07.2026)_
 - Täiendatud edasimüügi osturidade loogika: leping määratakse edasimüügi ridadele automaatselt, kui objekti müügiridadel on ainult üks leping.
 - Parandatud olukord, kus ostuarve päises ei saanud lepingut valida, kui objekti müügiridadelt leiti mitu lepingut.
